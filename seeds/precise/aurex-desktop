@@ -1,0 +1,116 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: aurex desktop
+Task-Extended-Description: This task provides the aurex desktop environment.
+Task-Key: aurex-desktop
+Task-Seeds: desktop-common desktop aurex-minimal aurex-standard
+Task-Metapackage: aurex-desktop
+
+= aurex stuff =
+ * aurex-transmute-gui
+ * aurex-default-settings
+
+= Wallpapers and themes =
+ * aurex-gtk-theme
+ * aurex-boot-theme
+ * aurex-icon-theme
+ * aurex-plymouth-theme
+ * aurex-mdm-theme
+ * clearlooks-phenix-theme
+
+= XFCE environment =
+ * aurex-xfce-desktop
+
+= libreoffice =
+ * (libreoffice)
+ * (libreoffice-gnome)
+ * (libreoffice-style-tango)
+ * (libreoffice-style-human)
+ * (libreoffice-l10n-common)
+ * (libreoffice-l10n-es)
+ * (libreoffice-help-es)
+ * (libreoffice-l10n-ca)
+ * (libreoffice-help-ca)
+ * (libreoffice-l10n-en-gb)
+ * (libreoffice-help-en-gb)
+
+= language support =
+ * language-pack-es
+ * language-pack-es-base
+ * language-pack-gnome-es
+ * language-pack-gnome-es-base
+ * (language-pack-ca)
+ * (language-pack-ca-base)
+ * (language-pack-gnome-ca)
+ * (language-pack-gnome-ca-base)
+ * (language-pack-en)
+ * (language-pack-en-base)
+ * (language-pack-gnome-en)
+ * (language-pack-gnome-en-base)
+
+= pdf support =
+ * evince
+ * acroread
+ * cups-pdf
+
+= cups =
+ * cups
+ * cups-bsd
+ * cups-client
+
+= multimedia and graphics =
+ * ubuntu-restricted-extras
+ * (gstreamer0.10-plugins-base-apps)
+ * (gstreamer0.10-pulseaudio)
+ * libdvdread4
+ * vlc
+ * (pulseaudio-equalizer)
+ * rhythmbox
+ * gthumb
+ * (gimp)
+ * (inkscape)
+
+== flash ==
+ * flashplugin-installer
+
+= win emulation =
+ * (wine)
+ * (winetricks)
+
+= java =
+ * (oracle-java7-installer)
+
+= networking =
+# * aurex-openvpn-nm
+ * network-manager-openvpn
+ * network-manager-openvpn-gnome
+ * wireless-tools
+ * wpasupplicant
+
+= internet access =
+ * (chromium-browser)
+ * (chromium-browser-l10n)
+ * (firefox)
+ * (firefox-gnome-support)
+ * (xul-ext-ubufox)
+
+= fonts =
+ * (fonts-kacst-one)
+ * (fonts-khmeros-core)
+ * (fonts-lao)
+ * (fonts-liberation)
+ * (fonts-nanum)
+ * (fonts-opensymbol)
+ * (fonts-takao-pgothic)
+ * (fonts-thai-tlwg)
+ * (ttf-indic-fonts-core)
+ * (ttf-punjabi-fonts)
+ * (ttf-ubuntu-font-family)
+ * (ttf-wqy-microhei)
+
+
+= remote access =
+ * xnest
+
+= other =
+# * nautilus-gksu

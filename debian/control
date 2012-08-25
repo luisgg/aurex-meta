@@ -77,6 +77,17 @@ Description: Aurex generic desktop system
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
+Package: aurex-xfce-desktop
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex generic xfce desktop system
+ This (meta)package depends on all of the packages for a generic
+ aurex desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
 Package: aurex-smr
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}

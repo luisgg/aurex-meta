@@ -1,0 +1,80 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: aurex support
+Task-Extended-Description: This task provides aurex supported packages
+Task-Metapackage: exclude-aurex-support
+# 'exclude' prefix in metapackage name to avoid installation in update-lists script
+
+#Task-Seeds: aurex-support-kernel
+
+= virtualization libvirt =
+ * libvirt-bin
+ * libvirt0
+ * python-libvirt
+ * virt-manager
+ * virt-viewer
+ * virtinst
+ * qemu-kvm
+ * quemu
+
+= virtualization virtualbox =
+ * virtualbox-4.1
+
+= zentyal =
+ * zentyal
+ * zentyal-all
+ * language-packs-zentyal-all
+ * zenbuntu-desktop
+
+= aurex =
+ * aurex-instant
+ * germinate
+ * aurex-translive
+== aurex live ==
+ * aurex-ubiquity-transmute
+ * aurex-ubiquity-theme
+
+= Language support =
+ * Languages: es ca en fr de it
+
+ * language-pack-${Languages}
+ * language-pack-${Languages}-base
+ * language-pack-gnome-${Languages}
+ * language-pack-gnome-${Languages}-base
+== firefox language support ==
+ * firefox-locale-${Languages}
+
+= libreoffice =
+ * Languages: es ca en-gb en-us fr de it
+ * libreoffice-l10n-${Languages}
+ * libreoffice-help-${Languages}
+ * libreoffice-style-*
+
+= dropbox =
+ * nautilus-dropbox
+
+= wine =
+ * wine1.2
+ * wine1.3
+ * wine1.4
+
+= opera =
+ * opera
+
+= samba related (get all actual stuff from zentyal) =
+ * samba
+ * samba-common-bin
+ * samba-common
+ * samba-tools
+ * smbclient
+ * swat
+ * samba-doc
+ * samba-doc-pdf
+ * smbfs
+ * libpam-smbpass
+ * libsmbclient
+ * libsmbclient-dev
+ * winbind
+ * samba-dbg
+ * libwbclient0
+

@@ -248,6 +248,15 @@ update_lists(){
 			if [ "$meta" ] && [ "${meta%%-*}" != "exclude" ] ; then
 				echo "   Simulate installation of metapackage $meta"
 				$APT_CMD --install-recommends install $meta |sed -ne "/$INST_REG_EX/{s%$INST_REG_EX%\3 \1 \2%;p}" >> $TMP_FILE
+			elif echo "$s" |grep -q "\-builddepends" ; then
+				for f in "$s-$a" "$s-recommends-$a" ; do
+					echo "   Simulate installation of builddepends of package list $f"
+					if [ -r "$f" ] ; then
+						cat "$f" |while read p ; do
+							$APT_CMD build-dep $p |sed -ne "/$INST_REG_EX/{s%$INST_REG_EX%\3 \1 \2%;p}" >> $TMP_FILE
+						done
+					fi
+				done
 			else
 				for f in "$s-$a" "$s-recommends-$a" ; do
 					echo "   Simulate installation of package list $f"
