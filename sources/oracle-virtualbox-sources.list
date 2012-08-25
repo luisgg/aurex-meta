@@ -1,4 +1,4 @@
 # Oracle virtualbox versions 4.x
-deb http://download.virtualbox.org/virtualbox/debian lucid contrib
+deb http://download.virtualbox.org/virtualbox/debian precise contrib
 # NO SOURCES for this repository
 

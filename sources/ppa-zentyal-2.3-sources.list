@@ -1,0 +1,4 @@
+# Zentyal ppa for Zentyal 2.3 packages
+deb http://ppa.launchpad.net/zentyal/2.3/ubuntu precise main 
+deb-src http://ppa.launchpad.net/zentyal/2.3/ubuntu precise main 
+

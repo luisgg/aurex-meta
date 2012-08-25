@@ -3,6 +3,6 @@
 # -------------
 # partner component excluded
 
-deb _@_AUREX_MIRROR_@_ lucid main
-#deb-src _@_AUREX_MIRROR_@_ lucid main
+deb _@_AUREX_MIRROR_@_ precise main
+deb-src _@_AUREX_MIRROR_@_ precise main
 

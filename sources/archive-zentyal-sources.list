@@ -1,4 +1,3 @@
 # Zentyal archive for the groupware module (zentyal-zarafa)
-deb http://archive.zentyal.com/zentyal 2.2 extra
-# NO SOURCES
+deb http://archive.zentyal.org/zentyal 2.3 main extra
 

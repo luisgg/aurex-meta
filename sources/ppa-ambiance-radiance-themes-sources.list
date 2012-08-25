@@ -1,0 +1,4 @@
+# The RAVEfintiy project's Official PPA: Ambiance and Radiance themes 
+deb http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu precise main
+deb-src http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu precise main
+

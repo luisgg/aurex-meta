@@ -1,0 +1,3 @@
+# gthumb packages 
+deb http://ppa.launchpad.net/webupd8team/gthumb/ubuntu precise main
+deb-src http://ppa.launchpad.net/webupd8team/gthumb/ubuntu precise main

@@ -1,0 +1,4 @@
+# ppa xfce-4.10 
+deb http://ppa.launchpad.net/xubuntu-dev/xfce-4.10/ubuntu precise main
+deb-src http://ppa.launchpad.net/xubuntu-dev/xfce-4.10/ubuntu precise main
+
