@@ -1,3 +1,9 @@
+aurex-meta (1.267~aurex12.04.2) precise; urgency=low
+
+  * Dummy upgrade
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 26 Aug 2012 01:57:58 +0200
+
 aurex-meta (1.267~aurex12.04.1) precise; urgency=low
 
   * First release for 'precise'
