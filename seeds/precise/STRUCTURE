@@ -2,8 +2,10 @@ include ubuntu.precise
 aurex-minimal:
 aurex-standard:
 aurex-desktop: aurex-minimal desktop
+aurex-xfce-desktop:
 aurex-inf:
 aurex-smr:
 aurex-asir:
 aurex-supported:
+aurex-builddepends:
 supported: aurex-supported

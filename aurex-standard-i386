@@ -1,5 +1,4 @@
 alien
-aptitude
 arj
 at
 busybox-static
@@ -35,6 +34,7 @@ popularity-contest
 psmisc
 rpm
 rsync
+screen
 smbclient
 smbfs
 strace
