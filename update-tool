@@ -462,7 +462,7 @@ case "$ACTION" in
 		;;
 	update-metapackages)
 		configure_sources
-		germinate-update-metapackage --multiple-dists
+		germinate-update-metapackage
 		;;
 	debootstrap)
 		[ "$TARGET_DIR" ] || die "debootstrap requires --target-dir=<DIRNAME> option"
