@@ -1,0 +1,278 @@
+= Kernel =
+
+We seed both linux-* and linux-image-* so that it's easier to build CD
+images without the restricted component. The linux-* kernels include
+restricted modules.
+
+ * Kernel-Stem: linux linux-image
+
+== i386 ==
+
+ * ${Kernel-Stem}-virtual [i386]
+ * linux-headers-virtual [i386]
+
+== powerpc ==
+
+ * ${Kernel-Stem}-powerpc-smp [powerpc]
+ * linux-headers-powerpc-smp [powerpc]
+
+== amd64 ==
+
+ * ${Kernel-Stem}-server [amd64]
+ * linux-headers-server [amd64]
+ * ${Kernel-Stem}-virtual [amd64]
+ * linux-headers-virtual [amd64]
+
+= From Ship =
+
+ * ssh
+ * lsb-core
+ * lsb-cxx
+ * ntp
+ * bsd-mailx
+ * mutt
+ * build-essential
+ * fakeroot
+ * devscripts
+ * setserial
+
+= Cluster =
+
+ * redhat-cluster-suite
+ * ocfs2-tools
+ * libaio1
+ * libaio-dev
+ * ipvsadm
+ * keepalived
+ * multipath-tools-boot
+
+= Servers and Daemons =
+
+Database:
+
+ * mysql-client
+ * mysql-server
+ * postgresql
+ * postgresql-client
+ * postgresql-doc
+
+Proxy:
+
+ * squid3 # RobertCollins for squid generally, JamieStrandboge for squid3 (LP: #885283)
+
+LDAP:
+
+ * slapd
+ * ldap-utils
+ * ldap-auth-client	# metapackage that pulls in lib{pam,nss}-ldap and configuration magic
+
+Web:
+
+ * apache2
+ * apache2-doc
+ * apache2-mpm-event
+ * apache2-mpm-prefork
+ * apache2-mpm-worker
+ * apache2-utils
+ * libapache2-mod-auth-mysql # FabioMassimoDiNitto
+ * libapache2-mod-auth-pgsql # FabioMassimoDiNitto
+ * libapache2-mod-macro      # FabioMassimoDiNitto
+ * libapache2-mod-perl2 # python is in supported
+ * libapache2-mod-python        #ThomMay
+ * libapache2-mod-python-doc    #ThomMay
+ * libapache2-mod-auth-plain     # FabioMassimoDiNitto
+ #* libapache2-modsecurity       # FabioMassimoDiNitto
+ * libapache-mod-auth-kerb	 # ChuckShort
+
+PHP:
+
+ * libapache2-mod-php5
+ * php-pear
+ * php5-cgi
+ * php5-cli
+ * php5-curl
+ * php5-gd
+ * php5-gmp
+ * php5-ldap
+ * php5-mysql
+ * php5-odbc
+ * php5-pgsql
+ * php5-pspell
+ * php5-recode
+ * php5-snmp
+ * php5-sqlite
+ * php5-tidy
+ * php5-xmlrpc
+ * php5-xsl
+ * php5
+
+Email:
+
+ * dovecot-imapd
+ * dovecot-pop3d
+ * postfix-cdb
+ * postfix-doc
+ * postfix-ldap
+ * postfix-mysql
+ * postfix-pcre
+ * postfix-pgsql
+ * postfix
+ * amavisd-new		      # ChuckShort
+ * spamassassin		      # Scott Kitterman
+ * clamav		      # Scott Kitterman
+ * clamav-daemon	      # Scott Kitterman
+
+Must also consider webmail and so on...
+
+FTP/TFTP:
+
+ * vsftpd # a secure ftpd
+ * tftpd-hpa # The one from OpenBSD which supports PXE
+ * tftp-hpa # client
+
+Printing:
+ * cups                       # our preferred printer management infrastructure
+ * cups-bsd                   # gives us lpc, lpq, lpr, lprm
+ * cups-client                # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
+ * foomatic-db-compressed-ppds  # the foomatic printer driver database
+ * foomatic-filters             # converter from postscript to printer-specific formats
+ * openprinting-ppds
+ * cups-driver-gutenprint     # a ton of cupsys ppds, for real comprehensive printer support
+ * pnm2ppa                      # several ppds require this
+ * ghostscript                  # some ppds require this
+
+Other:
+
+ * isc-dhcp-server
+ * snmp
+ * snmpd
+ * openbsd-inetd
+ * nbd-server
+ * open-iscsi # ChuckShort
+ * open-iscsi-udeb # SorenHansen
+ * drbd8-utils # ChuckShort - ServerPackageReview
+ * nut # ChuckShort - ServerPackageReview
+ * nut-cgi
+ * nut-snmp
+ * openvpn #ChuckShort - ServerPackageReview
+ * netcat-openbsd
+ * munin-node
+ * munin
+ * openssh-blacklist-extra
+ * openssl-blacklist-extra
+ * openvpn-blacklist
+ * likewise-open
+ * libpkcs11-helper1
+ * zip #ChuckShort - server-lucid-seeds
+ * python-svn #ChuckShort - server-lucid-canonical-application-support
+ * tdb-tools #ChuckShort - server-lucid-seeds
+ * acl #ChuckShort - server-lucid-seeds
+ * ipxe [!powerpc]
+ * powernap-server
+ * maas
+ * maas-enlist
+ * maas-enlist-udeb
+ * powernap
+
+RCS:
+
+ * bzr
+
+Utilities:
+
+ * pm-utils
+ * pciutils		  # kirkland added at the request of onsite hardware enablement (manjo)
+
+= Network =
+
+ * nmap                   # network diagnostics
+ * dnstracer              # dns network diagnostics
+ * iptraf                 # sysadmin's toy, may be a candidate for removal
+ * pptpd                  # server that allows setup of Microsoft-compatible VPN
+ * ifenslave-2.6          # interface bonding/trunking/etherchannel
+ * ipsec-tools            # IPsec configuration
+ * vlan                   # userland tools to config 8021q support
+ * vlan-udeb              # userland tools to support 8021q from the installer
+ * bridge-utils           # userland tools to config kernel bridging feature
+ * wakeonlan              # sends magic packet to wake sleeping servers
+ * ethtool                # needed to enable a server to wakeonlan
+ * iputils-arping         # would have made elmo's life easier at debconf 4
+
+IPv6 tools:
+
+ * radvd                  # FabioMassimoDiNitto
+ * quagga                 # RobertCollins
+
+Security:
+
+ * checksecurity          # JamesTroup, from Hoglet
+ * aide                   # JamesTroup, from Hoglet
+
+= System Administration Tools =
+
+ * attr                 # will move to base if we go to selinux
+ * quota
+ * backuppc             # RobertCollins
+ * debian-goodies
+ * whois                # FabioMassimoDiNitto
+ * cu                   # super-basic serial access
+ * libpam-cracklib      # enables weak password checking during password change, should it be in desktop?
+ * libpam-krb5		# ChuckShort
+ * libpam-mount	        # ChuckShort
+ * libpam-p11		# ChuckShort
+ * libpam-radius-auth   # ChuckShort
+ * chkrootkit           # forensic detection of rootkit
+ * xinetd               # JamesTroup, from hoglet
+ * libcap2-bin
+ * sasl2-bin
+ * autofs5
+ * acct
+ * authbind                     # BIGGER SECURITAH REVIEW
+ * siege
+ * smartmontools   # hard disk diagnostics
+ * logwatch	   # ChuckShort - ServerPackageReview
+ * lsscsi	# ChuckShort
+ * vblade	# ChuckShort
+ * sysstat	# ChuckShort - ServerPackageReview
+ * openipmi     # ChuckShort - ServerPackageReview
+ * unattended-upgrades
+ * update-motd # RickClark
+ * landscape-client # RickClark
+ * computer-janitor
+
+= Virtualisation =
+
+ * kvm
+ * python-libvirt
+ * python-urlgrabber
+ * libvirt-bin
+
+== Miscellaneous ==
+
+ * miscfiles
+ * checkbox-cli # MathiasGug
+ * apport # MathiasGug
+ * whoopsie # http://wiki.ubuntu.com/ErrorTracker - EvanDandrea
+ * kerneloops-daemon # JamesWestby
+ * python-beautifulsoup #ChuckShort
+ * python-genshi #ChuckShort
+
+
+= From desktop =
+
+ * bc
+ * screen
+ * lftp
+ * zip
+ * unzip                # also used for .zip support in file-roller
+
+= Installer =
+
+ * oem-config-debconf
+ * partman-iscsi
+
+== Blacklist ==
+
+libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007-01-02).
+
+ * !libavcodec*

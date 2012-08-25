@@ -1,0 +1,25 @@
+= Installer =
+
+ # Used for netboot installations
+ * Kernel-Version: 3.2.0-29-generic 3.2.0-29-virtual
+ * /^.*-firmware-.*-di/ [amd64 i386]
+ * /^.*-modules-.*-di/ [amd64 i386]
+
+ * debian-installer # also has side-effect of pulling in installer image build system
+ * gfxboot
+ * gfxboot-theme-ubuntu
+
+ * ppp-udeb # experimental
+
+ * installation-guide-amd64 [amd64]
+ * installation-guide-armel [armel]
+ * installation-guide-i386 [i386]
+ * installation-guide-powerpc [powerpc]
+
+ * lilo
+ * lilo-installer [amd64 i386]
+ * grub-efi [amd64 i386]
+ * grub-efi-amd64 [amd64 i386]
+ * grub-efi-ia32 [amd64 i386]
+
+ * live-installer
