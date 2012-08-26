@@ -250,6 +250,7 @@ update_lists(){
 				echo "   Simulate installation of metapackage $meta"
 				meta_list=$(cat ${s}-${a} ${s}-recommends-${a} |sort -u)
 				#$APT_CMD --install-recommends install $meta |tee -a /tmp/aurex-meta-metapackages-$a.log | sed -ne "/$INST_REG_EX/{s%$INST_REG_EX%\3 \1 \2%;p}" >> $TMP_FILE
+				echo "==> $APT_CMD install $meta $meta_list" >> /tmp/aurex-meta-metapackages-$a.log 
 				$APT_CMD install $meta $meta_list |tee -a /tmp/aurex-meta-metapackages-$a.log |sed -ne "/$INST_REG_EX/{s%$INST_REG_EX%\3 \1 \2%;p}" >> $TMP_FILE
 			elif echo "$s" |grep -q "\-builddepends" ; then
 				for f in "$s-$a" "$s-recommends-$a" ; do

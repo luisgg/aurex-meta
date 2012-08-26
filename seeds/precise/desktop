@@ -216,7 +216,7 @@ to compile a driver. -mdz
 
 = Other =
 
- * ubuntu-desktop # metapackage for everything here
+# * ubuntu-desktop # metapackage for everything here
  * (example-content) # dholbach: dapper feature goal (wiki.ubuntu.com/ExampleContent)
  * (libwmf0.2-7-gtk)
  * (plymouth-theme-ubuntu-logo)

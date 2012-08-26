@@ -3,7 +3,6 @@ Task-Section: user
 Task-Description: aurex xfce desktop
 Task-Extended-Description: This task provides the aurex xfce desktop environment.
 Task-Key: aurex-xfce-desktop
-Task-Seeds: desktop-common desktop aurex-minimal aurex-standard
 Task-Metapackage: aurex-xfce-desktop
 
 = XFCE environment =

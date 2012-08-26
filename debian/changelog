@@ -1,3 +1,190 @@
+aurex-meta (1.267~aurex12.04.4) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added unzip to aurex-desktop
+  * Added zip to aurex-desktop
+  * Removed activity-log-manager-control-center from aurex-xfce-desktop-
+    recommends
+  * Removed alien from aurex-xfce-desktop
+  * Removed alsa-base from aurex-xfce-desktop
+  * Removed alsa-utils from aurex-xfce-desktop
+  * Removed anacron from aurex-xfce-desktop
+  * Removed app-install-data-partner from aurex-xfce-desktop-recommends
+  * Removed arj from aurex-xfce-desktop
+  * Removed at-spi2-core from aurex-xfce-desktop
+  * Removed aurex-desktop from aurex-xfce-desktop
+  * Removed aurex-transmute from aurex-xfce-desktop
+  * Removed baobab from aurex-xfce-desktop
+  * Removed bc from aurex-xfce-desktop
+  * Removed bluez-gstreamer from aurex-xfce-desktop-recommends
+  * Removed branding-ubuntu from aurex-xfce-desktop-recommends
+  * Removed brasero from aurex-xfce-desktop-recommends
+  * Removed bridge-utils from aurex-xfce-desktop
+  * Removed ca-certificates from aurex-xfce-desktop
+  * Removed cabextract from aurex-xfce-desktop
+  * Removed checkbox-qt from aurex-xfce-desktop
+  * Removed cmap-adobe-japan2 from aurex-xfce-desktop-recommends
+  * Removed cups from aurex-xfce-desktop-recommends
+  * Removed cups-bsd from aurex-xfce-desktop-recommends
+  * Removed cups-client from aurex-xfce-desktop-recommends
+  * Removed debconf-utils from aurex-xfce-desktop
+  * Removed deja-dup from aurex-xfce-desktop-recommends
+  * Removed dmz-cursor-theme from aurex-xfce-desktop
+  * Removed doc-base from aurex-xfce-desktop
+  * Removed empathy from aurex-xfce-desktop-recommends
+  * Removed eog from aurex-xfce-desktop
+  * Removed ethtool from aurex-xfce-desktop
+  * Removed evince from aurex-xfce-desktop
+  * Removed example-content from aurex-xfce-desktop-recommends
+  * Removed file-roller from aurex-xfce-desktop
+  * Removed firefox from aurex-xfce-desktop-recommends
+  * Removed firefox-gnome-support from aurex-xfce-desktop-recommends
+  * Removed fonts-kacst-one from aurex-xfce-desktop-recommends
+  * Removed fonts-khmeros-core from aurex-xfce-desktop-recommends
+  * Removed fonts-lao from aurex-xfce-desktop-recommends
+  * Removed fonts-liberation from aurex-xfce-desktop-recommends
+  * Removed fonts-nanum from aurex-xfce-desktop-recommends
+  * Removed fonts-takao-pgothic from aurex-xfce-desktop-recommends
+  * Removed fonts-thai-tlwg from aurex-xfce-desktop-recommends
+  * Removed foomatic-db-compressed-ppds from aurex-xfce-desktop
+  * Removed foomatic-filters from aurex-xfce-desktop
+  * Removed gcalctool from aurex-xfce-desktop
+  * Removed gcc from aurex-xfce-desktop-recommends
+  * Removed gedit from aurex-xfce-desktop
+  * Removed genisoimage from aurex-xfce-desktop
+  * Removed ghostscript-x from aurex-xfce-desktop
+  * Removed ginn from aurex-xfce-desktop-recommends
+  * Removed gnome-bluetooth from aurex-xfce-desktop-recommends
+  * Removed gnome-control-center from aurex-xfce-desktop
+  * Removed gnome-disk-utility from aurex-xfce-desktop-recommends
+  * Removed gnome-font-viewer from aurex-xfce-desktop
+  * Removed gnome-media from aurex-xfce-desktop
+  * Removed gnome-menus from aurex-xfce-desktop
+  * Removed gnome-nettool from aurex-xfce-desktop
+  * Removed gnome-orca from aurex-xfce-desktop-recommends
+  * Removed gnome-power-manager from aurex-xfce-desktop
+  * Removed gnome-screensaver from aurex-xfce-desktop-recommends
+  * Removed gnome-screenshot from aurex-xfce-desktop
+  * Removed gnome-session from aurex-xfce-desktop
+  * Removed gnome-session-canberra from aurex-xfce-desktop
+  * Removed gnome-system-log from aurex-xfce-desktop
+  * Removed gnome-system-monitor from aurex-xfce-desktop
+  * Removed gnome-terminal from aurex-xfce-desktop
+  * Removed gstreamer0.10-alsa from aurex-xfce-desktop
+  * Removed gstreamer0.10-plugins-base-apps from aurex-xfce-desktop
+  * Removed gstreamer0.10-pulseaudio from aurex-xfce-desktop
+  * Removed gucharmap from aurex-xfce-desktop
+  * Removed gvfs-bin from aurex-xfce-desktop
+  * Removed gwibber from aurex-xfce-desktop-recommends
+  * Removed ibus-gtk3 from aurex-xfce-desktop-recommends
+  * Removed inputattach from aurex-xfce-desktop
+  * Removed landscape-client-ui-install from aurex-xfce-desktop-
+    recommends
+  * Removed language-selector-gnome from aurex-xfce-desktop
+  * Removed launchpad-integration from aurex-xfce-desktop
+  * Removed lha from aurex-xfce-desktop
+  * Removed libatk-adaptor from aurex-xfce-desktop
+  * Removed libatk-adaptor-schemas from aurex-xfce-desktop
+  * Removed libgail-common from aurex-xfce-desktop-recommends
+  * Removed libgd2-xpm from aurex-xfce-desktop
+  * Removed libnotify-bin from aurex-xfce-desktop
+  * Removed libpam-ck-connector from aurex-xfce-desktop
+  * Removed libproxy1-plugin-gsettings from aurex-xfce-desktop-
+    recommends
+  * Removed libproxy1-plugin-networkmanager from aurex-xfce-desktop-
+    recommends
+  * Removed libqt4-sql-sqlite from aurex-xfce-desktop-recommends
+  * Removed libreoffice-calc from aurex-xfce-desktop-recommends
+  * Removed libreoffice-gnome from aurex-xfce-desktop-recommends
+  * Removed libreoffice-help-en-us from aurex-xfce-desktop-recommends
+  * Removed libreoffice-impress from aurex-xfce-desktop-recommends
+  * Removed libreoffice-math from aurex-xfce-desktop-recommends
+  * Removed libreoffice-style-human from aurex-xfce-desktop-recommends
+  * Removed libreoffice-writer from aurex-xfce-desktop-recommends
+  * Removed libsasl2-modules from aurex-xfce-desktop
+  * Removed libsdl1.2debian from aurex-xfce-desktop
+  * Removed libwmf0.2-7-gtk from aurex-xfce-desktop-recommends
+  * Removed libxp6 from aurex-xfce-desktop
+  * Removed lightdm from aurex-xfce-desktop
+  * Removed linux-headers-generic from aurex-xfce-desktop-recommends
+    [amd64]
+  * Removed linux-headers-generic-pae from aurex-xfce-desktop-recommends
+    [i386]
+  * Removed make from aurex-xfce-desktop-recommends
+  * Removed mc from aurex-xfce-desktop
+  * Removed mousetweaks from aurex-xfce-desktop-recommends
+  * Removed nautilus from aurex-xfce-desktop
+  * Removed nautilus-sendto from aurex-xfce-desktop
+  * Removed nautilus-share from aurex-xfce-desktop-recommends
+  * Removed netcat from aurex-xfce-desktop
+  * Removed nfs-common from aurex-xfce-desktop
+  * Removed notify-osd from aurex-xfce-desktop
+  * Removed nvidia-common from aurex-xfce-desktop
+  * Removed openprinting-ppds from aurex-xfce-desktop
+  * Removed overlay-scrollbar from aurex-xfce-desktop-recommends
+  * Removed plymouth-theme-ubuntu-logo from aurex-xfce-desktop-
+    recommends
+  * Removed printer-driver-pnm2ppa from aurex-xfce-desktop
+  * Removed pulseaudio from aurex-xfce-desktop
+  * Removed pulseaudio-module-bluetooth from aurex-xfce-desktop-
+    recommends
+  * Removed pulseaudio-module-gconf from aurex-xfce-desktop-recommends
+  * Removed pulseaudio-module-x11 from aurex-xfce-desktop-recommends
+  * Removed python-aptdaemon.pkcompat from aurex-xfce-desktop-recommends
+  * Removed qt-at-spi from aurex-xfce-desktop-recommends
+  * Removed remmina from aurex-xfce-desktop-recommends
+  * Removed rfkill from aurex-xfce-desktop
+  * Removed rhythmbox from aurex-xfce-desktop-recommends
+  * Removed rhythmbox-plugin-magnatune from aurex-xfce-desktop-
+    recommends
+  * Removed rhythmbox-ubuntuone from aurex-xfce-desktop-recommends
+  * Removed rpm from aurex-xfce-desktop
+  * Removed screen from aurex-xfce-desktop
+  * Removed seahorse from aurex-xfce-desktop
+  * Removed shotwell from aurex-xfce-desktop-recommends
+  * Removed simple-scan from aurex-xfce-desktop-recommends
+  * Removed smbclient from aurex-xfce-desktop
+  * Removed smbfs from aurex-xfce-desktop
+  * Removed sni-qt from aurex-xfce-desktop-recommends
+  * Removed software-center from aurex-xfce-desktop
+  * Removed software-properties-gtk from aurex-xfce-desktop
+  * Removed ssh-askpass-gnome from aurex-xfce-desktop
+  * Removed system-config-printer-gnome from aurex-xfce-desktop
+  * Removed telepathy-idle from aurex-xfce-desktop-recommends
+  * Removed thunderbird-gnome-support from aurex-xfce-desktop-recommends
+  * Removed totem from aurex-xfce-desktop-recommends
+  * Removed totem-mozilla from aurex-xfce-desktop-recommends
+  * Removed tree from aurex-xfce-desktop
+  * Removed ttf-indic-fonts-core from aurex-xfce-desktop-recommends
+  * Removed ttf-punjabi-fonts from aurex-xfce-desktop-recommends
+  * Removed ttf-ubuntu-font-family from aurex-xfce-desktop-recommends
+  * Removed ttf-wqy-microhei from aurex-xfce-desktop-recommends
+  * Removed ubuntu-artwork from aurex-xfce-desktop
+  * Removed ubuntu-desktop from aurex-xfce-desktop
+  * Removed ubuntu-docs from aurex-xfce-desktop-recommends
+  * Removed ubuntu-extras-keyring from aurex-xfce-desktop
+  * Removed ubuntu-sounds from aurex-xfce-desktop
+  * Removed ubuntuone-client-gnome from aurex-xfce-desktop-recommends
+  * Removed ubuntuone-installer from aurex-xfce-desktop-recommends
+  * Removed unity from aurex-xfce-desktop
+  * Removed unity-2d from aurex-xfce-desktop
+  * Removed unity-greeter from aurex-xfce-desktop
+  * Removed unrar from aurex-xfce-desktop
+  * Removed unzip from aurex-xfce-desktop
+  * Removed update-manager from aurex-xfce-desktop
+  * Removed update-notifier from aurex-xfce-desktop
+  * Removed vim from aurex-xfce-desktop
+  * Removed vino from aurex-xfce-desktop-recommends
+  * Removed whoopsie from aurex-xfce-desktop-recommends
+  * Removed wireless-tools from aurex-xfce-desktop
+  * Removed wpasupplicant from aurex-xfce-desktop
+  * Removed xdiagnose from aurex-xfce-desktop
+  * Removed xul-ext-ubufox from aurex-xfce-desktop-recommends
+  * Removed yelp from aurex-xfce-desktop
+  * Removed zip from aurex-xfce-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 26 Aug 2012 10:56:13 +0200
+
 aurex-meta (1.267~aurex12.04.3) precise; urgency=low
 
   * Refreshed dependencies
