@@ -247,7 +247,9 @@ update_lists(){
 			meta="$(sed -ne "/^$s /s%^.* %%p" metapackage-map)"
 			if [ "$meta" ] && [ "${meta%%-*}" != "exclude" ] ; then
 				echo "   Simulate installation of metapackage $meta"
-				$APT_CMD --install-recommends install $meta |sed -ne "/$INST_REG_EX/{s%$INST_REG_EX%\3 \1 \2%;p}" >> $TMP_FILE
+				meta_list=$(cat ${meta}-${a} ${meta}-recommends-${a} |sort -u)
+				#$APT_CMD --install-recommends install $meta |sed -ne "/$INST_REG_EX/{s%$INST_REG_EX%\3 \1 \2%;p}" >> $TMP_FILE
+				$APT_CMD install $meta $meta_list |sed -ne "/$INST_REG_EX/{s%$INST_REG_EX%\3 \1 \2%;p}" >> $TMP_FILE
 			elif echo "$s" |grep -q "\-builddepends" ; then
 				for f in "$s-$a" "$s-recommends-$a" ; do
 					echo "   Simulate installation of builddepends of package list $f"
