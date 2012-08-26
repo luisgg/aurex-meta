@@ -78,3 +78,5 @@ Task-Metapackage: exclude-aurex-support
  * samba-dbg
  * libwbclient0
 
+= other =
+ * alien
