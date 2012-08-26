@@ -1,3 +1,74 @@
+aurex-meta (1.267~aurex12.04.3) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added acpi-support to aurex-xfce-desktop-recommends
+  * Added aisleriot to aurex-xfce-desktop-recommends
+  * Added apport-gtk to aurex-xfce-desktop-recommends
+  * Added aurex-desktop to aurex-xfce-desktop, desktop
+  * Added aurex-instant to aurex-supported
+  * Added aurex-standard to standard
+  * Added aurex-translive to aurex-supported
+  * Added aurex-transmute to aurex-desktop, aurex-minimal, aurex-xfce-
+    desktop
+  * Added aurex-transmute-gui to aurex-desktop
+  * Added aurex-ubiquity-transmute to aurex-supported
+  * Added aurex-xfce-desktop to aurex-desktop
+  * Added avahi-autoipd to aurex-xfce-desktop-recommends
+  * Added avahi-daemon to aurex-xfce-desktop-recommends
+  * Added bluez to aurex-xfce-desktop-recommends
+  * Added bluez-alsa to aurex-xfce-desktop-recommends
+  * Added bluez-cups to aurex-xfce-desktop-recommends
+  * Added brltty to aurex-xfce-desktop-recommends
+  * Added clearlooks-phenix-theme to aurex-builddepends, aurex-desktop
+  * Added gnome-accessibility-themes to aurex-xfce-desktop-recommends
+  * Added gnome-sudoku to aurex-xfce-desktop-recommends
+  * Added gnomine to aurex-xfce-desktop-recommends
+  * Added gvfs-fuse to aurex-xfce-desktop-recommends
+  * Added hplip to aurex-xfce-desktop-recommends
+  * Added ibus to aurex-xfce-desktop-recommends
+  * Added ibus-pinyin to aurex-xfce-desktop-recommends
+  * Added ibus-pinyin-db-android to aurex-xfce-desktop-recommends
+  * Added ibus-table to aurex-xfce-desktop-recommends
+  * Added im-switch to aurex-xfce-desktop-recommends
+  * Added jockey-gtk to aurex-xfce-desktop-recommends
+  * Added kerneloops-daemon to aurex-xfce-desktop-recommends
+  * Added laptop-detect to aurex-xfce-desktop-recommends
+  * Added libnss-mdns to aurex-xfce-desktop-recommends
+  * Added libpam-gnome-keyring to aurex-xfce-desktop-recommends
+  * Added mahjongg to aurex-xfce-desktop-recommends
+  * Added network-manager-gnome to aurex-xfce-desktop-recommends
+  * Added network-manager-pptp to aurex-xfce-desktop-recommends
+  * Added network-manager-pptp-gnome to aurex-xfce-desktop-recommends
+  * Added onboard to aurex-xfce-desktop-recommends
+  * Added pcmciautils to aurex-xfce-desktop-recommends
+  * Added policykit-desktop-privileges to aurex-xfce-desktop-recommends
+  * Added printer-driver-c2esp to aurex-xfce-desktop-recommends
+  * Added printer-driver-foo2zjs to aurex-xfce-desktop-recommends
+  * Added printer-driver-min12xxw to aurex-xfce-desktop-recommends
+  * Added printer-driver-ptouch to aurex-xfce-desktop-recommends
+  * Added printer-driver-pxljr to aurex-xfce-desktop-recommends
+  * Added printer-driver-sag-gdi to aurex-xfce-desktop-recommends
+  * Added printer-driver-splix to aurex-xfce-desktop-recommends
+  * Added speech-dispatcher to aurex-xfce-desktop-recommends
+  * Added thunderbird to aurex-xfce-desktop-recommends
+  * Added transmission-gtk to aurex-xfce-desktop-recommends
+  * Added ttf-dejavu-core to aurex-xfce-desktop
+  * Added ttf-freefont to aurex-xfce-desktop
+  * Added unzip to aurex-desktop, aurex-xfce-desktop
+  * Added usb-creator-gtk to aurex-xfce-desktop-recommends
+  * Added xcursor-themes to aurex-xfce-desktop-recommends
+  * Added xdg-user-dirs to aurex-xfce-desktop
+  * Added xdg-user-dirs-gtk to aurex-xfce-desktop
+  * Added xdg-utils to aurex-xfce-desktop-recommends
+  * Added xkb-data to aurex-xfce-desktop
+  * Added xorg to aurex-xfce-desktop
+  * Added xterm to aurex-xfce-desktop
+  * Added zenity to aurex-xfce-desktop
+  * Added zip to aurex-desktop, aurex-xfce-desktop
+  * Removed xfce4-utils from aurex-xfce-desktop-recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 26 Aug 2012 10:36:13 +0200
+
 aurex-meta (1.267~aurex12.04.2) precise; urgency=low
 
   * Dummy upgrade
