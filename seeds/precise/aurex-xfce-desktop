@@ -18,7 +18,6 @@ Task-Metapackage: aurex-xfce-desktop
  * xfce4-panel
  * xfce4-session
  * xfce4-settings
- * (xfce4-utils)
  * xfdesktop4
  * xfwm4
  * xkb-data
