@@ -163,7 +163,7 @@ do_debootstrap(){
 		CHROOT_DIR="$TARGET_DIR/$CURRENT_DIST-$a"
 		rm -fr "$CHROOT_DIR"
 		mkdir -p "$CHROOT_DIR"
-		debootstrap "$CURRENT_DIST" "$CHROOT_DIR" "$UBUNTU_MIRROR"
+		debootstrap  --arch=$a "$CURRENT_DIST" "$CHROOT_DIR" "$UBUNTU_MIRROR"
 	done
 }
 
