@@ -1,9 +1,8 @@
-apparmor-utils
+apparmor
 apt-transport-https
 bash-completion
 command-not-found
 friendly-recovery
-iputils-arping
 iputils-tracepath
 irqbalance
 manpages
@@ -22,4 +21,3 @@ telnet
 ufw
 update-manager-core
 uuid-runtime
-w3m
