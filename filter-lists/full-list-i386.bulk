@@ -110,6 +110,7 @@ gnomine
 grub-common
 grub-pc
 grub-pc-bin
+grub2
 grub2-common
 gstreamer0.10-alsa
 gstreamer0.10-gnomevfs
@@ -372,7 +373,6 @@ liborbit2
 libotr2
 libpam-smbpass
 libpam-winbind
-libpanel-applet-4-0
 libpango1.0-0
 libpango1.0-dev
 libperl5.14
@@ -694,6 +694,7 @@ xdiagnose
 xkb-data
 xnest
 xserver-common
+xserver-xephyr
 xserver-xorg-core
 xserver-xorg-input-evdev
 xserver-xorg-input-synaptics
@@ -1026,12 +1027,10 @@ ibus-gtk
 ibus-gtk3
 ibus-pinyin
 ibus-pinyin-db-android
-ibus-pinyin-db-open-phrase
 ibus-table
 icoutils
 ifupdown
 im-switch
-indicator-applet
 indicator-application
 indicator-application-gtk2
 indicator-appmenu
@@ -1263,6 +1262,7 @@ libdlrestrictions1
 libdmapsharing-3.0-2
 libdmraid1.0.0.rc16
 libdmtx0a
+libdmx1
 libdotconf1.0
 libdpkg-perl
 libdrm-intel1
@@ -2012,7 +2012,9 @@ ncurses-base
 ncurses-bin
 net-tools
 netbase
+netcat
 netcat-openbsd
+netcat-traditional
 netpbm
 network-manager-gnome
 network-manager-openvpn
@@ -2066,10 +2068,11 @@ php5-imap
 php5-mcrypt
 pidgin-libnotify
 pidgin-microblog
-pinyin-database
 pkg-config
 plymouth
 plymouth-label
+plymouth-theme-script
+plymouth-theme-text
 plymouth-theme-ubuntu-logo
 plymouth-theme-ubuntu-text
 plymouth-theme-xubuntu-logo
@@ -2251,6 +2254,7 @@ rtkit
 sane-utils
 screen
 screensaver-default-images
+scrollkeeper
 seahorse
 sed
 sensible-utils
@@ -2499,22 +2503,36 @@ opera
 virtualbox-4.1
 # -> http://localhost/aurex/ precise
 aurex-asir
+aurex-boot-theme
+aurex-default-settings
 aurex-desktop
+aurex-gtk-theme
+aurex-icon-theme
 aurex-instant
+aurex-mdm-theme
 aurex-minimal
+aurex-plymouth-theme
 aurex-smr
 aurex-standard
 aurex-translive
 aurex-translive-theme
 aurex-transmute
 aurex-transmute-gui
+aurex-ubiquity-theme
 aurex-ubiquity-transmute
+aurex-wallpaper-theme
 aurex-xfce-desktop
 clearlooks-phenix-theme
 germinate
 python-germinate
 # -> http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/ precise
+mdm
 pulseaudio-equalizer
+# -> http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu/ precise
+radiance-colors-xfce-lxde
+# -> http://ppa.launchpad.net/tiheum/equinox/ubuntu/ precise
+faenza-icon-theme
+faience-icon-theme
 # -> http://ppa.launchpad.net/webupd8team/gthumb/ubuntu/ precise
 gthumb
 gthumb-data
