@@ -1,4 +1,5 @@
 alien
+ambiance-colors-xfce-lxde
 aurex-instant
 aurex-translive
 aurex-ubiquity-theme
@@ -63,6 +64,7 @@ libvirt0
 libwbclient0
 nautilus-dropbox
 opera
+oracle-java7-installer
 python-libvirt
 qemu-kvm
 samba
