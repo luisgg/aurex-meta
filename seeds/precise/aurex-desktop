@@ -52,6 +52,7 @@ Task-Metapackage: aurex-desktop
  * evince
  * acroread
  * cups-pdf
+ * pdftk
 
 = cups =
  * cups
