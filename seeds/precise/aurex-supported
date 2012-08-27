@@ -84,3 +84,4 @@ Task-Metapackage: exclude-aurex-support
 = other =
  * alien
  * ambiance-colors-xfce-lxde
+ * dropbox

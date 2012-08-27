@@ -1,0 +1,3 @@
+# dropbox package
+deb http://linux.dropbox.com/ubuntu/ precise main
+
