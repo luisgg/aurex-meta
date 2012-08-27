@@ -2770,11 +2770,17 @@ aurex-wallpaper-theme
 aurex-xfce-desktop
 clearlooks-phenix-theme
 germinate
+libthunarx-2-0
 python-germinate
+thunar
+thunar-data
+thunar-volman
+xfce4-places-plugin
 # -> http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/ precise
 mdm
 pulseaudio-equalizer
 # -> http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu/ precise
+ambiance-colors-xfce-lxde
 radiance-colors-xfce-lxde
 # -> http://ppa.launchpad.net/tiheum/equinox/ubuntu/ precise
 faenza-icon-theme
@@ -2792,7 +2798,6 @@ libexo-common
 libexo-helpers
 libgarcon-1-0
 libgarcon-common
-libthunarx-2-0
 libxfce4ui-1-0
 libxfce4ui-1-dev
 libxfce4util-bin
@@ -2803,9 +2808,6 @@ libxfcegui4-4
 libxfconf-0-2
 libxfconf-0-dev
 orage
-thunar
-thunar-data
-thunar-volman
 xfce-keyboard-shortcuts
 xfce4-appfinder
 xfce4-cpugraph-plugin
@@ -2819,7 +2821,6 @@ xfce4-notes
 xfce4-notes-plugin
 xfce4-panel
 xfce4-panel-dev
-xfce4-places-plugin
 xfce4-power-manager
 xfce4-power-manager-data
 xfce4-quicklauncher-plugin
