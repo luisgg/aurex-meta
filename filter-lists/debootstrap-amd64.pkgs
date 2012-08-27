@@ -24,9 +24,12 @@ ii  eject                       2.1.5+deb1+cvs20081104-9
 ii  file                        5.09-2
 ii  findutils                   4.4.2-4ubuntu1
 ii  gcc-4.6-base                4.6.3-1ubuntu5
+ii  gettext-base                0.18.1.1-5ubuntu3
 ii  gnupg                       1.4.11-3ubuntu2
 ii  gpgv                        1.4.11-3ubuntu2
 ii  grep                        2.10-1
+ii  grub-common                 1.99-21ubuntu3.1
+ii  grub2-common                1.99-21ubuntu3.1
 ii  gzip                        1.4-1ubuntu2
 ii  hostname                    3.06ubuntu1
 ii  ifupdown                    0.7~beta2ubuntu8
@@ -61,7 +64,9 @@ ii  libdrm2                     2.4.32-1ubuntu1
 ii  libelf1                     0.152-1ubuntu3
 ii  libexpat1                   2.0.1-7.2ubuntu1.1
 ii  libffi6                     3.0.11~rc1-5
+ii  libfreetype6                2.4.8-1ubuntu2
 ii  libfribidi0                 0.19.2-1
+ii  libfuse2                    2.8.6-2ubuntu2
 ii  libgcc1                     1:4.6.3-1ubuntu5
 ii  libglib2.0-0                2.32.3-0ubuntu1
 ii  libklibc                    1.5.25-1ubuntu2
@@ -118,6 +123,7 @@ ii  net-tools                   1.60-24.1ubuntu2
 ii  netbase                     4.47ubuntu1
 ii  netcat-openbsd              1.89-4ubuntu1
 ii  ntpdate                     1:4.2.6.p3+dfsg-1ubuntu3.1
+ii  os-prober                   1.51ubuntu3
 ii  passwd                      1:4.1.4.2+svn3283-3ubuntu5
 ii  perl-base                   5.14.2-6ubuntu2.1
 ii  plymouth                    0.8.2-2ubuntu30

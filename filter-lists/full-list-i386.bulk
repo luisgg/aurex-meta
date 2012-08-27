@@ -110,7 +110,6 @@ gnomine
 grub-common
 grub-pc
 grub-pc-bin
-grub2
 grub2-common
 gstreamer0.10-alsa
 gstreamer0.10-gnomevfs
@@ -373,6 +372,7 @@ liborbit2
 libotr2
 libpam-smbpass
 libpam-winbind
+libpanel-applet-4-0
 libpango1.0-0
 libpango1.0-dev
 libperl5.14
@@ -1027,10 +1027,12 @@ ibus-gtk
 ibus-gtk3
 ibus-pinyin
 ibus-pinyin-db-android
+ibus-pinyin-db-open-phrase
 ibus-table
 icoutils
 ifupdown
 im-switch
+indicator-applet
 indicator-application
 indicator-application-gtk2
 indicator-appmenu
@@ -2012,9 +2014,7 @@ ncurses-base
 ncurses-bin
 net-tools
 netbase
-netcat
 netcat-openbsd
-netcat-traditional
 netpbm
 network-manager-gnome
 network-manager-openvpn
@@ -2068,6 +2068,7 @@ php5-imap
 php5-mcrypt
 pidgin-libnotify
 pidgin-microblog
+pinyin-database
 pkg-config
 plymouth
 plymouth-label
