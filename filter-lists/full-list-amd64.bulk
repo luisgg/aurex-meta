@@ -2244,7 +2244,6 @@ mtools
 mtr-tiny
 multiarch-support
 nano
-nautilus-dropbox
 nautilus-sendto
 nautilus-share
 nbd-server
@@ -2382,7 +2381,6 @@ python-gnome2
 python-gnomekeyring
 python-gnupginterface
 python-gobject-2
-python-gpgme
 python-gst0.10
 python-gtk-vnc
 python-gtk2
@@ -2747,6 +2745,9 @@ zarafa-webapp
 opera
 # -> http://download.virtualbox.org/virtualbox/debian/ precise
 virtualbox-4.1
+# -> http://linux.dropbox.com/ubuntu/ precise
+dropbox
+nautilus-dropbox
 # -> http://localhost/aurex/ precise
 aurex-asir
 aurex-boot-theme

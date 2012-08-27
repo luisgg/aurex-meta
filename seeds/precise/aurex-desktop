@@ -114,3 +114,14 @@ Task-Metapackage: aurex-desktop
 
 = other =
 # * nautilus-gksu
+ * (nautilus-refresh)
+ * (nautilus-actions-extra)
+ * (nautilus-advanced-menu)
+ * (nautilus-execute)
+ * (nautilus-gedit)
+ * (nautilus-multimedia-menu)
+ * (nautilus-open-as-root)
+ * (nautilus-open-terminal-here)
+ * (nautilus-wallpaper-changer)
+ * (nautilus-renamer)
+ * (nautilus-search)

@@ -1,0 +1,3 @@
+# Offical release PPA for nautilus-actions-extra
+deb http://ppa.launchpad.net/nae-team/ppa/ubuntu precise main 
+deb-src http://ppa.launchpad.net/nae-team/ppa/ubuntu precise main 
