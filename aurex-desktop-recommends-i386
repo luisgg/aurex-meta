@@ -12,6 +12,8 @@ bluez-gstreamer
 branding-ubuntu
 brasero
 brltty
+cabextract
+cheese
 chromium-browser
 chromium-browser-l10n
 cmap-adobe-japan2
@@ -21,6 +23,7 @@ cups-client
 deja-dup
 empathy
 example-content
+filezilla
 firefox
 firefox-gnome-support
 fonts-kacst-one
@@ -32,6 +35,7 @@ fonts-opensymbol
 fonts-takao-pgothic
 fonts-thai-tlwg
 gcc
+gdebi
 gimp
 ginn
 gnome-accessibility-themes
@@ -89,6 +93,7 @@ linux-headers-generic-pae
 mahjongg
 make
 mousetweaks
+mpack
 nautilus-actions-extra
 nautilus-advanced-menu
 nautilus-execute
@@ -106,6 +111,8 @@ network-manager-pptp
 network-manager-pptp-gnome
 onboard
 overlay-scrollbar
+p7zip-full
+p7zip-rar
 pcmciautils
 plymouth-theme-ubuntu-logo
 policykit-desktop-privileges
@@ -122,14 +129,17 @@ pulseaudio-module-gconf
 pulseaudio-module-x11
 python-aptdaemon.pkcompat
 qt-at-spi
+rar
 remmina
 rhythmbox
 rhythmbox-plugin-magnatune
 rhythmbox-ubuntuone
+sharutils
 shotwell
 simple-scan
 sni-qt
 speech-dispatcher
+synaptic
 telepathy-idle
 thunderbird
 thunderbird-gnome-support
@@ -143,7 +153,9 @@ ttf-wqy-microhei
 ubuntu-docs
 ubuntuone-client-gnome
 ubuntuone-installer
+unace
 usb-creator-gtk
+uudeview
 vino
 whoopsie
 wine

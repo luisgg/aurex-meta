@@ -1,3 +1,30 @@
+aurex-meta (1.267~aurex12.04.13) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added cheese to aurex-desktop-recommends
+  * Added filezilla to aurex-desktop-recommends
+  * Added gdebi to aurex-desktop-recommends
+  * Added gnome-sushi to aurex-supported-recommends
+  * Added jupiter to aurex-supported
+  * Added mpack to aurex-desktop-recommends, aurex-standard-recommends
+  * Added p7zip-full to aurex-desktop-recommends, aurex-standard-
+    recommends
+  * Added p7zip-rar to aurex-desktop-recommends, aurex-standard-
+    recommends
+  * Added rar to aurex-desktop-recommends, aurex-standard-recommends
+  * Added sharutils to aurex-desktop-recommends, aurex-standard-
+    recommends
+  * Added synaptic to aurex-desktop-recommends
+  * Added unace to aurex-desktop-recommends, aurex-standard-recommends
+  * Added unzip to aurex-desktop
+  * Added uudeview to aurex-desktop-recommends, aurex-standard-
+    recommends
+  * Added zip to aurex-desktop
+  * Moved cabextract to aurex-desktop-recommends, aurex-standard-
+    recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 28 Aug 2012 14:25:17 +0200
+
 aurex-meta (1.267~aurex12.04.12) precise; urgency=low
 
   * Refreshed dependencies

@@ -9,4 +9,4 @@ aurex-supported exclude-aurex-support
 aurex-inf exclude-aurex-inf
 aurex-smr aurex-smr
 aurex-asir aurex-asir
-aurex-builddepends exclude-aurex-support
+aurex-mods exclude-aurex-support
