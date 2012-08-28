@@ -1,3 +1,10 @@
+aurex-meta (1.267~aurex12.04.14) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added jupiter-support-eee to aurex-supported
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 28 Aug 2012 14:32:50 +0200
+
 aurex-meta (1.267~aurex12.04.13) precise; urgency=low
 
   * Refreshed dependencies
