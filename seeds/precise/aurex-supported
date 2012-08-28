@@ -81,8 +81,16 @@ Task-Metapackage: exclude-aurex-support
  * samba-dbg
  * libwbclient0
 
+= graphics =
+ * (gnome-sushi)
+# to enable globus, add
+# ppa:gloobus-dev/gloobus-preview
+# * (gloobus-preview)
+# * (gloobus-sushi)
+
 = other =
  * alien
  * ambiance-colors-xfce-lxde
  * dropbox
  * nautilus-actions-extra
+ * jupiter

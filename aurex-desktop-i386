@@ -81,6 +81,7 @@ nfs-common
 notify-osd
 nvidia-common
 openprinting-ppds
+pdftk
 printer-driver-pnm2ppa
 pulseaudio
 rfkill

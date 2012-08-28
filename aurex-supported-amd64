@@ -63,6 +63,7 @@ libsmbclient-dev
 libvirt-bin
 libvirt0
 libwbclient0
+nautilus-actions-extra
 nautilus-dropbox
 opera
 oracle-java7-installer

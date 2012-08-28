@@ -22,11 +22,19 @@ Task-Metapackage: aurex-standard
  * zip
  * unzip
  * unrar
+ * (rar)
  * arj
  * lha
  * cabextract
  * rpm
 # * alien
+ * (unace)
+ * (p7zip-full)
+ * (p7zip-rar)
+ * (sharutils)
+ * (uudeview)
+ * (mpack)
+ * (cabextract)
 
 = file managers =
  * mc

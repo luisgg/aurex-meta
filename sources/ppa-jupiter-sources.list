@@ -1,0 +1,4 @@
+# Simple, easy to use hardware and power management applet
+deb http://ppa.launchpad.net/webupd8team/jupiter/ubuntu precise main
+deb-src http://ppa.launchpad.net/webupd8team/jupiter/ubuntu precise main
+

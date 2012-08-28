@@ -7,5 +7,5 @@ aurex-inf:
 aurex-smr:
 aurex-asir:
 aurex-supported:
-aurex-builddepends:
+aurex-mods:
 supported: aurex-supported
