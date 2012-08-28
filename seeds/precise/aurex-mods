@@ -17,3 +17,6 @@ Task-Metapackage: exclude-aurex-support
 
 = themes =
  * clearlooks-phenix-theme
+
+= util =
+ * jupiter
