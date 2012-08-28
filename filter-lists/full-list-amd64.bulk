@@ -58,6 +58,7 @@ evince
 evince-common
 evolution-data-server
 evolution-data-server-common
+ffmpeg
 firefox
 firefox-globalmenu
 firefox-gnome-support
@@ -79,14 +80,17 @@ ghostscript
 ghostscript-cups
 ghostscript-x
 gir1.2-atspi-2.0
+gir1.2-clutter-1.0
 gir1.2-dbusmenu-glib-0.4
 gir1.2-dbusmenu-gtk-0.4
+gir1.2-evince-3.0
 gir1.2-gst-plugins-base-0.10
 gir1.2-gtk-3.0
 gir1.2-gtksource-3.0
 gir1.2-gudev-1.0
 gir1.2-javascriptcoregtk-3.0
 gir1.2-launchpad-integration-3.0
+gir1.2-nautilus-3.0
 gir1.2-pango-1.0
 gir1.2-rb-3.0
 gir1.2-ubuntuoneui-3.0
@@ -102,6 +106,7 @@ gnome-control-center-data
 gnome-desktop3-data
 gnome-games-data
 gnome-icon-theme
+gnome-icon-theme-full
 gnome-media
 gnome-orca
 gnome-settings-daemon
@@ -200,9 +205,14 @@ libapt-pkg4.12
 libasound2
 libasound2:i386
 libatspi2.0-0
+libav-tools
 libavcodec-extra-53
+libavcodec53
+libavdevice53
+libavfilter2
 libavformat53
 libavutil-extra-51
+libavutil51
 libbamf0
 libbamf3-0
 libbind9-80
@@ -218,6 +228,8 @@ libcairo2-dev
 libcairo2:i386
 libcamel-1.2-29
 libclamav6
+libclutter-1.0-0
+libclutter-1.0-common
 libcrystalhd3
 libcups2
 libcups2:i386
@@ -775,6 +787,7 @@ zenity
 zenity-common
 # -> ftp://mirror.ovh.net/mirrors/ftp.ubuntu.com/ubuntu/ precise
 acl
+acpi
 acpi-support
 acpid
 activity-log-manager-common
@@ -861,6 +874,8 @@ catdoc
 catfish
 checkbox
 checkbox-qt
+cheese
+cheese-common
 chrpath
 cifs-utils
 cmap-adobe-japan1
@@ -886,6 +901,7 @@ cups-pdf
 curl
 curl:i386
 d-push
+daa2iso
 dansguardian
 dash
 dbconfig-common
@@ -941,11 +957,15 @@ espeak
 espeak-data
 ethtool
 example-content
+faac
 fakeroot
 fetchmail
 file
 file-roller
+filezilla
+filezilla-common
 findutils
+flac
 flex
 folks-common
 fonts-droid
@@ -991,10 +1011,14 @@ gcc
 gcc-4.6
 gcc-4.6-base
 gcc-4.6-base:i386
+gcj-4.6-base
+gcj-4.6-jre-lib
 gconf-service
 gconf-service-backend
 gconf2
 gconf2-common
+gdebi
+gdebi-core
 gedit
 gedit-common
 genisoimage
@@ -1011,6 +1035,9 @@ gimp-data
 ginn
 gir1.2-appindicator3-0.1
 gir1.2-atk-1.0
+gir1.2-clutter-gst-1.0
+gir1.2-cogl-1.0
+gir1.2-coglpango-1.0
 gir1.2-dee-1.0
 gir1.2-freedesktop
 gir1.2-gdkpixbuf-2.0
@@ -1020,7 +1047,9 @@ gir1.2-gnomebluetooth-1.0
 gir1.2-gnomekeyring-1.0
 gir1.2-gstreamer-0.10
 gir1.2-gtk-2.0
+gir1.2-gtkclutter-1.0
 gir1.2-indicate-0.7
+gir1.2-json-1.0
 gir1.2-notify-0.7
 gir1.2-peas-1.0
 gir1.2-soup-2.4
@@ -1041,10 +1070,12 @@ gnome-online-accounts
 gnome-power-manager
 gnome-screensaver
 gnome-screenshot
+gnome-search-tool
 gnome-session
 gnome-session-bin
 gnome-session-canberra
 gnome-session-common
+gnome-sushi
 gnome-system-log
 gnome-system-monitor
 gnome-system-tools
@@ -1053,6 +1084,7 @@ gnome-terminal-data
 gnome-time-admin
 gnome-user-guide
 gnome-user-share
+gnome-video-effects
 gnupg
 gpgv
 grep
@@ -1111,6 +1143,8 @@ ibus-table
 icoutils
 ifupdown
 im-switch
+imageshack-uploader
+imageshack-uploader-common
 indicator-applet
 indicator-application
 indicator-application-gtk2
@@ -1156,6 +1190,7 @@ kvm-ipxe
 l7-filter-userspace
 l7-protocols
 ladspa-sdk
+lame
 language-selector-common
 language-selector-gnome
 laptop-detect
@@ -1180,6 +1215,7 @@ libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
 libalgorithm-merge-perl
 libao-common
+libao4
 libao4:i386
 libapache-singleton-perl
 libapache2-mod-ldap-userdir
@@ -1218,6 +1254,7 @@ libattr1
 libattr1:i386
 libaudio2
 libaudio2:i386
+libaudiofile1
 libaudiofile1:i386
 libauthen-pam-perl
 libauthen-sasl-perl
@@ -1293,6 +1330,8 @@ libcdt4
 libcelt0-0
 libcfg4
 libchart-perl
+libcheese-gtk21
+libcheese3
 libck-connector0
 libclass-accessor-perl
 libclass-container-perl
@@ -1303,7 +1342,14 @@ libclass-load-perl
 libclass-singleton-perl
 libclone-fast-perl
 libclucene0ldbl
+libclutter-gst-1.0-0
+libclutter-gtk-1.0-0
+libclutter-imcontext-0.1-0
+libcluttergesture-0.0.2-0
 libcmis-0.2-0
+libcogl-common
+libcogl-pango0
+libcogl9
 libcolord1
 libcomerr2
 libcomerr2:i386
@@ -1331,6 +1377,8 @@ libcrypt-passwdmd5-perl
 libcrypt-rijndael-perl
 libcrypt-ssleay-perl
 libcryptsetup4
+libcryptui0a
+libcue1
 libcurl3
 libcurl3-gnutls
 libcurl3-nss
@@ -1405,6 +1453,7 @@ libenchant1c2a
 libencode-locale-perl
 libept1.4.12
 liberror-perl
+libesd0
 libesd0:i386
 libesmtp6
 libespeak1
@@ -1454,6 +1503,8 @@ libgail18:i386
 libgc1c2
 libgcc1
 libgcc1:i386
+libgcj-common
+libgcj12
 libgck-1-0
 libgconf-2-4
 libgconf-2-4:i386
@@ -1486,6 +1537,7 @@ libgif4
 libgif4:i386
 libgimp2.0
 libgirepository-1.0-1
+libgjs0c
 libgksu2-0
 libgle3
 libglew1.6
@@ -1586,6 +1638,7 @@ libice-dev
 libice6
 libice6:i386
 libicu48
+libid3tag0
 libidl-common
 libidl0
 libidn11
@@ -1703,6 +1756,7 @@ libmng1:i386
 libmodplug1
 libmodule-runtime-perl
 libmount1
+libmozjs185-1.0
 libmp3lame0
 libmpc2
 libmpcdec6
@@ -1712,6 +1766,7 @@ libmpg123-0
 libmpg123-0:i386
 libmtdev1
 libmusicbrainz3-6
+libmx-1.0-2
 libmythes-1.2-0
 libncurses5
 libncurses5:i386
@@ -1880,6 +1935,7 @@ libreadline6
 libreadonly-perl
 libreadonly-xs-perl
 libredis-perl
+libreplaygain1
 libresample1
 libresid-builder0c2a
 librest-0.7-0
@@ -1949,6 +2005,7 @@ libsoup2.4-1
 libsoup2.4-1:i386
 libsox-fmt-alsa
 libsox-fmt-base
+libsox-fmt-ffmpeg
 libsox1b
 libspandsp2
 libspectre1
@@ -1972,6 +2029,7 @@ libstreams0
 libstring-shellquote-perl
 libsub-install-perl
 libsub-name-perl
+libsvga1
 libswitch-perl
 libsybdb5
 libsys-cpu-perl
@@ -2010,6 +2068,7 @@ libtimedate-perl
 libtimezonemap1
 libtinfo5
 libtinfo5:i386
+libtinyxml2.6.2
 libtirpc1
 libtokyocabinet8
 libtokyotyrant3
@@ -2041,12 +2100,14 @@ libutempter0
 libutouch-evemu1
 libutouch-frame1
 libutouch-grail1
+libuu0
 libuuid-perl
 libuuid1
 libuuid1:i386
 libva-x11-1
 libva1
 libvcdinfo0
+libvdpau1
 libvirtodbc0
 libvisual-0.4-0
 libvisual-0.4-0:i386
@@ -2090,6 +2151,8 @@ libwrap0
 libwrap0:i386
 libwww-perl
 libwww-robotrules-perl
+libwxbase2.8-0
+libwxgtk2.8-0
 libx11-6
 libx11-6:i386
 libx11-data
@@ -2224,10 +2287,12 @@ mc
 mc-data
 media-player-info
 memtest86+
+mencoder
 metacity
 metacity-common
 mime-support
 miscfiles
+mjpegtools
 mktemp
 mlocate
 mlock
@@ -2238,11 +2303,14 @@ module-init-tools
 mount
 mountall
 mousetweaks
+mpack
+mplayer
 mscompress
 msr-tools
 mtools
 mtr-tiny
 multiarch-support
+musepack-tools
 nano
 nautilus-sendto
 nautilus-share
@@ -2265,6 +2333,7 @@ notification-daemon
 notify-osd
 notify-osd-icons
 novnc
+nrg2iso
 nspluginviewer:i386
 nspluginwrapper
 ntfs-3g
@@ -2287,6 +2356,8 @@ os-prober
 oss-compat
 overlay-scrollbar
 p7zip
+p7zip-full
+p7zip-rar
 parted
 passwd
 patch
@@ -2294,6 +2365,7 @@ pavucontrol
 pax
 pciutils
 pcmciautils
+pdftk
 phonon
 phonon-backend-gstreamer
 php-auth
@@ -2404,6 +2476,7 @@ python-markupsafe
 python-migrate
 python-minimal
 python-mysqldb
+python-nautilus
 python-netaddr
 python-nose
 python-notify
@@ -2473,6 +2546,7 @@ qapt-batch
 qt-at-spi
 quota
 radeontool
+rar
 rarian-compat
 rdate
 re2c
@@ -2498,11 +2572,14 @@ screen
 screensaver-default-images
 scrollkeeper
 seahorse
+seahorse-daemon
+seahorse-nautilus
 sed
 sensible-utils
 sgml-base
 sgml-data
 shared-desktop-ontologies
+sharutils
 shimmer-themes
 shtool
 smbfs
@@ -2551,6 +2628,8 @@ totem-common
 totem-mozilla
 totem-plugins
 traceroute
+transcode
+transcode-doc
 transmission-common
 transmission-gtk
 tree
@@ -2570,6 +2649,7 @@ ttf-unfonts-core
 ttf-wqy-microhei
 tumbler
 tumbler-common
+twolame
 ubiquity-casper
 ubuntu-artwork
 ubuntu-desktop
@@ -2587,6 +2667,8 @@ ubuntu-wallpapers-precise
 ubuntuone-couch
 ucf
 ufw
+uif2iso
+unace
 unattended-upgrades
 unity-asset-pool
 unity-lens-files
@@ -2604,6 +2686,7 @@ usb-modeswitch-data
 usbmuxd
 usbutils
 util-linux
+uudeview
 uuid-runtime
 vbetool
 vgabios
@@ -2612,6 +2695,7 @@ virtuoso-minimal
 virtuoso-opensource-6.1-bin
 virtuoso-opensource-6.1-common
 vlan
+vorbis-tools
 vpb-driver-source
 vsftpd
 w3m
@@ -2646,6 +2730,7 @@ x11proto-render-dev
 x11proto-xext-dev
 x11proto-xinerama-dev
 xauth
+xautomation
 xaw3dg:i386
 xbitmaps
 xchat
@@ -2771,12 +2856,31 @@ aurex-wallpaper-theme
 aurex-xfce-desktop
 clearlooks-phenix-theme
 germinate
+jupiter
 libthunarx-2-0
+pyjupiter
 python-germinate
 thunar
 thunar-data
 thunar-volman
 xfce4-places-plugin
+# -> http://ppa.launchpad.net/nae-team/ppa/ubuntu/ precise
+emblemize
+imgizor
+nautilus-actions-extra
+nautilus-advanced-menu
+nautilus-bin-install
+nautilus-execute
+nautilus-gedit
+nautilus-hide
+nautilus-multimedia-bin
+nautilus-multimedia-menu
+nautilus-open-as-root
+nautilus-open-terminal-here
+nautilus-refresh
+nautilus-renamer
+nautilus-search
+nautilus-wallpaper-changer
 # -> http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/ precise
 mdm
 pulseaudio-equalizer
@@ -2791,6 +2895,8 @@ gthumb
 gthumb-data
 # -> http://ppa.launchpad.net/webupd8team/java/ubuntu/ precise
 oracle-java7-installer
+# -> http://ppa.launchpad.net/webupd8team/jupiter/ubuntu/ precise
+jupiter-support-eee
 # -> http://ppa.launchpad.net/xubuntu-dev/xfce-4.10/ubuntu/ precise
 exo-utils
 libexo-1-0
