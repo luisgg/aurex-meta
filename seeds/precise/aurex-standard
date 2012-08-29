@@ -37,6 +37,7 @@ Task-Metapackage: aurex-standard
  * (mpack)
  * (cabextract)
  * squashfs-tools
+ * debconf-utils
 
 = file managers =
  * mc
