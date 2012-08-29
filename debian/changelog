@@ -1,3 +1,10 @@
+aurex-meta (1.267~aurex12.04.16) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added axel to aurex-desktop, aurex-standard
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 29 Aug 2012 17:50:33 +0200
+
 aurex-meta (1.267~aurex12.04.15) precise; urgency=low
 
   * Refreshed dependencies

@@ -10,13 +10,14 @@ Task-Metapackage: aurex-standard
  * tree
  * debconf-utils
  * ethtool
+ * screen
 
 = network filesystem support and tools =
  * nfs-common
  * smbclient
  * smbfs
  * netcat
- * screen
+ * axel
 
 = archivers/pkg managers =
  * zip
