@@ -1,3 +1,22 @@
+aurex-meta (1.267~aurex12.04.15) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added aurex-keyring to aurex-desktop
+  * Added dmsetup to aurex-desktop, aurex-minimal
+  * Added gparted to aurex-desktop
+  * Added lvm2 to aurex-desktop, aurex-minimal
+  * Added mdadm to aurex-desktop, aurex-minimal
+  * Added python-gpgme to aurex-desktop
+  * Added reiserfsprogs to aurex-desktop, aurex-minimal
+  * Added remmina-plugin-xdmcp to aurex-desktop-recommends
+  * Added squashfs-tools to aurex-desktop, aurex-standard
+  * Added xfsprogs to aurex-desktop, aurex-minimal
+  * Removed nautilus-actions-extra from aurex-desktop-recommends
+  * Moved network-manager-openvpn to aurex-desktop-recommends
+  * Moved network-manager-openvpn-gnome to aurex-desktop-recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 29 Aug 2012 16:19:23 +0200
+
 aurex-meta (1.267~aurex12.04.14) precise; urgency=low
 
   * Refreshed dependencies

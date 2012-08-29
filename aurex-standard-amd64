@@ -35,6 +35,7 @@ rsync
 screen
 smbclient
 smbfs
+squashfs-tools
 strace
 time
 tree

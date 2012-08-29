@@ -35,6 +35,7 @@ Task-Metapackage: aurex-standard
  * (uudeview)
  * (mpack)
  * (cabextract)
+ * squashfs-tools
 
 = file managers =
  * mc

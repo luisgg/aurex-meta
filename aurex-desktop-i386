@@ -8,6 +8,7 @@ aurex-boot-theme
 aurex-default-settings
 aurex-gtk-theme
 aurex-icon-theme
+aurex-keyring
 aurex-mdm-theme
 aurex-plymouth-theme
 aurex-transmute
@@ -21,6 +22,7 @@ checkbox-qt
 clearlooks-phenix-theme
 cups-pdf
 debconf-utils
+dmsetup
 dmz-cursor-theme
 doc-base
 eog
@@ -46,6 +48,7 @@ gnome-session-canberra
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
+gparted
 gstreamer0.10-alsa
 gstreamer0.10-plugins-base-apps
 gstreamer0.10-pulseaudio
@@ -70,12 +73,12 @@ libsasl2-modules
 libsdl1.2debian
 libxp6
 lightdm
+lvm2
 mc
+mdadm
 nautilus
 nautilus-sendto
 netcat
-network-manager-openvpn
-network-manager-openvpn-gnome
 nfs-common
 notify-osd
 nvidia-common
@@ -83,6 +86,8 @@ openprinting-ppds
 pdftk
 printer-driver-pnm2ppa
 pulseaudio
+python-gpgme
+reiserfsprogs
 rfkill
 rpm
 screen
@@ -91,6 +96,7 @@ smbclient
 smbfs
 software-center
 software-properties-gtk
+squashfs-tools
 ssh-askpass-gnome
 system-config-printer-gnome
 tree
@@ -115,6 +121,7 @@ wpasupplicant
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdiagnose
+xfsprogs
 xkb-data
 xnest
 xorg

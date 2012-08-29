@@ -9,3 +9,11 @@ Task-Metapackage: aurex-minimal
 
 = networking =
  * bridge-utils
+
+= file system and disk support =
+ * fdisk
+ * lvm2
+ * dmsetup
+ * mdadm
+ * reiserfsprogs
+ * xfsprogs
