@@ -24,3 +24,7 @@ deb-src _@_UBUNTU_MIRROR_@_ precise-backports main restricted universe multivers
 deb _@_PARTNER_MIRROR_@_ precise partner
 deb-src http://archive.canonical.com/ubuntu/ precise partner
 
+# extras
+deb http://extras.ubuntu.com/ubuntu precise main
+deb-src http://extras.ubuntu.com/ubuntu precise main
+
