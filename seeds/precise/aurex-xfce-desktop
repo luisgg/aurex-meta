@@ -22,7 +22,6 @@ Task-Metapackage: aurex-xfce-desktop
  * xkb-data
  * xorg
  * xterm
- * xubuntu-artwork
  * zenity
  * blueman
  * (acpi-support)
