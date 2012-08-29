@@ -92,6 +92,7 @@ Task-Metapackage: exclude-aurex-support
  * alien
  * ambiance-colors-xfce-lxde
  * dropbox
+ * nautilus-dropbox
  * nautilus-actions-extra
  * jupiter
  * jupiter-support-eee 

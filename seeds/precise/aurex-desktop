@@ -9,6 +9,8 @@ Task-Metapackage: aurex-desktop
 = aurex stuff =
  * aurex-transmute-gui
  * aurex-default-settings
+ * aurex-keyring
+ * aurex-keyring
 
 = Wallpapers and themes =
  * aurex-gtk-theme
@@ -110,10 +112,14 @@ Task-Metapackage: aurex-desktop
 
 = networking =
 # * aurex-openvpn-nm
- * network-manager-openvpn
- * network-manager-openvpn-gnome
+ * (network-manager-openvpn)
+ * (network-manager-openvpn-gnome)
  * wireless-tools
  * wpasupplicant
+
+= remote access =
+ * xnest
+ * (/^remmina-plugin/)
 
 = internet access =
  * (chromium-browser)
@@ -137,14 +143,12 @@ Task-Metapackage: aurex-desktop
  * (ttf-ubuntu-font-family)
  * (ttf-wqy-microhei)
 
-
-= remote access =
- * xnest
+= tools =
+ * gparted
 
 = other =
 # * nautilus-gksu
  * (nautilus-refresh)
- * (nautilus-actions-extra)
  * (nautilus-advanced-menu)
  * (nautilus-execute)
  * (nautilus-gedit)
@@ -154,3 +158,5 @@ Task-Metapackage: aurex-desktop
  * (nautilus-wallpaper-changer)
  * (nautilus-renamer)
  * (nautilus-search)
+ # for dropbox
+ * python-gpgme
