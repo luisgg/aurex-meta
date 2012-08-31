@@ -1,3 +1,11 @@
+aurex-meta (1.267~aurex12.04.17) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added sshfs to aurex-desktop, aurex-standard
+  * Removed xubuntu-artwork from aurex-xfce-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sat, 01 Sep 2012 01:13:34 +0200
+
 aurex-meta (1.267~aurex12.04.16) precise; urgency=low
 
   * Refreshed dependencies

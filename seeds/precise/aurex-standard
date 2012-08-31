@@ -18,6 +18,7 @@ Task-Metapackage: aurex-standard
  * smbfs
  * netcat
  * axel
+ * sshfs
 
 = archivers/pkg managers =
  * zip

@@ -99,6 +99,7 @@ software-center
 software-properties-gtk
 squashfs-tools
 ssh-askpass-gnome
+sshfs
 system-config-printer-gnome
 tree
 ttf-dejavu-core

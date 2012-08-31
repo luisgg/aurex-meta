@@ -37,6 +37,7 @@ screen
 smbclient
 smbfs
 squashfs-tools
+sshfs
 strace
 time
 tree
