@@ -95,7 +95,7 @@ ii  libselinux1                 2.1.0-4.1ubuntu1
 ii  libslang2                   2.2.4-3ubuntu1
 ii  libsqlite3-0                3.7.9-2ubuntu1.1
 ii  libss2                      1.42-1ubuntu2
-ii  libssl1.0.0                 1.0.1-4ubuntu5.3
+ii  libssl1.0.0                 1.0.1-4ubuntu5.5
 ii  libstdc++6                  4.6.3-1ubuntu5
 ii  libtext-charwidth-perl      0.04-7build1
 ii  libtext-iconv-perl          1.7-5

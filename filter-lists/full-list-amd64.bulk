@@ -270,6 +270,7 @@ libfontconfig1:i386
 libfreerdp-plugins-standard
 libfreerdp1
 libgail-3-0
+libgc1c2
 libgcrypt11
 libgcrypt11:i386
 libgl1-mesa-dri
@@ -575,7 +576,9 @@ linux-image-3.2.0-29-generic
 linux-image-generic
 linux-libc-dev
 ltsp-server
+lvm2
 mahjongg
+mdadm
 mysql-client-5.5
 mysql-client-core-5.5
 mysql-common
@@ -645,6 +648,7 @@ python-gi-cairo
 python-glance
 python-gobject
 python-greenlet
+python-gst0.10
 python-kde4
 python-libvirt
 python-libxml2
@@ -652,6 +656,8 @@ python-nova
 python-piston-mini-client
 python-problem-report
 python-software-properties
+python-sqlalchemy
+python-sqlalchemy-ext
 python-ubuntu-sso-client
 python-ubuntuone-client
 python-ubuntuone-control-panel
@@ -672,6 +678,7 @@ remmina
 remmina-common
 remmina-plugin-rdp
 remmina-plugin-vnc
+remmina-plugin-xdmcp
 resolvconf
 rhythmbox
 rhythmbox-data
@@ -839,6 +846,7 @@ autotools-dev
 avahi-autoipd
 avahi-daemon
 avahi-utils
+axel
 baobab
 base-passwd
 bash
@@ -957,6 +965,7 @@ espeak
 espeak-data
 ethtool
 example-content
+extlinux
 faac
 fakeroot
 fetchmail
@@ -1086,6 +1095,7 @@ gnome-user-guide
 gnome-user-share
 gnome-video-effects
 gnupg
+gparted
 gpgv
 grep
 groff-base
@@ -1500,7 +1510,6 @@ libgail-common
 libgail-common:i386
 libgail18
 libgail18:i386
-libgc1c2
 libgcc1
 libgcc1:i386
 libgcj-common
@@ -1931,6 +1940,7 @@ libraw1394-11
 libraw1394-11:i386
 libraw5
 librdf0
+libreadline5
 libreadline6
 libreadonly-perl
 libreadonly-xs-perl
@@ -2390,8 +2400,6 @@ plymouth-theme-script
 plymouth-theme-text
 plymouth-theme-ubuntu-logo
 plymouth-theme-ubuntu-text
-plymouth-theme-xubuntu-logo
-plymouth-theme-xubuntu-text
 pm-utils
 po-debconf
 policykit-1-gnome
@@ -2453,7 +2461,7 @@ python-gnome2
 python-gnomekeyring
 python-gnupginterface
 python-gobject-2
-python-gst0.10
+python-gpgme
 python-gtk-vnc
 python-gtk2
 python-httplib2
@@ -2512,8 +2520,6 @@ python-simplejson
 python-sip
 python-smbc
 python-speechd
-python-sqlalchemy
-python-sqlalchemy-ext
 python-stompy
 python-suds
 python-support
@@ -2580,7 +2586,6 @@ sgml-base
 sgml-data
 shared-desktop-ontologies
 sharutils
-shimmer-themes
 shtool
 smbfs
 sni-qt
@@ -2599,6 +2604,7 @@ squashfs-tools
 squid-langpack
 ssh-askpass-gnome
 ssh-import-id
+sshfs
 sshpass
 strace
 swh-plugins
@@ -2606,6 +2612,8 @@ synaptic
 syslinux
 syslinux-common
 syslinux-legacy
+syslinux-themes-debian
+syslinux-themes-debian-squeeze
 system-tools-backends
 tar
 tcl8.5
@@ -2700,6 +2708,7 @@ vpb-driver-source
 vsftpd
 w3m
 wakeonlan
+watershed
 wget
 whiptail
 whois
@@ -2749,6 +2758,7 @@ xfonts-encodings
 xfonts-mathml
 xfonts-scalable
 xfonts-utils
+xfsprogs
 xinit
 xinput
 xml-core
@@ -2788,9 +2798,6 @@ xserver-xorg-video-trident
 xserver-xorg-video-vesa
 xterm
 xtrans-dev
-xubuntu-artwork
-xubuntu-icon-theme
-xubuntu-wallpapers
 xz-lzma
 xz-utils
 yelp
@@ -2841,6 +2848,7 @@ aurex-desktop
 aurex-gtk-theme
 aurex-icon-theme
 aurex-instant
+aurex-keyring
 aurex-mdm-theme
 aurex-minimal
 aurex-plymouth-theme
@@ -2864,6 +2872,9 @@ thunar
 thunar-data
 thunar-volman
 xfce4-places-plugin
+# -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ precise
+unetbootin
+unetbootin-translations
 # -> http://ppa.launchpad.net/nae-team/ppa/ubuntu/ precise
 emblemize
 imgizor
