@@ -1,0 +1,3 @@
+# UNetbootin PPA 
+deb http://ppa.launchpad.net/gezakovacs/ppa/ubuntu precise main 
+deb-src http://ppa.launchpad.net/gezakovacs/ppa/ubuntu precise main 
