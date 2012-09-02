@@ -1,3 +1,10 @@
+aurex-meta (1.267~aurex12.04.18) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added unetbootin to aurex-supported
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 02 Sep 2012 10:41:16 +0200
+
 aurex-meta (1.267~aurex12.04.17) precise; urgency=low
 
   * Refreshed dependencies
