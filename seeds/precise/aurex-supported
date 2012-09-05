@@ -88,6 +88,11 @@ Task-Metapackage: exclude-aurex-support
 # * (gloobus-preview)
 # * (gloobus-sushi)
 
+= classroom control =
+* italc2-master
+* italc2-client
+* libitalc2
+
 = other =
  * alien
  * ambiance-colors-xfce-lxde
