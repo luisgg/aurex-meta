@@ -110,3 +110,36 @@ Description: Aurex asir extensions
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
+Package: aurex-daw
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex daw extensions
+ This (meta)package depends on the packages for the daw aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ausias-classroom-teacher
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex classroom teacher extensions
+ This (meta)package depends on the packages for the classroom teacher aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ausias-classroom-student
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex classroom student extensions
+ This (meta)package depends on the packages for the classroom student aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+

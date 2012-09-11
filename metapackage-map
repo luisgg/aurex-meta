@@ -10,3 +10,7 @@ aurex-inf exclude-aurex-inf
 aurex-smr aurex-smr
 aurex-asir aurex-asir
 aurex-mods exclude-aurex-support
+aurex-daw aurex-daw
+ausias-netstation exclude-ausias-netstation
+ausias-classroom-student ausias-classroom-student
+ausias-classroom-teacher ausias-classroom-teacher

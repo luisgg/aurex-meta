@@ -1,3 +1,12 @@
+aurex-meta (1.267~aurex12.04.20) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added unzip to aurex-desktop
+  * Added zenbuntu-desktop to aurex-supported
+  * Added zip to aurex-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 11 Sep 2012 03:30:22 +0200
+
 aurex-meta (1.267~aurex12.04.19) precise; urgency=low
 
   * Refreshed dependencies
