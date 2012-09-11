@@ -17,6 +17,7 @@ bind9
 bind9-host
 bind9utils
 blueman
+build-essential
 cgroup-lite
 chromium-browser
 chromium-browser-l10n
@@ -79,6 +80,8 @@ gdb
 ghostscript
 ghostscript-cups
 ghostscript-x
+gimp
+gimp-data
 gir1.2-atspi-2.0
 gir1.2-clutter-1.0
 gir1.2-dbusmenu-glib-0.4
@@ -93,6 +96,7 @@ gir1.2-launchpad-integration-3.0
 gir1.2-nautilus-3.0
 gir1.2-pango-1.0
 gir1.2-rb-3.0
+gir1.2-totem-1.0
 gir1.2-ubuntuoneui-3.0
 gir1.2-unity-5.0
 gir1.2-webkit-3.0
@@ -264,6 +268,10 @@ libexif12:i386
 libexpat1
 libexpat1-dev
 libexpat1:i386
+libfm-data
+libfm-gtk-data
+libfm-gtk1
+libfm1
 libfontconfig1
 libfontconfig1-dev
 libfontconfig1:i386
@@ -273,6 +281,7 @@ libgail-3-0
 libgc1c2
 libgcrypt11
 libgcrypt11:i386
+libgimp2.0
 libgl1-mesa-dri
 libgl1-mesa-dri:i386
 libgl1-mesa-glx
@@ -411,6 +420,7 @@ libnspr4-0d
 libnspr4:i386
 libnss3
 libnss3-1d
+libnss3-tools
 libnss3:i386
 libnux-2.0-0
 libnux-2.0-common
@@ -534,6 +544,7 @@ libtasn1-3:i386
 libthreadweaver4
 libtiff4
 libtiff4:i386
+libtotem0
 libubuntuoneui-3.0-1
 libudev-dev
 libudev0
@@ -568,11 +579,12 @@ libxslt1.1:i386
 libzeitgeist-1.0-1
 light-themes
 lightdm
-linux-headers-3.2.0-29
-linux-headers-3.2.0-29-generic
+linux-firmware
+linux-headers-3.2.0-30
+linux-headers-3.2.0-30-generic
 linux-headers-generic
 linux-image
-linux-image-3.2.0-29-generic
+linux-image-3.2.0-30-generic
 linux-image-generic
 linux-libc-dev
 ltsp-server
@@ -619,6 +631,7 @@ pidgin-data
 pidgin-otr
 plasma-scriptengine-javascript
 policykit-1
+policykit-1-gnome
 postfix
 postfix-ldap
 postfix-pcre
@@ -719,6 +732,10 @@ telepathy-mission-control-5
 thunderbird
 thunderbird-globalmenu
 thunderbird-gnome-support
+totem
+totem-common
+totem-mozilla
+totem-plugins
 ttf-liberation
 tzdata
 tzdata-java
@@ -871,7 +888,6 @@ brltty-x11
 bsdmainutils
 bsdutils
 btrfs-tools
-build-essential
 busybox-initramfs
 busybox-static
 bzip2
@@ -1015,6 +1031,7 @@ fuse
 fuse-utils
 g++
 g++-4.6
+galculator
 gawk
 gcc
 gcc-4.6
@@ -1038,9 +1055,8 @@ gettext
 gettext-base
 gettext-base:i386
 gettext:i386
+giblib1
 gigolo
-gimp
-gimp-data
 ginn
 gir1.2-appindicator3-0.1
 gir1.2-atk-1.0
@@ -1062,7 +1078,6 @@ gir1.2-json-1.0
 gir1.2-notify-0.7
 gir1.2-peas-1.0
 gir1.2-soup-2.4
-gir1.2-totem-1.0
 gir1.2-totem-plparser-1.0
 gir1.2-vte-2.90
 gir1.2-wnck-3.0
@@ -1097,6 +1112,7 @@ gnome-video-effects
 gnupg
 gparted
 gpgv
+gpicview
 grep
 groff-base
 growisofs
@@ -1119,6 +1135,7 @@ gstreamer0.10-tools
 gtk2-engines
 gtk2-engines-murrine
 gtk2-engines-murrine:i386
+gtk2-engines-pixbuf
 gtk2-engines-pixbuf:i386
 gtk2-engines:i386
 gtk3-engines-unico
@@ -1187,6 +1204,7 @@ iso-codes
 iw
 java-common
 javascript-common
+jfsutils
 kbd
 kerneloops-daemon
 keyboard-configuration
@@ -1544,7 +1562,6 @@ libgexiv2-1
 libgfortran3
 libgif4
 libgif4:i386
-libgimp2.0
 libgirepository-1.0-1
 libgjs0c
 libgksu2-0
@@ -1637,6 +1654,7 @@ libhttp-date-perl
 libhttp-message-perl
 libhttp-negotiate-perl
 libhunspell-1.3-0
+libhx27
 libhx509-5-heimdal
 libhx509-5-heimdal:i386
 libhyphen0
@@ -1661,6 +1679,7 @@ libieee1284-3:i386
 libijs-0.35
 libiksemel3
 libilmbase6
+libimlib2
 libimobiledevice2
 libindicate-gtk3
 libindicate5
@@ -1684,6 +1703,7 @@ libjasper1:i386
 libjbig2dec0
 libjpeg-dev
 libjpeg-progs
+libjpeg62
 libjpeg8
 libjpeg8-dev
 libjpeg8:i386
@@ -1752,6 +1772,7 @@ libmatroska5
 libmcrypt4
 libmeanwhile1
 libmemcached6
+libmenu-cache1
 libmetacity-private0
 libmhash2
 libmikmod2:i386
@@ -1823,6 +1844,8 @@ libntrack-qt4-1
 libntrack0
 libnuma1
 liboauth0
+libobrender27
+libobt0
 libodbc1
 libodbc1:i386
 libofa0
@@ -1863,6 +1886,7 @@ libpam-heimdal
 libpam-ldap
 libpam-modules
 libpam-modules-bin
+libpam-mount
 libpam-runtime
 libpam0g
 libpango-perl
@@ -2086,7 +2110,6 @@ libtommath0
 libtool
 libtotem-pg4
 libtotem-plparser17
-libtotem0
 libtree-perl
 libtry-tiny-perl
 libts-0.0-0
@@ -2237,6 +2260,8 @@ libxml-simple-perl
 libxml-stream-perl
 libxml-twig-perl
 libxml-xpath-perl
+libxmmsclient-glib1
+libxmmsclient6
 libxmu6
 libxmu6:i386
 libxmuu1
@@ -2273,7 +2298,6 @@ libzbar0
 libzephyr4
 libzvbi-common
 libzvbi0
-linux-firmware
 linux-sound-base
 lksctp-tools
 locales
@@ -2286,6 +2310,21 @@ lshw
 lsof
 ltrace
 ltspfs
+lxappearance
+lxde
+lxde-common
+lxde-core
+lxde-icon-theme
+lxdm
+lxinput
+lxmenu-data
+lxmusic
+lxpanel
+lxrandr
+lxsession
+lxsession-edit
+lxshortcut
+lxterminal
 m4
 make
 makedev
@@ -2298,6 +2337,8 @@ mc-data
 media-player-info
 memtest86+
 mencoder
+menu
+menu-xdg
 metacity
 metacity-common
 mime-support
@@ -2344,11 +2385,14 @@ notify-osd
 notify-osd-icons
 novnc
 nrg2iso
+nscd
 nspluginviewer:i386
 nspluginwrapper
 ntfs-3g
+ntfsprogs
 ntrack-module-libnl-0
 nvidia-common
+obconf
 obex-data-server
 obexd-client
 odbcinst
@@ -2356,6 +2400,8 @@ odbcinst1debian2
 odbcinst1debian2:i386
 oinkmaster
 onboard
+openbox
+openbox-themes
 openbsd-inetd
 openprinting-ppds
 openssh-client
@@ -2374,6 +2420,7 @@ patch
 pavucontrol
 pax
 pciutils
+pcmanfm
 pcmciautils
 pdftk
 phonon
@@ -2402,7 +2449,6 @@ plymouth-theme-ubuntu-logo
 plymouth-theme-ubuntu-text
 pm-utils
 po-debconf
-policykit-1-gnome
 policykit-desktop-privileges
 polkit-kde-1
 poppler-utils
@@ -2559,6 +2605,7 @@ re2c
 readline-common
 realpath
 redis-server
+reiser4progs
 reiserfsprogs
 rfkill
 rhythmbox-ubuntuone
@@ -2577,6 +2624,7 @@ sane-utils
 screen
 screensaver-default-images
 scrollkeeper
+scrot
 seahorse
 seahorse-daemon
 seahorse-nautilus
@@ -2631,10 +2679,6 @@ thunar-media-tags-plugin
 time
 tinymce
 toshset
-totem
-totem-common
-totem-mozilla
-totem-plugins
 traceroute
 transcode
 transcode-doc
@@ -2738,6 +2782,7 @@ x11proto-randr-dev
 x11proto-render-dev
 x11proto-xext-dev
 x11proto-xinerama-dev
+xarchiver
 xauth
 xautomation
 xaw3dg:i386
@@ -2762,6 +2807,11 @@ xfsprogs
 xinit
 xinput
 xml-core
+xmms2-core
+xmms2-plugin-alsa
+xmms2-plugin-id3v2
+xmms2-plugin-mad
+xmms2-plugin-vorbis
 xorg
 xorg-docs-core
 xorg-sgml-doctools
@@ -2843,8 +2893,12 @@ nautilus-dropbox
 # -> http://localhost/aurex/ precise
 aurex-asir
 aurex-boot-theme
+aurex-cc-auth
+aurex-cc-mount
+aurex-daw
 aurex-default-settings
 aurex-desktop
+aurex-fs-utils
 aurex-gtk-theme
 aurex-icon-theme
 aurex-instant
@@ -2862,9 +2916,15 @@ aurex-ubiquity-theme
 aurex-ubiquity-transmute
 aurex-wallpaper-theme
 aurex-xfce-desktop
+ausias-cc-default-settings
+ausias-classroom-student
+ausias-classroom-teacher
 clearlooks-phenix-theme
 germinate
+italc2-client
+italc2-master
 jupiter
+libitalc2
 libthunarx-2-0
 pyjupiter
 python-germinate
@@ -3022,6 +3082,7 @@ slapd
 slapd-smbk5pwd
 tdb-tools
 zbwmonitor
+zenbuntu-desktop
 zentyal
 zentyal-all
 zentyal-antivirus
