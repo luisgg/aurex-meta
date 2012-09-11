@@ -9,7 +9,7 @@ aurex-asir:
 aurex-daw:
 aurex-supported:
 aurex-mods:
-ausias-netstation
-ausias-classroom-student
-ausias-classroom-teacher
+ausias-netstation:
+ausias-classroom-student:
+ausias-classroom-teacher:
 supported: aurex-supported
