@@ -1,0 +1,10 @@
+Task-Metapackage: exclude-ausias-netstation
+# 'exclude' prefix in metapackage name to avoid installation in update-lists script
+
+
+#This seed provides addons to aurex desktop environment
+#for network workstations in ausias march intranet
+
+ * ausias-cc-default-settings
+ * unattended-upgrades
+

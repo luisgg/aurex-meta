@@ -1,3 +1,11 @@
+aurex-meta (1.267~aurex12.04.19) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added unzip to aurex-desktop
+  * Added zip to aurex-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 05 Sep 2012 22:45:09 +0200
+
 aurex-meta (1.267~aurex12.04.18) precise; urgency=low
 
   * Refreshed dependencies
