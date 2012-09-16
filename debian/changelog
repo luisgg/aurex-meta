@@ -1,3 +1,12 @@
+aurex-meta (1.267~aurex12.04.22) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added virtualbox-4.2 to aurex-asir, aurex-daw, aurex-inf, aurex-smr
+  * Removed virtualbox-4.1 from aurex-asir, aurex-daw, aurex-inf, aurex-
+    smr
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 16 Sep 2012 23:03:35 +0200
+
 aurex-meta (1.267~aurex12.04.21) precise; urgency=low
 
   * Refreshed dependencies

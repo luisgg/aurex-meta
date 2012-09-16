@@ -6,6 +6,6 @@ Task-Metapackage: exclude-aurex-inf
 #This seed provides addons to aurex desktop environment
 #for "ciclos formativos informatica".
 
- * virtualbox-4.1
+ * virtualbox-4.2
  * openssh-server
 

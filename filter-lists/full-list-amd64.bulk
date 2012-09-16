@@ -1195,7 +1195,6 @@ intel-gpu-tools
 intltool
 intltool-debian
 iproute
-iptables
 iputils-arping
 iputils-ping
 iputils-tracepath
@@ -1246,6 +1245,7 @@ libao-common
 libao4
 libao4:i386
 libapache-singleton-perl
+libapache2-mod-auth-kerb
 libapache2-mod-ldap-userdir
 libapache2-mod-perl2
 libapache2-reload-perl
@@ -1888,6 +1888,7 @@ libpam-modules
 libpam-modules-bin
 libpam-mount
 libpam-runtime
+libpam-script
 libpam0g
 libpango-perl
 libpangomm-1.4-1
@@ -2597,6 +2598,7 @@ python3-setuptools
 qapt-batch
 qt-at-spi
 quota
+quotatool
 radeontool
 rar
 rarian-compat
@@ -2887,6 +2889,7 @@ zarafa-webapp
 opera
 # -> http://download.virtualbox.org/virtualbox/debian/ precise
 virtualbox-4.1
+virtualbox-4.2
 # -> http://linux.dropbox.com/ubuntu/ precise
 dropbox
 nautilus-dropbox
@@ -2905,6 +2908,7 @@ aurex-instant
 aurex-keyring
 aurex-mdm-theme
 aurex-minimal
+aurex-pam-quota
 aurex-plymouth-theme
 aurex-smr
 aurex-standard
@@ -3014,6 +3018,7 @@ xfdesktop4
 xfdesktop4-data
 xfwm4
 # -> http://ppa.launchpad.net/zentyal/2.3/ubuntu/ precise
+iptables
 language-pack-zentyal-an
 language-pack-zentyal-ar
 language-pack-zentyal-bg
