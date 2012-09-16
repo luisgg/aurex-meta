@@ -82,6 +82,7 @@ ghostscript-cups
 ghostscript-x
 gimp
 gimp-data
+ginn
 gir1.2-atspi-2.0
 gir1.2-clutter-1.0
 gir1.2-dbusmenu-glib-0.4
@@ -261,11 +262,13 @@ libfm-gtk1
 libfm1
 libfontconfig1
 libfontconfig1-dev
+libframe6
 libfreerdp-plugins-standard
 libfreerdp1
 libgail-3-0
 libgc1c2
 libgcrypt11
+libgeis1
 libgimp2.0
 libgl1-mesa-dri
 libgl1-mesa-glx
@@ -282,6 +285,7 @@ libgnutls26
 libgphoto2-2
 libgphoto2-l10n
 libgphoto2-port0
+libgrail5
 libgrip0
 libgs9
 libgs9-common
@@ -986,7 +990,6 @@ gettext
 gettext-base
 giblib1
 gigolo
-ginn
 gir1.2-appindicator3-0.1
 gir1.2-atk-1.0
 gir1.2-clutter-gst-1.0
