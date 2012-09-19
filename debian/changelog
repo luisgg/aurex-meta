@@ -1,3 +1,10 @@
+aurex-meta (1.267~aurex12.04.23) precise; urgency=low
+
+  * Dummy upgrade to add pre-depends in vbox-bypass-redhat-release
+    (aka Luis Mateo's tribute version)
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 19 Sep 2012 19:10:00 +0200
+
 aurex-meta (1.267~aurex12.04.22) precise; urgency=low
 
   * Refreshed dependencies
