@@ -10,6 +10,8 @@ aurex-daw:
 aurex-supported:
 aurex-mods:
 ausias-netstation:
+ausias-printstation:
 ausias-classroom-student:
 ausias-classroom-teacher:
+ausias-desktop: aurex-desktop
 supported: aurex-supported
