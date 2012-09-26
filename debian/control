@@ -146,3 +146,14 @@ Description: Aurex classroom student extensions
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
+Package: ausias-desktop
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: The CIPFP Ausias March intranet desktop
+ This (meta)package extends aurex desktop to provide acces to the CIPFP
+ Ausias March intranet services (auth, shares, printing).
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
