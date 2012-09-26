@@ -4,5 +4,5 @@ Task-Description: ausias common desktop
 Task-Extended-Description: This task extends aurex desktop to provide acces to the CIPFP Ausias March intranet services (auth, shares, printing).
 Task-Key: ausias-desktop
 Task-Metapackage: ausias-desktop
-Task-Seeds: aurex-desktop ausias-netstation ausias-printstation
+Task-Seeds: aurex-desktop desktop-common desktop aurex-minimal aurex-standard ausias-netstation ausias-printstation
 

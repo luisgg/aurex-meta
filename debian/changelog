@@ -1,3 +1,79 @@
+aurex-meta (1.267~aurex12.04.25) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added acroread to ausias-desktop
+  * Added aurex-boot-theme to ausias-desktop
+  * Added aurex-default-settings to ausias-desktop
+  * Added aurex-gtk-theme to ausias-desktop
+  * Added aurex-icon-theme to ausias-desktop
+  * Added aurex-keyring to ausias-desktop
+  * Added aurex-mdm-theme to ausias-desktop
+  * Added aurex-plymouth-theme to ausias-desktop
+  * Added aurex-transmute-gui to ausias-desktop
+  * Added aurex-xfce-desktop to ausias-desktop
+  * Added ausias-papercut-client to ausias-desktop
+  * Added ausias-printers-centro to ausias-desktop
+  * Added cheese to ausias-desktop-recommends
+  * Added chromium-browser to ausias-desktop-recommends
+  * Added chromium-browser-l10n to ausias-desktop-recommends
+  * Added clearlooks-phenix-theme to ausias-desktop
+  * Added cups-pdf to ausias-desktop
+  * Added filezilla to ausias-desktop-recommends
+  * Added flashplugin-installer to ausias-desktop
+  * Added fonts-opensymbol to ausias-desktop-recommends
+  * Added gdebi to ausias-desktop-recommends
+  * Added gimp to ausias-desktop-recommends
+  * Added gparted to ausias-desktop
+  * Added gthumb to ausias-desktop
+  * Added inkscape to ausias-desktop-recommends
+  * Added language-pack-ca to ausias-desktop-recommends
+  * Added language-pack-ca-base to ausias-desktop-recommends
+  * Added language-pack-en to ausias-desktop-recommends
+  * Added language-pack-en-base to ausias-desktop-recommends
+  * Added language-pack-es to ausias-desktop
+  * Added language-pack-es-base to ausias-desktop
+  * Added language-pack-gnome-ca to ausias-desktop-recommends
+  * Added language-pack-gnome-ca-base to ausias-desktop-recommends
+  * Added language-pack-gnome-en to ausias-desktop-recommends
+  * Added language-pack-gnome-en-base to ausias-desktop-recommends
+  * Added language-pack-gnome-es to ausias-desktop
+  * Added language-pack-gnome-es-base to ausias-desktop
+  * Added libdvdread4 to ausias-desktop
+  * Added libreoffice to ausias-desktop-recommends
+  * Added libreoffice-help-ca to ausias-desktop-recommends
+  * Added libreoffice-help-en-gb to ausias-desktop-recommends
+  * Added libreoffice-help-es to ausias-desktop-recommends
+  * Added libreoffice-l10n-ca to ausias-desktop-recommends
+  * Added libreoffice-l10n-en-gb to ausias-desktop-recommends
+  * Added libreoffice-l10n-es to ausias-desktop-recommends
+  * Added libreoffice-style-tango to ausias-desktop-recommends
+  * Added nautilus-advanced-menu to ausias-desktop-recommends
+  * Added nautilus-execute to ausias-desktop-recommends
+  * Added nautilus-gedit to ausias-desktop-recommends
+  * Added nautilus-multimedia-menu to ausias-desktop-recommends
+  * Added nautilus-open-as-root to ausias-desktop-recommends
+  * Added nautilus-open-terminal-here to ausias-desktop-recommends
+  * Added nautilus-refresh to ausias-desktop-recommends
+  * Added nautilus-renamer to ausias-desktop-recommends
+  * Added nautilus-search to ausias-desktop-recommends
+  * Added nautilus-wallpaper-changer to ausias-desktop-recommends
+  * Added network-manager-openvpn to ausias-desktop-recommends
+  * Added network-manager-openvpn-gnome to ausias-desktop-recommends
+  * Added pdftk to ausias-desktop
+  * Added pulseaudio-equalizer to ausias-desktop-recommends
+  * Added python-gpgme to ausias-desktop
+  * Added remmina-plugin-xdmcp to ausias-desktop-recommends
+  * Added synaptic to ausias-desktop-recommends
+  * Added ubuntu-restricted-extras to ausias-desktop
+  * Added unzip to aurex-desktop
+  * Added vlc to ausias-desktop
+  * Added wine to ausias-desktop-recommends
+  * Added winetricks to ausias-desktop-recommends
+  * Added xnest to ausias-desktop
+  * Added zip to aurex-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 26 Sep 2012 21:30:17 +0200
+
 aurex-meta (1.267~aurex12.04.24) precise; urgency=low
 
   * Refreshed dependencies

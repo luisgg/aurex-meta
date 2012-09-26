@@ -13,5 +13,5 @@ ausias-netstation:
 ausias-printstation:
 ausias-classroom-student:
 ausias-classroom-teacher:
-ausias-desktop:
+ausias-desktop: aurex-minimal desktop
 supported: aurex-supported
