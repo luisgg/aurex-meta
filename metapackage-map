@@ -12,5 +12,7 @@ aurex-asir aurex-asir
 aurex-mods exclude-aurex-support
 aurex-daw aurex-daw
 ausias-netstation exclude-ausias-netstation
+ausias-printstation exclude-ausias-printstation
 ausias-classroom-student ausias-classroom-student
 ausias-classroom-teacher ausias-classroom-teacher
+ausias-desktop ausias-desktop
