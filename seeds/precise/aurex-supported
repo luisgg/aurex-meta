@@ -103,3 +103,4 @@ Task-Metapackage: exclude-aurex-support
  * jupiter
  * jupiter-support-eee 
  * unetbootin
+ * yad

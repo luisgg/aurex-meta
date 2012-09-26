@@ -1,3 +1,10 @@
+aurex-meta (1.267~aurex12.04.27) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added yad to aurex-supported
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 27 Sep 2012 00:40:09 +0200
+
 aurex-meta (1.267~aurex12.04.26) precise; urgency=low
 
   * Refreshed dependencies
