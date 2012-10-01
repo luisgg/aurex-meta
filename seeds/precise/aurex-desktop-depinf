@@ -1,0 +1,17 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: aurex desktop for 'Departamento de Informatica' teachers
+Task-Extended-Description: This task extends aurex desktop to provide useful apps for 'Departamento de Informatica' teachers
+Task-Key: aurex-desktop-depinf
+Task-Metapackage: aurex-desktop-depinf
+Task-Seeds: aurex-desktop desktop-common desktop aurex-minimal aurex-standard
+
+= packages of each student's group =
+ * aurex-smr
+ * aurex-asir
+ * aurex-daw
+
+= useful tools =
+ * virt-manager
+ * libvirt-bin
+

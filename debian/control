@@ -157,3 +157,26 @@ Description: The CIPFP Ausias March intranet desktop
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
+Package: aurex-desktop-depinf
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex desktop for 'depinf' teachers
+ This (meta)package depends on the packages for the depinf aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ausias-desktop-depinf
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ausias depinf extensions
+ This (meta)package depends on the packages for the 'depinf' extensions
+ to access CIPFP Ausias March intranet services (auth, shares, printing).
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+

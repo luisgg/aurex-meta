@@ -68,6 +68,7 @@ language-pack-gnome-en
 language-pack-gnome-en-base
 laptop-detect
 libgail-common
+libgoo-canvas-perl
 libnss-mdns
 libpam-gnome-keyring
 libproxy1-plugin-gsettings
@@ -138,6 +139,7 @@ rhythmbox-plugin-magnatune
 rhythmbox-ubuntuone
 sharutils
 shotwell
+shutter
 simple-scan
 sni-qt
 speech-dispatcher

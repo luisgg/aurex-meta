@@ -9,9 +9,11 @@ aurex-asir:
 aurex-daw:
 aurex-supported:
 aurex-mods:
+aurex-desktop-depinf: aurex-desktop aurex-minimal desktop
 ausias-netstation:
 ausias-printstation:
 ausias-classroom-student:
 ausias-classroom-teacher:
 ausias-desktop: aurex-desktop aurex-minimal desktop
+ausias-desktop-depinf:
 supported: aurex-supported

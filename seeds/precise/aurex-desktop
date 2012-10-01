@@ -83,6 +83,10 @@ Task-Metapackage: aurex-desktop
 # * (gloobus-preview)
 # * (gloobus-sushi)
 
+== screen capture ==
+ * (shutter)
+ * (libgoo-canvas-perl)
+
 == extra codecs ==
 # * (gstreamer0.10-plugins-ugly)
 # * (gstreamer0.10-plugins-ffmpeg)
