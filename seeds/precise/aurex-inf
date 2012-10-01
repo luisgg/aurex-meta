@@ -8,4 +8,5 @@ Task-Metapackage: exclude-aurex-inf
 
  * virtualbox-4.2
  * openssh-server
+ * wireshark
 

@@ -86,6 +86,7 @@ Task-Metapackage: aurex-desktop
 == screen capture ==
  * (shutter)
  * (libgoo-canvas-perl)
+ * (aurex-screenshot-settings)
 
 == extra codecs ==
 # * (gstreamer0.10-plugins-ugly)
