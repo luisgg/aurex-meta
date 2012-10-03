@@ -1,3 +1,11 @@
+aurex-meta (1.267~aurex12.04.30) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added aurex-update-manager to aurex-asir, aurex-daw, aurex-inf,
+    aurex-smr
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 03 Oct 2012 16:34:27 +0200
+
 aurex-meta (1.267~aurex12.04.29) precise; urgency=low
 
   * Refreshed dependencies
