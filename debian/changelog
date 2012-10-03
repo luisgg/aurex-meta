@@ -1,3 +1,11 @@
+aurex-meta (1.267~aurex12.04.31) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added aurex-cups-pdf to aurex-desktop, aurex-desktop-depinf, ausias-
+    desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 04 Oct 2012 01:02:44 +0200
+
 aurex-meta (1.267~aurex12.04.30) precise; urgency=low
 
   * Refreshed dependencies
