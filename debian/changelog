@@ -1,3 +1,10 @@
+aurex-meta (1.267~aurex12.04.33) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added vsftpd to aurex-supported
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 20 Nov 2012 19:26:52 +0100
+
 aurex-meta (1.267~aurex12.04.32) precise; urgency=low
 
   * Refreshed dependencies
