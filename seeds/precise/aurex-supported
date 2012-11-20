@@ -95,6 +95,9 @@ Task-Metapackage: exclude-aurex-support
 * italc2-client
 * libitalc2
 
+= network utilities & services =
+ * vsftpd
+
 = other =
  * alien
  * ambiance-colors-xfce-lxde

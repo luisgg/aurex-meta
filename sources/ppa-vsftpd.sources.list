@@ -1,0 +1,3 @@
+# vsftpd with the allow_writeable_chroot feature backported from vsftpd 3.
+deb http://ppa.launchpad.net/thefrontiergroup/vsftpd/ubuntu precise main 
+deb-src http://ppa.launchpad.net/thefrontiergroup/vsftpd/ubuntu precise main 
