@@ -1,7 +1,7 @@
 ii  adduser                     3.113ubuntu2
 ii  apt                         0.8.16~exp12ubuntu10.5
 ii  apt-utils                   0.8.16~exp12ubuntu10.5
-ii  base-files                  6.5ubuntu6.2
+ii  base-files                  6.5ubuntu6.4
 ii  base-passwd                 3.5.24
 ii  bash                        4.2-2ubuntu2
 ii  bsdutils                    1:2.20.1-1ubuntu3
@@ -101,7 +101,7 @@ ii  libtext-charwidth-perl      0.04-7build1
 ii  libtext-iconv-perl          1.7-5
 ii  libtext-wrapi18n-perl       0.06-7
 ii  libtinfo5                   5.9-4
-ii  libudev0                    175-0ubuntu9.1
+ii  libudev0                    175-0ubuntu9.2
 ii  libusb-0.1-4                2:0.1.12-20
 ii  libuuid1                    2.20.1-1ubuntu3
 ii  locales                     2.13+git20120306-3
@@ -145,7 +145,7 @@ ii  tzdata                      2012e-0ubuntu0.12.04.1
 ii  ubuntu-keyring              2011.11.21.1
 ii  ubuntu-minimal              1.267
 ii  ucf                         3.0025+nmu2ubuntu1
-ii  udev                        175-0ubuntu9.1
+ii  udev                        175-0ubuntu9.2
 ii  upstart                     1.5-0ubuntu7
 ii  ureadahead                  0.100.0-12
 ii  util-linux                  2.20.1-1ubuntu3

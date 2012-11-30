@@ -1,6 +1,12 @@
 # -> ftp://mirror.ovh.net/mirrors/ftp.ubuntu.com/ubuntu/ precise-updates
 accountsservice
 amavisd-new
+apache2
+apache2-mpm-prefork
+apache2-mpm-worker
+apache2-utils
+apache2.2-bin
+apache2.2-common
 apparmor
 apport
 apport-gtk
@@ -14,10 +20,8 @@ aptdaemon-data
 at-spi2-core
 bamfdaemon
 base-files
-bind9
-bind9-host
-bind9utils
 blueman
+bridge-utils
 build-essential
 cgroup-lite
 cheese
@@ -29,6 +33,7 @@ clamav
 clamav-base
 clamav-daemon
 clamav-freshclam
+colord
 compiz
 compiz-core
 compiz-gnome
@@ -49,7 +54,6 @@ debootstrap
 desktop-file-utils
 dh-apparmor
 dmsetup
-dnsutils
 dovecot-common
 dovecot-core
 dovecot-gssapi
@@ -124,6 +128,7 @@ gnome-icon-theme
 gnome-icon-theme-full
 gnome-media
 gnome-orca
+gnome-power-manager
 gnome-settings-daemon
 gnome-sudoku
 gnome-themes-standard
@@ -243,7 +248,6 @@ libavutil-extra-51
 libavutil51
 libbamf0
 libbamf3-0
-libbind9-80
 libbonobo2-0
 libbonobo2-common
 libbonoboui2-0
@@ -266,6 +270,7 @@ libcheese3
 libclamav6
 libclutter-1.0-0
 libclutter-1.0-common
+libcolord1
 libcrystalhd3
 libcups2
 libcups2:i386
@@ -288,7 +293,6 @@ libdebian-installer4
 libdecoration0
 libdevmapper-event1.02.1
 libdevmapper1.02.1
-libdns81
 libebackend-1.2-1
 libebook-1.2-12
 libecal-1.2-10
@@ -339,6 +343,8 @@ libgnome-desktop-3-2
 libgnome2-0
 libgnome2-bin
 libgnome2-common
+libgnomecanvas2-0
+libgnomecanvas2-common
 libgnomevfs2-0
 libgnomevfs2-common
 libgnomevfs2-extra
@@ -371,9 +377,6 @@ libgutenprint2
 libgwibber-gtk2
 libgwibber2
 libhpmud0
-libisc83
-libisccc80
-libisccfg82
 libjavascriptcoregtk-1.0-0
 libjavascriptcoregtk-3.0-0
 libjpeg-turbo-progs
@@ -440,7 +443,6 @@ liblaunchpad-integration-common
 liblaunchpad-integration1
 liblightdm-gobject-1-0
 liblvm2app2.2
-liblwres80
 libmagick++4
 libmagickcore4
 libmagickcore4-extra
@@ -487,6 +489,10 @@ libpolkit-backend-1-0
 libpolkit-gobject-1-0
 libpostproc52
 libpq5
+libproxy1
+libproxy1-plugin-gsettings
+libproxy1-plugin-networkmanager
+libproxy1:i386
 libpulse-mainloop-glib0
 libpulse-mainloop-glib0:i386
 libpulse0
@@ -643,11 +649,11 @@ libzeitgeist-1.0-1
 light-themes
 lightdm
 linux-firmware
-linux-headers-3.2.0-32
-linux-headers-3.2.0-32-generic
+linux-headers-3.2.0-33
+linux-headers-3.2.0-33-generic
 linux-headers-generic
 linux-image
-linux-image-3.2.0-32-generic
+linux-image-3.2.0-33-generic
 linux-image-generic
 linux-libc-dev
 login
@@ -656,6 +662,7 @@ lsb-release
 ltsp-server
 lvm2
 mahjongg
+make
 mdadm
 mktemp
 multiarch-support
@@ -740,6 +747,7 @@ python-gobject
 python-greenlet
 python-gst0.10
 python-kde4
+python-libproxy
 python-libvirt
 python-libxml2
 python-nova
@@ -764,6 +772,7 @@ qemu-common
 qemu-kvm
 qemu-utils
 quagga
+quota
 remmina
 remmina-common
 remmina-plugin-rdp
@@ -796,6 +805,7 @@ software-properties-common
 software-properties-gtk
 squid3
 squid3-common
+sshfs
 ssl-cert
 sudo
 swat
@@ -911,12 +921,6 @@ alien
 alsa-base
 alsa-utils
 anacron
-apache2
-apache2-mpm-prefork
-apache2-mpm-worker
-apache2-utils
-apache2.2-bin
-apache2.2-common
 apg
 app-install-data
 app-install-data-partner
@@ -965,7 +969,6 @@ branding-ubuntu
 brasero
 brasero-cdrkit
 brasero-common
-bridge-utils
 brltty
 brltty-x11
 bsdmainutils
@@ -987,7 +990,6 @@ cmap-adobe-japan1
 cmap-adobe-japan2
 collectd
 collectd-core
-colord
 command-not-found
 command-not-found-data
 compiz-plugins-main-default
@@ -1004,7 +1006,6 @@ cryptsetup-bin
 cups-pdf
 curl
 curl:i386
-d-push
 daa2iso
 dansguardian
 dash
@@ -1034,7 +1035,6 @@ dovecot-antispam
 dpkg
 dpkg-dev
 dpkg-repack
-duplicity
 dvd+rw-tools
 e2fslibs
 e2fsprogs
@@ -1165,7 +1165,6 @@ gnome-keyring
 gnome-menus
 gnome-nettool
 gnome-online-accounts
-gnome-power-manager
 gnome-screensaver
 gnome-screenshot
 gnome-search-tool
@@ -1436,7 +1435,6 @@ libcmis-0.2-0
 libcogl-common
 libcogl-pango0
 libcogl9
-libcolord1
 libcomerr2
 libcomerr2:i386
 libcommon-sense-perl
@@ -1457,7 +1455,6 @@ libcpg4
 libcroco3
 libcroco3:i386
 libcrypt-openssl-bignum-perl
-libcrypt-openssl-random-perl
 libcrypt-openssl-rsa-perl
 libcrypt-passwdmd5-perl
 libcrypt-rijndael-perl
@@ -1643,8 +1640,6 @@ libgnome2-gconf-perl
 libgnome2-perl
 libgnome2-vfs-perl
 libgnome2-wnck-perl
-libgnomecanvas2-0
-libgnomecanvas2-common
 libgnomekbd-common
 libgnomekbd7
 libgnomeui-0
@@ -2003,10 +1998,6 @@ libproc-processtable-perl
 libproc-simple-perl
 libprotobuf7
 libprotoc7
-libproxy1
-libproxy1-plugin-gsettings
-libproxy1-plugin-networkmanager
-libproxy1:i386
 libpth20
 libpthread-stubs0
 libpthread-stubs0-dev
@@ -2381,7 +2372,6 @@ lxsession-edit
 lxshortcut
 lxterminal
 m4
-make
 makedev
 man-db
 manpages
@@ -2564,7 +2554,6 @@ python-launchpadlib
 python-lazr.restfulclient
 python-lazr.uri
 python-ldap
-python-libproxy
 python-lockfile
 python-louis
 python-lxml
@@ -2586,6 +2575,7 @@ python-openid
 python-openssl
 python-packagekit
 python-pam
+python-paramiko
 python-paste
 python-pastedeploy
 python-pastescript
@@ -2640,7 +2630,6 @@ python3-pkg-resources
 python3-setuptools
 qapt-batch
 qt-at-spi
-quota
 quotatool
 radeontool
 rar
@@ -2697,7 +2686,6 @@ squashfs-tools
 squid-langpack
 ssh-askpass-gnome
 ssh-import-id
-sshfs
 sshpass
 strace
 swh-plugins
@@ -2791,7 +2779,6 @@ virtuoso-opensource-6.1-common
 vlan
 vorbis-tools
 vpb-driver-source
-vsftpd
 w3m
 wakeonlan
 watershed
@@ -2837,7 +2824,6 @@ xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
 xfburn
-xfce4-notifyd
 xfce4-taskmanager
 xfce4-terminal
 xfce4-volumed
@@ -2988,7 +2974,6 @@ thunar
 thunar-data
 thunar-volman
 vbox-bypass-redhat-release
-xfce4-places-plugin
 # -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ precise
 unetbootin
 unetbootin-translations
@@ -3011,12 +2996,13 @@ nautilus-search
 nautilus-wallpaper-changer
 # -> http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/ precise
 mdm
-mint-mdm-themes
 pulseaudio-equalizer
 yad
 # -> http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu/ precise
 ambiance-colors-xfce-lxde
 radiance-colors-xfce-lxde
+# -> http://ppa.launchpad.net/thefrontiergroup/vsftpd/ubuntu/ precise
+vsftpd
 # -> http://ppa.launchpad.net/tiheum/equinox/ubuntu/ precise
 faenza-icon-theme
 faience-icon-theme
@@ -3052,15 +3038,16 @@ xfce-keyboard-shortcuts
 xfce4-appfinder
 xfce4-cpugraph-plugin
 xfce4-datetime-plugin
-xfce4-dev-tools
 xfce4-dict
 xfce4-indicator-plugin
 xfce4-mailwatch-plugin
 xfce4-netload-plugin
 xfce4-notes
 xfce4-notes-plugin
+xfce4-notifyd
 xfce4-panel
 xfce4-panel-dev
+xfce4-places-plugin
 xfce4-power-manager
 xfce4-power-manager-data
 xfce4-quicklauncher-plugin
@@ -3075,7 +3062,13 @@ xfconf
 xfdesktop4
 xfdesktop4-data
 xfwm4
-# -> http://ppa.launchpad.net/zentyal/2.3/ubuntu/ precise
+# -> http://ppa.launchpad.net/zentyal/3.0/ubuntu/ precise
+bind9
+bind9-host
+bind9utils
+d-push
+dnsutils
+duplicity
 iptables
 language-pack-zentyal-an
 language-pack-zentyal-ar
@@ -3116,12 +3109,18 @@ language-pack-zentyal-zh-tw
 language-packs-zentyal-all
 ldap-utils
 ldb-tools
+libbind9-80
 libdcerpc-server0
 libdcerpc0
+libdns81
 libgensec0
+libisc83
+libisccc80
+libisccfg82
 libldap-2.4-2
 libldap-2.4-2:i386
 libldb1
+liblwres80
 libndr-standard0
 libndr0
 libregistry0
