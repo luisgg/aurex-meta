@@ -182,7 +182,7 @@ Description: Ausias depinf extensions
 Package: ausias-fatcli-desktop
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
-Conflicts: ldm ldm-ubuntu-theme
+Conflicts: ldm, ldm-ubuntu-theme
 Recommends: ${germinate:Recommends}
 Description: Ausias desktop for LTSP Fat Clients
  This (meta)package depends on the packages for the LTSP Fat Client desktop
