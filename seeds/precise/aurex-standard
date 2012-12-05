@@ -42,3 +42,7 @@ Task-Metapackage: aurex-standard
 
 = file managers =
  * mc
+
+= CD/DVD tools ==
+ * cdrdao
+

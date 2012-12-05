@@ -7,6 +7,7 @@ at-spi2-core
 aurex-boot-theme
 aurex-cups-pdf
 aurex-default-settings
+aurex-desktop
 aurex-gtk-theme
 aurex-icon-theme
 aurex-keyring
@@ -14,7 +15,11 @@ aurex-mdm-theme
 aurex-plymouth-theme
 aurex-transmute
 aurex-transmute-gui
+aurex-xdg-user-dirs
 aurex-xfce-desktop
+ausias-cc-default-settings
+ausias-papercut-client
+ausias-printers-centro
 axel
 baobab
 bc
@@ -76,6 +81,8 @@ libsasl2-modules
 libsdl1.2debian
 libxp6
 lightdm
+ltsp-client
+ltspfsd
 lvm2
 mc
 mdadm
@@ -110,6 +117,7 @@ ubuntu-artwork
 ubuntu-extras-keyring
 ubuntu-restricted-extras
 ubuntu-sounds
+unattended-upgrades
 unity
 unity-2d
 unity-greeter

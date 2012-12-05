@@ -179,4 +179,16 @@ Description: Ausias depinf extensions
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
+Package: ausias-fatcli-desktop
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Conflicts: ldm ldm-ubuntu-theme
+Recommends: ${germinate:Recommends}
+Description: Ausias desktop for LTSP Fat Clients
+ This (meta)package depends on the packages for the LTSP Fat Client desktop
+ with extensions to access CIPFP Ausias March intranet services (auth, shares, printing).
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
 

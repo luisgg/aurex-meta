@@ -13,8 +13,10 @@ aurex-mods exclude-aurex-support
 aurex-daw aurex-daw
 ausias-netstation exclude-ausias-netstation
 ausias-printstation exclude-ausias-printstation
+aurex-fatcli exclude-aurex-fatcli
 ausias-classroom-student ausias-classroom-student
 ausias-classroom-teacher ausias-classroom-teacher
 ausias-desktop ausias-desktop
 aurex-desktop-depinf aurex-desktop-depinf
 ausias-desktop-depinf ausias-desktop-depinf
+ausias-fatcli-desktop ausias-fatcli-desktop

@@ -1,0 +1,16 @@
+Task-Metapackage: exclude-aurex-fatcli
+# 'exclude' prefix in metapackage name to avoid installation in update-lists script
+
+
+#aurex ltsp fat client
+#This seed provides addons to aurex desktop environment
+#for ltsp fat clients environment
+
+= LTSP packages =
+ * ltsp-client
+ * ltspfsd
+
+= aurex specific =
+ * aurex-xdg-user-dirs
+ * aurex-fatcli-mdm
+
