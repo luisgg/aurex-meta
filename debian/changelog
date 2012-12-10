@@ -1,3 +1,10 @@
+aurex-meta (1.267~aurex12.04.37) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added aurex-fatcli-settings to aurex-fatcli, ausias-fatcli-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 10 Dec 2012 12:34:49 +0100
+
 aurex-meta (1.267~aurex12.04.36) precise; urgency=low
 
   * Refreshed dependencies

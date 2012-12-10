@@ -13,4 +13,5 @@ Task-Metapackage: exclude-aurex-fatcli
 = aurex specific =
  * aurex-xdg-user-dirs
  * aurex-fatcli-mdm
+ * aurex-fatcli-settings
 
