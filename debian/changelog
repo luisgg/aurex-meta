@@ -1,3 +1,10 @@
+aurex-meta (1.267~aurex12.04.38) precise; urgency=low
+
+  * Refreshed dependencies
+  * Moved blueman to aurex-xfce-desktop-recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 10 Dec 2012 13:17:04 +0100
+
 aurex-meta (1.267~aurex12.04.37) precise; urgency=low
 
   * Refreshed dependencies

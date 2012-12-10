@@ -23,7 +23,7 @@ Task-Metapackage: aurex-xfce-desktop
  * xorg
  * xterm
  * zenity
- * blueman
+ * (blueman)
  * (acpi-support)
  * (aisleriot)
  * (alacarte)
