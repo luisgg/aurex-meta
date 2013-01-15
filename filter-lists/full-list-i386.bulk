@@ -2721,7 +2721,9 @@ thunar-data
 thunar-volman
 vbox-bypass-redhat-release
 xfce4-places-plugin
-# -> http://ppa.launchpad.net/achadwick/mypaint-testing/ubuntu/ lucid
+# -> http://ppa.launchpad.net/achadwick/mypaint-testing/ubuntu/ precise
+mypaint
+mypaint-data
 mypaint-data-hires
 # -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ precise
 unetbootin
