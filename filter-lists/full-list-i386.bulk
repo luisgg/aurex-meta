@@ -71,6 +71,8 @@ dovecot-ldap
 dovecot-managesieved
 dovecot-pop3d
 dovecot-sieve
+dpkg
+dpkg-dev
 ejabberd
 empathy
 empathy-common
@@ -286,6 +288,7 @@ libdebian-installer4
 libdecoration0
 libdevmapper-event1.02.1
 libdevmapper1.02.1
+libdpkg-perl
 libebackend-1.2-1
 libebook-1.2-12
 libecal-1.2-10
@@ -955,8 +958,6 @@ docbook-xml
 docbook-xsl
 dosfstools
 dovecot-antispam
-dpkg
-dpkg-dev
 dpkg-repack
 dvd+rw-tools
 e2fslibs
@@ -1385,7 +1386,6 @@ libdmapsharing-3.0-2
 libdmraid1.0.0.rc16
 libdmx1
 libdotconf1.0
-libdpkg-perl
 libdrm-intel1
 libdrm-nouveau1a
 libdrm-radeon1
@@ -2721,6 +2721,8 @@ thunar-data
 thunar-volman
 vbox-bypass-redhat-release
 xfce4-places-plugin
+# -> http://ppa.launchpad.net/achadwick/mypaint-testing/ubuntu/ lucid
+mypaint-data-hires
 # -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ precise
 unetbootin
 unetbootin-translations
