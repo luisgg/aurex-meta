@@ -85,6 +85,8 @@ Task-Metapackage: exclude-aurex-support
 
 = graphics =
  * (gnome-sushi)
+ * mypaint
+ * mypaint-data-hires
 # to enable globus, add
 # ppa:gloobus-dev/gloobus-preview
 # * (gloobus-preview)

@@ -1,3 +1,11 @@
+aurex-meta (1.267~aurex12.04.40) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added mypaint to aurex-supported
+  * Added mypaint-data-hires to aurex-supported
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 15 Jan 2013 21:09:58 +0100
+
 aurex-meta (1.267~aurex12.04.39) precise; urgency=low
 
   * Refreshed dependencies

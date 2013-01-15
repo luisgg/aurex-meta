@@ -1,0 +1,4 @@
+# mypaint development master branch
+deb http://ppa.launchpad.net/achadwick/mypaint-testing/ubuntu lucid main 
+deb-src http://ppa.launchpad.net/achadwick/mypaint-testing/ubuntu lucid main 
+

@@ -1,5 +1,7 @@
 # -> ftp://mirror.ovh.net/mirrors/ftp.ubuntu.com/ubuntu/ precise-updates
 accountsservice
+activity-log-manager-common
+activity-log-manager-control-center
 amavisd-new
 apache2
 apache2-mpm-prefork
@@ -8,6 +10,8 @@ apache2-utils
 apache2.2-bin
 apache2.2-common
 apparmor
+appmenu-gtk
+appmenu-gtk3
 apport
 apport-gtk
 apport-symptoms
@@ -21,8 +25,13 @@ at-spi2-core
 bamfdaemon
 base-files
 blueman
+brasero
+brasero-cdrkit
+brasero-common
 bridge-utils
 build-essential
+busybox-initramfs
+busybox-static
 cgroup-lite
 cheese
 cheese-common
@@ -62,6 +71,7 @@ dovecot-ldap
 dovecot-managesieved
 dovecot-pop3d
 dovecot-sieve
+ejabberd
 empathy
 empathy-common
 eog
@@ -89,6 +99,7 @@ freeradius
 freeradius-common
 freeradius-ldap
 freeradius-utils
+freerdp-x11
 gcalctool
 gdb
 ghostscript
@@ -171,10 +182,15 @@ icedtea-6-jre-cacao
 icedtea-6-jre-jamvm
 icedtea-netx
 icedtea-netx-common
+im-switch
 imagemagick
 imagemagick-common
+indicator-messages
+indicator-messages-gtk2
 indicator-sound
 indicator-sound-gtk2
+indicator-status-provider-mc5
+indicator-status-provider-pidgin
 initscripts
 isc-dhcp-client
 isc-dhcp-common
@@ -191,8 +207,6 @@ kde-window-manager-common
 kdelibs-bin
 kdelibs5-data
 kdelibs5-plugins
-kdepim-runtime
-kdepimlibs-kio-plugins
 kdoctools
 krb5-locales
 landscape-client-ui-install
@@ -221,15 +235,9 @@ language-pack-gnome-it-base
 language-pack-it
 language-pack-it-base
 launchpad-integration
+ldm
 ldm-server
 libaccountsservice0
-libakonadi-calendar4
-libakonadi-contact4
-libakonadi-kabc4
-libakonadi-kcal4
-libakonadi-kde4
-libakonadi-kmime4
-libakonadi-notes4
 libapache2-mod-php5
 libapparmor1
 libapt-inst1.4
@@ -252,6 +260,7 @@ libbonobo2-0
 libbonobo2-common
 libbonoboui2-0
 libbonoboui2-common
+libbrasero-media3-1
 libc-bin
 libc-dev-bin
 libc6
@@ -318,6 +327,9 @@ libframe6
 libfreeradius2
 libfreerdp-plugins-standard
 libfreerdp1
+libfreetype6
+libfreetype6-dev
+libfreetype6:i386
 libgail-3-0
 libgc1c2
 libgcrypt11
@@ -377,6 +389,7 @@ libgutenprint2
 libgwibber-gtk2
 libgwibber2
 libhpmud0
+libindicator-messages-status-provider1
 libjavascriptcoregtk-1.0-0
 libjavascriptcoregtk-3.0-0
 libjpeg-turbo-progs
@@ -386,14 +399,9 @@ libjpeg-turbo8:i386
 libjs-sphinxdoc
 libk5crypto3
 libk5crypto3:i386
-libkabc4
 libkactivities-bin
 libkactivities6
-libkalarmcal2
 libkatepartinterfaces4
-libkcal4
-libkcalcore4
-libkcalutils4
 libkcmutils4
 libkde3support4
 libkdeclarative5
@@ -406,32 +414,21 @@ libkdnssd4
 libkemoticons4
 libkephal4abi1
 libkfile4
-libkholidays4
 libkhtml5
 libkidletime4
-libkimap4
 libkio5
 libkjsapi4
 libkjsembed4
-libkldap4
-libkmbox4
 libkmediaplayer4
-libkmime4
-libknewstuff2-4
 libknewstuff3-4
 libknotifyconfig4
 libkntlm4
 libkparts4
-libkpimidentities4
-libkpimtextedit4
-libkpimutils4
-libkprintutils4
 libkpty4
 libkrb5-3
 libkrb5-3:i386
 libkrb5support0
 libkrb5support0:i386
-libkresources4
 libkrosscore4
 libktexteditor4
 libkwineffects1abi3
@@ -447,8 +444,6 @@ libmagick++4
 libmagickcore4
 libmagickcore4-extra
 libmagickwand4
-libmailtransport4
-libmicroblog4
 libmission-control-plugins0
 libmtp-common
 libmtp-runtime
@@ -475,6 +470,8 @@ libnux-2.0-0
 libnux-2.0-common
 liborbit2
 libotr2
+liboverlay-scrollbar-0.2-0
+liboverlay-scrollbar3-0.2-0
 libpam-smbpass
 libpam-winbind
 libpanel-applet-4-0
@@ -487,6 +484,8 @@ libplasma3
 libpolkit-agent-1-0
 libpolkit-backend-1-0
 libpolkit-gobject-1-0
+libpoppler-glib8
+libpoppler19
 libpostproc52
 libpq5
 libproxy1
@@ -579,6 +578,7 @@ libsasl2-2
 libsasl2-2:i386
 libsasl2-modules
 libsasl2-modules:i386
+libservlet2.5-java
 libsmbclient
 libsmbclient-dev
 libsnmp-base
@@ -586,6 +586,7 @@ libsnmp15
 libsolid4
 libsqlite3-0
 libsqlite3-0:i386
+libssh-4
 libssl-dev
 libssl-doc
 libssl0.9.8:i386
@@ -611,6 +612,7 @@ libv4l-0
 libv4l-0:i386
 libv4lconvert0
 libv4lconvert0:i386
+libvdpau1
 libvirt-bin
 libvirt0
 libvlc5
@@ -649,22 +651,26 @@ libzeitgeist-1.0-1
 light-themes
 lightdm
 linux-firmware
-linux-headers-3.2.0-33
-linux-headers-3.2.0-33-generic
+linux-headers-3.2.0-35
+linux-headers-3.2.0-35-generic
 linux-headers-generic
 linux-image
-linux-image-3.2.0-33-generic
+linux-image-3.2.0-35-generic
 linux-image-generic
 linux-libc-dev
 login
 lsb-base
 lsb-release
+ltsp-client
+ltsp-client-core
 ltsp-server
 lvm2
 mahjongg
 make
+man-db
 mdadm
 mktemp
+mountall
 multiarch-support
 mysql-client-5.5
 mysql-client-core-5.5
@@ -692,6 +698,7 @@ openjdk-6-jre
 openjdk-6-jre-headless
 openjdk-6-jre-lib
 openssl
+overlay-scrollbar
 oxygen-icon-theme
 parted
 passwd
@@ -716,6 +723,7 @@ pidgin-otr
 plasma-scriptengine-javascript
 policykit-1
 policykit-1-gnome
+poppler-utils
 postfix
 postfix-ldap
 postfix-pcre
@@ -726,6 +734,7 @@ printer-driver-postscript-hp
 printer-driver-ptouch
 psmisc
 pulseaudio
+pulseaudio-esound-compat
 pulseaudio-module-bluetooth
 pulseaudio-module-gconf
 pulseaudio-module-x11
@@ -746,7 +755,7 @@ python-glance
 python-gobject
 python-greenlet
 python-gst0.10
-python-kde4
+python-keyring
 python-libproxy
 python-libvirt
 python-libxml2
@@ -794,7 +803,9 @@ samba-dbg
 samba-doc
 samba-doc-pdf
 samba-tools
+sbsigntool
 seabios
+seahorse
 sessioninstaller
 shared-mime-info
 shotwell
@@ -840,7 +851,9 @@ ubuntuone-client-gnome
 ubuntuone-control-panel
 ubuntuone-installer
 udev
+udhcpc
 udisks
+unattended-upgrades
 unity
 unity-2d
 unity-2d-common
@@ -908,14 +921,10 @@ acl
 acpi
 acpi-support
 acpid
-activity-log-manager-common
-activity-log-manager-control-center
 adduser
 adium-theme-ubuntu
 adzapper
 aisleriot
-akonadi-backend-mysql
-akonadi-server
 alacarte
 alien
 alsa-base
@@ -924,8 +933,6 @@ anacron
 apg
 app-install-data
 app-install-data-partner
-appmenu-gtk
-appmenu-gtk3
 appmenu-qt
 apt-xapian-index
 apturl
@@ -966,22 +973,18 @@ bluez-alsa:i386
 bluez-cups
 bluez-gstreamer
 branding-ubuntu
-brasero
-brasero-cdrkit
-brasero-common
 brltty
 brltty-x11
 bsdmainutils
 bsdutils
 btrfs-tools
-busybox-initramfs
-busybox-static
 bzip2
 ca-certificates
 ca-certificates-java
 cabextract
 catdoc
 catfish
+cdrdao
 checkbox
 checkbox-qt
 chrpath
@@ -1041,7 +1044,6 @@ e2fsprogs
 ebtables
 ecryptfs-utils
 ed
-ejabberd
 eject
 enchant
 erlang-asn1
@@ -1230,7 +1232,6 @@ ibus-pinyin-db-open-phrase
 ibus-table
 icoutils
 ifupdown
-im-switch
 imageshack-uploader
 imageshack-uploader-common
 indicator-applet
@@ -1238,13 +1239,9 @@ indicator-application
 indicator-application-gtk2
 indicator-appmenu
 indicator-datetime
-indicator-messages
-indicator-messages-gtk2
 indicator-power
 indicator-printers
 indicator-session
-indicator-status-provider-mc5
-indicator-status-provider-pidgin
 info
 initramfs-tools
 initramfs-tools-bin
@@ -1265,6 +1262,8 @@ iw
 java-common
 javascript-common
 jfsutils
+john
+john-data
 kbd
 kerneloops-daemon
 keyboard-configuration
@@ -1298,7 +1297,6 @@ libacl1
 libacl1:i386
 libaio1
 libaio1:i386
-libakonadiprotocolinternals1
 libalgorithm-c3-perl
 libalgorithm-diff-perl
 libalgorithm-diff-xs-perl
@@ -1370,10 +1368,8 @@ libblkid1
 libbluetooth3
 libbluray1
 libboost-filesystem1.46.1
-libboost-program-options1.46.1
 libboost-serialization1.46.1
 libboost-system1.46.1
-libbrasero-media3-1
 libbrlapi0.5
 libbsd-resource-perl
 libbsd0
@@ -1507,7 +1503,6 @@ libdjvulibre21
 libdlrestrictions1
 libdmapsharing-3.0-2
 libdmraid1.0.0.rc16
-libdmtx0a
 libdmx1
 libdotconf1.0
 libdpkg-perl
@@ -1573,9 +1568,6 @@ libfolks-telepathy25
 libfolks25
 libfont-afm-perl
 libfontenc1
-libfreetype6
-libfreetype6-dev
-libfreetype6:i386
 libfribidi0
 libfs6
 libfuse2
@@ -1741,7 +1733,6 @@ libimlib2
 libimobiledevice2
 libindicate-gtk3
 libindicate5
-libindicator-messages-status-provider1
 libindicator3-7
 libindicator7
 libintl-perl
@@ -1932,8 +1923,6 @@ liborc-0.4-0:i386
 libossp-uuid-perl
 libossp-uuid16
 libotp0-heimdal
-liboverlay-scrollbar-0.2-0
-liboverlay-scrollbar3-0.2-0
 libp11-kit0
 libp11-kit0:i386
 libpackage-deprecationmanager-perl
@@ -1988,12 +1977,10 @@ libpng12-0
 libpng12-0:i386
 libpng12-dev
 libpolkit-qt-1-1
-libpoppler-glib8
-libpoppler19
 libpopt0
 libportaudio2
 libprelude2
-libprison0
+libproc-daemon-perl
 libproc-processtable-perl
 libproc-simple-perl
 libprotobuf7
@@ -2004,7 +1991,6 @@ libpthread-stubs0-dev
 libqapt-runtime
 libqapt1
 libqca2
-libqrencode3
 libqtassistantclient4
 libqtdee2
 libqtgconf1
@@ -2069,7 +2055,6 @@ libsdl1.2debian:i386
 libselinux1
 libselinux1:i386
 libsensors4
-libservlet2.5-java
 libsexy2
 libsgutils2-2
 libshout3
@@ -2113,7 +2098,7 @@ libspeexdsp1:i386
 libsqlite0
 libsrtp0
 libss2
-libssh-4
+libssh2-1
 libstartup-notification0
 libstartup-notification0-dev
 libstdc++5:i386
@@ -2130,6 +2115,7 @@ libswitch-perl
 libsybdb5
 libsys-cpu-perl
 libsys-cpuload-perl
+libsys-filesystem-perl
 libsys-hostname-long-perl
 libsysfs2
 libt1-5
@@ -2199,7 +2185,6 @@ libuuid1:i386
 libva-x11-1
 libva1
 libvcdinfo0
-libvdpau1
 libvirtodbc0
 libvisual-0.4-0
 libvisual-0.4-0:i386
@@ -2356,6 +2341,8 @@ lshw
 lsof
 ltrace
 ltspfs
+ltspfsd
+ltspfsd-core
 lxappearance
 lxde
 lxde-common
@@ -2373,12 +2360,9 @@ lxshortcut
 lxterminal
 m4
 makedev
-man-db
 manpages
 manpages-dev
 mawk
-mc
-mc-data
 media-player-info
 memtest86+
 mencoder
@@ -2396,7 +2380,6 @@ modemmanager
 module-assistant
 module-init-tools
 mount
-mountall
 mousetweaks
 mpack
 mplayer
@@ -2408,6 +2391,7 @@ musepack-tools
 nano
 nautilus-sendto
 nautilus-share
+nbd-client
 nbd-server
 ncftp
 ncurses-base
@@ -2430,9 +2414,11 @@ nrg2iso
 nspluginviewer:i386
 nspluginwrapper
 ntrack-module-libnl-0
+numlockx
 obconf
 obex-data-server
 obexd-client
+ocsinventory-agent
 odbcinst
 odbcinst1debian2
 odbcinst1debian2:i386
@@ -2447,7 +2433,6 @@ openswan
 openvpn
 os-prober
 oss-compat
-overlay-scrollbar
 p7zip
 p7zip-full
 p7zip-rar
@@ -2485,7 +2470,6 @@ pm-utils
 po-debconf
 policykit-desktop-privileges
 polkit-kde-1
-poppler-utils
 popularity-contest
 postgrey
 powermgmt-base
@@ -2548,7 +2532,6 @@ python-httplib2
 python-ibus
 python-imaging
 python-iso8601
-python-keyring
 python-kombu
 python-launchpadlib
 python-lazr.restfulclient
@@ -2659,7 +2642,6 @@ screen
 screensaver-default-images
 scrollkeeper
 scrot
-seahorse
 seahorse-daemon
 seahorse-nautilus
 sed
@@ -2706,6 +2688,7 @@ telepathy-indicator
 telepathy-logger
 telepathy-salut
 telnet
+tftp-hpa
 tftpd-hpa
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -2726,6 +2709,7 @@ ttf-indic-fonts-core
 ttf-mscorefonts-installer
 ttf-punjabi-fonts
 ttf-sil-gentium-basic
+ttf-thai-tlwg
 ttf-ubuntu-font-family
 ttf-umefont
 ttf-unfonts-core
@@ -2751,7 +2735,6 @@ ucf
 ufw
 uif2iso
 unace
-unattended-upgrades
 unity-asset-pool
 unity-lens-files
 unixodbc
@@ -2826,6 +2809,7 @@ xdg-utils
 xfburn
 xfce4-taskmanager
 xfce4-terminal
+xfce4-utils
 xfce4-volumed
 xfonts-base
 xfonts-encodings
@@ -2890,7 +2874,7 @@ acroread-common
 adobe-flash-properties-gtk
 adobe-flashplugin
 adobereader-jpn
-# -> http://archive.zentyal.org/zentyal/ 2.3
+# -> http://archive.zentyal.org/zentyal/ 3.0
 libkyotocabinet16
 libvmime0
 php5-mapi
@@ -2927,9 +2911,13 @@ aurex-cc-mount
 aurex-ctrl-alt-del
 aurex-cups-pdf
 aurex-daw
+aurex-default-associations
 aurex-default-settings
 aurex-desktop
 aurex-desktop-depinf
+aurex-fatcli-associations
+aurex-fatcli-mdm
+aurex-fatcli-settings
 aurex-fs-utils
 aurex-gtk-theme
 aurex-icon-theme
@@ -2953,6 +2941,7 @@ aurex-ubiquity-theme
 aurex-ubiquity-transmute
 aurex-update-manager
 aurex-wallpaper-theme
+aurex-xdg-user-dirs
 aurex-xfce-desktop
 ausias-cc-default-settings
 ausias-classroom-student
@@ -2974,6 +2963,7 @@ thunar
 thunar-data
 thunar-volman
 vbox-bypass-redhat-release
+xfce4-places-plugin
 # -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ precise
 unetbootin
 unetbootin-translations
@@ -2995,6 +2985,8 @@ nautilus-renamer
 nautilus-search
 nautilus-wallpaper-changer
 # -> http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu/ precise
+mc
+mc-data
 mdm
 pulseaudio-equalizer
 yad
@@ -3047,7 +3039,6 @@ xfce4-notes-plugin
 xfce4-notifyd
 xfce4-panel
 xfce4-panel-dev
-xfce4-places-plugin
 xfce4-power-manager
 xfce4-power-manager-data
 xfce4-quicklauncher-plugin
@@ -3179,6 +3170,7 @@ zentyal-openvpn
 zentyal-pptp
 zentyal-printers
 zentyal-radius
+zentyal-remoteservices
 zentyal-samba
 zentyal-services
 zentyal-software
