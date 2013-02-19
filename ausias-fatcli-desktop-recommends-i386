@@ -6,6 +6,7 @@ apport-gtk
 aurex-screenshot-settings
 avahi-autoipd
 avahi-daemon
+bluegriffon
 bluez
 bluez-alsa
 bluez-cups
@@ -143,6 +144,7 @@ shotwell
 shutter
 simple-scan
 sni-qt
+sozi
 speech-dispatcher
 synaptic
 telepathy-idle

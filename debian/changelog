@@ -1,3 +1,21 @@
+aurex-meta (1.267~aurex12.04.42) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added bluegriffon to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, ausias-desktop-recommends, ausias-fatcli-desktop-
+    recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 19 Feb 2013 16:05:57 +0100
+
+aurex-meta (1.267~aurex12.04.41) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added sozi to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, ausias-desktop-recommends, ausias-fatcli-desktop-
+    recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Tue, 19 Feb 2013 14:13:15 +0100
+
 aurex-meta (1.267~aurex12.04.40) precise; urgency=low
 
   * Refreshed dependencies

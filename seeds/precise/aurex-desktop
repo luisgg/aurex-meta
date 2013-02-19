@@ -136,6 +136,9 @@ Task-Metapackage: aurex-desktop
  * (xul-ext-ubufox)
  * (filezilla)
 
+= development =
+ * (bluegriffon)
+
 = fonts =
  * (fonts-kacst-one)
  * (fonts-khmeros-core)
