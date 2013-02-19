@@ -33,6 +33,8 @@ build-essential
 busybox-initramfs
 busybox-static
 cgroup-lite
+checkbox
+checkbox-qt
 cheese
 cheese-common
 chromium-browser
@@ -60,8 +62,10 @@ dbus-x11
 dconf-gsettings-backend
 dconf-service
 debootstrap
+deja-dup
 desktop-file-utils
 dh-apparmor
+dkms
 dmsetup
 dovecot-common
 dovecot-core
@@ -73,6 +77,7 @@ dovecot-pop3d
 dovecot-sieve
 dpkg
 dpkg-dev
+ecryptfs-utils
 ejabberd
 empathy
 empathy-common
@@ -153,11 +158,15 @@ grub-pc
 grub-pc-bin
 grub2-common
 gstreamer0.10-alsa
+gstreamer0.10-gconf
 gstreamer0.10-gnomevfs
 gstreamer0.10-plugins-bad
 gstreamer0.10-plugins-base
 gstreamer0.10-plugins-base-apps
 gstreamer0.10-plugins-base:i386
+gstreamer0.10-plugins-good
+gstreamer0.10-plugins-good:i386
+gstreamer0.10-pulseaudio
 gstreamer0.10-x
 gstreamer0.10-x:i386
 gtk2-engines-oxygen:i386
@@ -193,7 +202,10 @@ indicator-sound
 indicator-sound-gtk2
 indicator-status-provider-mc5
 indicator-status-provider-pidgin
+initramfs-tools
+initramfs-tools-bin
 initscripts
+inkscape
 isc-dhcp-client
 isc-dhcp-common
 isc-dhcp-server
@@ -236,6 +248,8 @@ language-pack-gnome-it
 language-pack-gnome-it-base
 language-pack-it
 language-pack-it-base
+language-selector-common
+language-selector-gnome
 launchpad-integration
 ldm
 ldm-server
@@ -305,9 +319,18 @@ libdecoration0
 libdevmapper-event1.02.1
 libdevmapper1.02.1
 libdpkg-perl
+libdrm-intel1
+libdrm-intel1:i386
+libdrm-nouveau1a
+libdrm-nouveau1a:i386
+libdrm-radeon1
+libdrm-radeon1:i386
+libdrm2
+libdrm2:i386
 libebackend-1.2-1
 libebook-1.2-12
 libecal-1.2-10
+libecryptfs0
 libedata-book-1.2-11
 libedata-cal-1.2-13
 libedataserver-1.2-15
@@ -459,6 +482,8 @@ libnepomukdatamanagement4
 libnepomukquery4a
 libnepomuksync4
 libnepomukutils4
+libnih-dbus1
+libnih1
 libnm-glib-vpn1
 libnm-glib4
 libnm-util2
@@ -482,8 +507,11 @@ libpango1.0-0
 libpango1.0-0:i386
 libpango1.0-dev
 libparted0debian1
+libpciaccess0
+libpciaccess0:i386
 libperl5.14
 libplasma3
+libplymouth2
 libpolkit-agent-1-0
 libpolkit-backend-1-0
 libpolkit-gobject-1-0
@@ -576,6 +604,10 @@ libreoffice-style-oxygen
 libreoffice-style-tango
 libreoffice-writer
 librhythmbox-core5
+librpm2
+librpmbuild2
+librpmio2
+librpmsign0
 libsane-hpaio
 libsasl2-2
 libsasl2-2:i386
@@ -599,6 +631,7 @@ libswscale2
 libsyncdaemon-1.0-1
 libtasn1-3
 libtasn1-3:i386
+libtelepathy-glib0
 libthreadweaver4
 libtiff4
 libtiff4:i386
@@ -610,6 +643,7 @@ libudev0:i386
 libunity-2d-private0
 libunity-core-5.0-5
 libunity9
+libupnp3
 libupsclient1
 libv4l-0
 libv4l-0:i386
@@ -653,13 +687,10 @@ libxslt1.1:i386
 libzeitgeist-1.0-1
 light-themes
 lightdm
-linux-firmware
-linux-headers-3.2.0-35
-linux-headers-3.2.0-35-generic
+linux-headers-3.2.0-38
+linux-headers-3.2.0-38-generic
+linux-headers-3.2.0-38-lowlatency
 linux-headers-generic
-linux-image
-linux-image-3.2.0-35-generic
-linux-image-generic
 linux-libc-dev
 login
 lsb-base
@@ -724,6 +755,12 @@ pidgin
 pidgin-data
 pidgin-otr
 plasma-scriptengine-javascript
+plymouth
+plymouth-label
+plymouth-theme-script
+plymouth-theme-text
+plymouth-theme-ubuntu-logo
+plymouth-theme-ubuntu-text
 policykit-1
 policykit-1-gnome
 poppler-utils
@@ -799,6 +836,9 @@ rhythmbox-plugin-magnatune
 rhythmbox-plugin-zeitgeist
 rhythmbox-plugins
 rpcbind
+rpm
+rpm-common
+rpm2cpio
 samba
 samba-common
 samba-common-bin
@@ -843,12 +883,16 @@ ttf-liberation
 tzdata
 tzdata-java
 ubiquity
+ubiquity-casper
 ubiquity-frontend-kde
 ubiquity-ubuntu-artwork
+ubuntu-desktop
 ubuntu-docs
 ubuntu-keyring
+ubuntu-minimal
 ubuntu-sso-client
 ubuntu-sso-client-gtk
+ubuntu-standard
 ubuntuone-client
 ubuntuone-client-gnome
 ubuntuone-control-panel
@@ -899,18 +943,25 @@ wine1.4-amd64
 wine1.4-common
 wine1.4-i386:i386
 wpasupplicant
+x11-common
 x11-utils
+x11proto-randr-dev
 xdiagnose
 xkb-data
 xnest
+xorg
 xserver-common
 xserver-xephyr
+xserver-xorg
 xserver-xorg-core
+xserver-xorg-input-all
 xserver-xorg-input-evdev
 xserver-xorg-input-synaptics
 xserver-xorg-input-vmmouse
 xserver-xorg-input-wacom
+xserver-xorg-video-all
 xserver-xorg-video-intel
+xserver-xorg-video-qxl
 xserver-xorg-video-vmware
 xsltproc
 xterm
@@ -952,7 +1003,6 @@ asterisk-modules
 asterisk-moh-opsound-gsm
 asterisk-voicemail
 at
-attr
 auth-client-config
 autoconf
 automake
@@ -988,8 +1038,6 @@ cabextract
 catdoc
 catfish
 cdrdao
-checkbox
-checkbox-qt
 chrpath
 cifs-utils
 cmap-adobe-japan1
@@ -1006,7 +1054,6 @@ cpio
 cpp
 cpp-4.6
 cpu-checker
-crda
 cryptsetup
 cryptsetup-bin
 cups-pdf
@@ -1015,6 +1062,7 @@ curl:i386
 daa2iso
 dansguardian
 dash
+davfs2
 dbconfig-common
 dc
 ddclient
@@ -1025,10 +1073,8 @@ debhelper
 debianutils
 default-jre
 default-jre-headless
-deja-dup
 dictionaries-common
 diffutils
-dkms
 dmidecode
 dmraid
 dmz-cursor-theme
@@ -1043,7 +1089,6 @@ dvd+rw-tools
 e2fslibs
 e2fsprogs
 ebtables
-ecryptfs-utils
 ed
 eject
 enchant
@@ -1197,13 +1242,9 @@ gsfonts
 gsfonts-x11
 gstreamer0.10-ffmpeg
 gstreamer0.10-fluendo-mp3
-gstreamer0.10-gconf
 gstreamer0.10-nice
 gstreamer0.10-plugins-bad-multiverse
-gstreamer0.10-plugins-good
-gstreamer0.10-plugins-good:i386
 gstreamer0.10-plugins-ugly
-gstreamer0.10-pulseaudio
 gstreamer0.10-tools
 gtk2-engines
 gtk2-engines-murrine
@@ -1244,9 +1285,6 @@ indicator-power
 indicator-printers
 indicator-session
 info
-initramfs-tools
-initramfs-tools-bin
-inkscape
 inputattach
 insserv
 install-info
@@ -1259,7 +1297,6 @@ iputils-ping
 iputils-tracepath
 irqbalance
 iso-codes
-iw
 java-common
 javascript-common
 jfsutils
@@ -1279,8 +1316,6 @@ l7-filter-userspace
 l7-protocols
 ladspa-sdk
 lame
-language-selector-common
-language-selector-gnome
 laptop-detect
 ldap-auth-client
 ldap-auth-config
@@ -1412,6 +1447,7 @@ libcelt0-0
 libcfg4
 libchart-perl
 libck-connector0
+libclamav-client-perl
 libclass-accessor-perl
 libclass-c3-perl
 libclass-c3-xs-perl
@@ -1502,18 +1538,11 @@ libdiscid0
 libdjvulibre-text
 libdjvulibre21
 libdlrestrictions1
+libdm0
 libdmapsharing-3.0-2
 libdmraid1.0.0.rc16
 libdmx1
 libdotconf1.0
-libdrm-intel1
-libdrm-intel1:i386
-libdrm-nouveau1a
-libdrm-nouveau1a:i386
-libdrm-radeon1
-libdrm-radeon1:i386
-libdrm2
-libdrm2:i386
 libdumbnet1
 libdv4
 libdv4:i386
@@ -1521,7 +1550,6 @@ libdvbpsi7
 libdvdnav4
 libdvdread4
 libebml3
-libecryptfs0
 libedit2
 libelf1
 libenca0
@@ -1865,6 +1893,7 @@ libnet-dropbox-api-perl
 libnet-http-perl
 libnet-ip-perl
 libnet-ldap-perl
+libnet-ntp-perl
 libnet-oauth-perl
 libnet-pcap-perl
 libnet-rblclient-perl
@@ -1880,8 +1909,6 @@ libnewt0.52
 libnfnetlink0
 libnfsidmap2
 libnice10
-libnih-dbus1
-libnih1
 libnl-3-200
 libnl-genl-3-200
 libnl-route-3-200
@@ -1953,8 +1980,6 @@ libpath-class-perl
 libpathplan4
 libpcap0.8
 libpci3
-libpciaccess0
-libpciaccess0:i386
 libpcre3
 libpcre3-dev
 libpcre3:i386
@@ -1972,7 +1997,6 @@ libpkcs11-helper1
 libplist1
 libpload4
 libplrpc-perl
-libplymouth2
 libpng12-0
 libpng12-0:i386
 libpng12-dev
@@ -2021,10 +2045,6 @@ libresid-builder0c2a
 librest-0.7-0
 libroken18-heimdal
 libroken18-heimdal:i386
-librpm2
-librpmbuild2
-librpmio2
-librpmsign0
 librrd4
 librrds-perl
 librsvg2-2
@@ -2127,8 +2147,10 @@ libtagc0
 libtalloc2
 libtar0
 libtask-weaken-perl
+libtdb-dev
+libtdb1
+libtdb1:i386
 libtelepathy-farstream2
-libtelepathy-glib0
 libtelepathy-logger2
 libterm-readkey-perl
 libterm-readline-gnu-perl
@@ -2169,7 +2191,6 @@ libunistring0
 libunistring0:i386
 libunity-misc4
 libunix-syslog-perl
-libupnp3
 libupower-glib1
 liburi-encode-perl
 liburi-perl
@@ -2460,12 +2481,6 @@ pidgin-libnotify
 pidgin-microblog
 pinyin-database
 pkg-config
-plymouth
-plymouth-label
-plymouth-theme-script
-plymouth-theme-text
-plymouth-theme-ubuntu-logo
-plymouth-theme-ubuntu-text
 pm-utils
 po-debconf
 policykit-desktop-privileges
@@ -2586,7 +2601,6 @@ python-speechd
 python-stompy
 python-suds
 python-support
-python-talloc
 python-tempita
 python-twisted-bin
 python-twisted-core
@@ -2630,9 +2644,6 @@ roundcube
 roundcube-core
 roundcube-mysql
 roundcube-plugins
-rpm
-rpm-common
-rpm2cpio
 rrdtool
 rsync
 rsyslog
@@ -2682,6 +2693,7 @@ tar
 tcl8.5
 tcpd
 tcpdump
+tdb-tools
 telepathy-haze
 telepathy-idle
 telepathy-indicator
@@ -2717,16 +2729,12 @@ ttf-wqy-microhei
 tumbler
 tumbler-common
 twolame
-ubiquity-casper
 ubuntu-artwork
-ubuntu-desktop
 ubuntu-extras-keyring
-ubuntu-minimal
 ubuntu-mono
 ubuntu-restricted-addons
 ubuntu-restricted-extras
 ubuntu-sounds
-ubuntu-standard
 ubuntu-system-service
 ubuntu-wallpapers
 ubuntu-wallpapers-precise
@@ -2772,7 +2780,6 @@ whoopsie
 wine-gecko1.4
 wine-gecko1.4:i386
 winetricks
-wireless-regdb
 wireless-tools
 wireshark
 wireshark-common
@@ -2780,7 +2787,6 @@ wmctrl
 wodim
 wwwconfig-common
 x11-apps
-x11-common
 x11-session-utils
 x11-xfs-utils
 x11-xkb-utils
@@ -2791,7 +2797,6 @@ x11proto-damage-dev
 x11proto-fixes-dev
 x11proto-input-dev
 x11proto-kb-dev
-x11proto-randr-dev
 x11proto-render-dev
 x11proto-xext-dev
 x11proto-xinerama-dev
@@ -2816,6 +2821,7 @@ xfonts-encodings
 xfonts-mathml
 xfonts-scalable
 xfonts-utils
+xfsdump
 xfsprogs
 xinit
 xinput
@@ -2825,7 +2831,6 @@ xmms2-plugin-alsa
 xmms2-plugin-id3v2
 xmms2-plugin-mad
 xmms2-plugin-vorbis
-xorg
 xorg-docs-core
 xorg-sgml-doctools
 xsane
@@ -2835,10 +2840,7 @@ xscreensaver-data
 xscreensaver-data-extra
 xscreensaver-gl
 xscreensaver-gl-extra
-xserver-xorg
-xserver-xorg-input-all
 xserver-xorg-input-mouse
-xserver-xorg-video-all
 xserver-xorg-video-ati
 xserver-xorg-video-cirrus
 xserver-xorg-video-fbdev
@@ -2847,7 +2849,6 @@ xserver-xorg-video-mga
 xserver-xorg-video-neomagic
 xserver-xorg-video-nouveau
 xserver-xorg-video-openchrome
-xserver-xorg-video-qxl
 xserver-xorg-video-r128
 xserver-xorg-video-radeon
 xserver-xorg-video-s3
@@ -2901,7 +2902,6 @@ virtualbox-4.1
 virtualbox-4.2
 # -> http://linux.dropbox.com/ubuntu/ precise
 dropbox
-nautilus-dropbox
 # -> http://localhost/aurex/ precise
 aurex-asir
 aurex-atspi-fix
@@ -2951,6 +2951,7 @@ ausias-desktop-depinf
 ausias-papercut-client
 ausias-printers-centro
 ausias-printers-depinf
+bluegriffon
 clearlooks-phenix-theme
 germinate
 italc2-client
@@ -2997,6 +2998,8 @@ yad
 # -> http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu/ precise
 ambiance-colors-xfce-lxde
 radiance-colors-xfce-lxde
+# -> http://ppa.launchpad.net/sunab/sozi-release/ubuntu/ precise
+sozi
 # -> http://ppa.launchpad.net/thefrontiergroup/vsftpd/ubuntu/ precise
 vsftpd
 # -> http://ppa.launchpad.net/tiheum/equinox/ubuntu/ precise
@@ -3103,41 +3106,18 @@ language-pack-zentyal-zh-cn
 language-pack-zentyal-zh-tw
 language-packs-zentyal-all
 ldap-utils
-ldb-tools
+libauthen-krb5-easy-perl
 libbind9-80
-libdcerpc-server0
-libdcerpc0
 libdns81
-libgensec0
 libisc83
 libisccc80
 libisccfg82
 libldap-2.4-2
 libldap-2.4-2:i386
-libldb1
 liblwres80
-libndr-standard0
-libndr0
-libregistry0
-libsamba-credentials0
-libsamba-hostconfig0
-libsamba-policy0
-libsamba-util0
-libsamdb0
-libsmbclient-raw0
-libtdb-dev
-libtdb1
-libtdb1:i386
-libtevent0
-python-ldb
-python-samba
-python-tdb
-samba-dsdb-modules
 samba4
-samba4-common-bin
 slapd
 slapd-smbk5pwd
-tdb-tools
 zbwmonitor
 zenbuntu-desktop
 zentyal
