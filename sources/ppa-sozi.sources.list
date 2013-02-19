@@ -1,0 +1,4 @@
+# Sozi animated presentations inkscape extension
+deb http://ppa.launchpad.net/sunab/sozi-release/ubuntu precise main 
+deb-src http://ppa.launchpad.net/sunab/sozi-release/ubuntu precise main 
+
