@@ -1,3 +1,12 @@
+aurex-meta (1.267~aurex12.04.43) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added nautilus-pdftools to aurex-desktop-depinf-recommends, aurex-
+    desktop-recommends, ausias-desktop-recommends, ausias-fatcli-
+    desktop-recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Wed, 20 Feb 2013 18:14:26 +0100
+
 aurex-meta (1.267~aurex12.04.42) precise; urgency=low
 
   * Refreshed dependencies

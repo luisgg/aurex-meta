@@ -168,5 +168,6 @@ Task-Metapackage: aurex-desktop
  * (nautilus-wallpaper-changer)
  * (nautilus-renamer)
  * (nautilus-search)
+ * (nautilus-pdftools)
  # for dropbox
  * python-gpgme
