@@ -2586,6 +2586,7 @@ python-pycurl
 python-pyicu
 python-pyinotify
 python-pyorbit
+python-pypdf
 python-qt4
 python-renderpm
 python-reportlab
@@ -2969,6 +2970,8 @@ xfce4-places-plugin
 mypaint
 mypaint-data
 mypaint-data-hires
+# -> http://ppa.launchpad.net/atareao/nautilus-extensions/ubuntu/ precise
+nautilus-pdftools
 # -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ precise
 unetbootin
 unetbootin-translations
