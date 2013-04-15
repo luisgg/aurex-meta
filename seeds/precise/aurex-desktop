@@ -115,7 +115,7 @@ Task-Metapackage: aurex-desktop
  * (winetricks)
 
 = java =
-# * (oracle-java7-installer)
+ * (oracle-java7-installer)
 
 = networking =
 # * aurex-openvpn-nm
