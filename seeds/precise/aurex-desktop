@@ -135,6 +135,7 @@ Task-Metapackage: aurex-desktop
  * (firefox-gnome-support)
  * (xul-ext-ubufox)
  * (filezilla)
+ * (aurex-certificates)
 
 = development =
  * (bluegriffon)
