@@ -110,3 +110,6 @@ Task-Metapackage: exclude-aurex-support
  * jupiter-support-eee 
  * unetbootin
  * yad
+
+= xfce 4.10 devel =
+ * libgarcon-1-0-dev
