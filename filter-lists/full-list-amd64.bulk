@@ -1,6 +1,6 @@
 # -> ftp://mirror.ovh.net/mirrors/ftp.ubuntu.com/ubuntu/ precise-proposed
-linux-headers-3.2.0-47
-linux-headers-3.2.0-47-lowlatency
+linux-headers-3.2.0-50
+linux-headers-3.2.0-50-lowlatency
 # -> ftp://mirror.ovh.net/mirrors/ftp.ubuntu.com/ubuntu/ precise-updates
 accountsservice
 acpi-support
@@ -81,6 +81,7 @@ dh-apparmor
 dkms
 dmsetup
 dnsmasq-base
+dosfstools
 dovecot-common
 dovecot-core
 dovecot-gssapi
@@ -102,7 +103,6 @@ evolution-data-server
 evolution-data-server-common
 ffmpeg
 firefox
-firefox-globalmenu
 firefox-gnome-support
 firefox-locale-ca
 firefox-locale-de
@@ -305,6 +305,8 @@ libclamav6
 libclutter-1.0-0
 libclutter-1.0-common
 libcolord1
+libcroco3
+libcroco3:i386
 libcrystalhd3
 libcups2
 libcups2:i386
@@ -489,6 +491,7 @@ libkworkspace4abi1
 liblaunchpad-integration-3.0-1
 liblaunchpad-integration-common
 liblaunchpad-integration1
+liblcms2-2
 liblightdm-gobject-1-0
 liblvm2app2.2
 libmagick++4
@@ -577,6 +580,7 @@ libqtbamf1
 libqtcore4
 libqtgui4
 librados2
+libraptor2-0
 libraw5
 librbd1
 libreoffice
@@ -734,8 +738,8 @@ libxxf86vm1:i386
 libzeitgeist-1.0-1
 light-themes
 lightdm
-linux-headers-3.2.0-49
-linux-headers-3.2.0-49-generic
+linux-headers-3.2.0-52
+linux-headers-3.2.0-52-generic
 linux-headers-generic
 linux-libc-dev
 linux-sound-base
@@ -979,6 +983,7 @@ unity-2d-spread
 unity-common
 unity-greeter
 unity-lens-applications
+unity-lens-files
 unity-lens-music
 unity-lens-video
 unity-scope-musicstores
@@ -1004,6 +1009,7 @@ vlc-data
 vlc-nox
 vlc-plugin-notify
 vlc-plugin-pulse
+whoopsie
 winbind
 wine
 wine1.2
@@ -1144,7 +1150,6 @@ dmz-cursor-theme
 doc-base
 docbook-xml
 docbook-xsl
-dosfstools
 dovecot-antispam
 dpkg-repack
 dvd+rw-tools
@@ -1518,8 +1523,6 @@ libcoroipcc4
 libcoroipcs4
 libcorosync4
 libcpg4
-libcroco3
-libcroco3:i386
 libcrypt-openssl-bignum-perl
 libcrypt-openssl-rsa-perl
 libcrypt-passwdmd5-perl
@@ -1816,7 +1819,6 @@ libkrb5-26-heimdal:i386
 liblapack3gf
 liblcms1
 liblcms1:i386
-liblcms2-2
 liblexical-persistence-perl
 liblinux-inotify2-perl
 liblircclient0
@@ -2021,7 +2023,6 @@ libquota-perl
 libquvi-scripts
 libquvi7
 libradiusclient-ng2
-libraptor2-0
 librarian0
 librasqal3
 libraw1394-11
@@ -2496,6 +2497,7 @@ python-qt4
 python-renderpm
 python-reportlab
 python-reportlab-accel
+python-roman
 python-routes
 python-scgi
 python-serial
@@ -2645,7 +2647,6 @@ ufw
 uif2iso
 unace
 unity-asset-pool
-unity-lens-files
 unixodbc
 unrar
 unrar-free
@@ -2676,7 +2677,6 @@ watershed
 wget
 whiptail
 whois
-whoopsie
 wine-gecko1.4
 wine-gecko1.4:i386
 winetricks
@@ -2854,6 +2854,7 @@ germinate
 italc2-client
 italc2-master
 libitalc2
+oracle-java7-installer
 python-germinate
 shutter
 thunar-volman
@@ -2906,7 +2907,6 @@ faience-icon-theme
 gthumb
 gthumb-data
 # -> http://ppa.launchpad.net/webupd8team/java/ubuntu/ precise
-oracle-java7-installer
 oracle-java8-installer
 # -> http://ppa.launchpad.net/webupd8team/jupiter/ubuntu/ precise
 jupiter
