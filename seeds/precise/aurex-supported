@@ -113,3 +113,9 @@ Task-Metapackage: exclude-aurex-support
 
 = xfce 4.10 devel =
  * libgarcon-1-0-dev
+
+= old themes =
+ * radiance-colors-xfce-lxde
+ * faenza-icon-theme
+ * faience-icon-theme
+

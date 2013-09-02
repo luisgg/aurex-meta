@@ -1,3 +1,12 @@
+aurex-meta (1.267~aurex12.04.49) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added faenza-icon-theme to aurex-supported
+  * Added faience-icon-theme to aurex-supported
+  * Added radiance-colors-xfce-lxde to aurex-supported
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 02 Sep 2013 09:32:26 +0200
+
 aurex-meta (1.267~aurex12.04.48) precise; urgency=low
 
   * Added sources for Potenza and Zoncolor themes
