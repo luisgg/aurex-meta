@@ -2774,10 +2774,14 @@ potenza
 zoncolor-themes
 # -> http://ppa.launchpad.net/ravefinity-project/ppa/ubuntu/ precise
 ambiance-colors-xfce-lxde
+radiance-colors-xfce-lxde
 # -> http://ppa.launchpad.net/sunab/sozi-release/ubuntu/ precise
 sozi
 # -> http://ppa.launchpad.net/thefrontiergroup/vsftpd/ubuntu/ precise
 vsftpd
+# -> http://ppa.launchpad.net/tiheum/equinox/ubuntu/ precise
+faenza-icon-theme
+faience-icon-theme
 # -> http://ppa.launchpad.net/webupd8team/gthumb/ubuntu/ precise
 gthumb
 gthumb-data
