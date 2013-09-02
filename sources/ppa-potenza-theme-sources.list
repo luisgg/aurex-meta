@@ -1,0 +1,4 @@
+# potenza icon themes
+deb http://ppa.launchpad.net/noobslab/potenza/ubuntu precise main
+deb-src http://ppa.launchpad.net/noobslab/potenza/ubuntu precise main
+

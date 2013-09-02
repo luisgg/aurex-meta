@@ -1,0 +1,4 @@
+# zoncolor-themes
+deb http://ppa.launchpad.net/noobslab/themes/ubuntu precise main
+deb-src http://ppa.launchpad.net/noobslab/themes/ubuntu precise main
+
