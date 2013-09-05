@@ -1,3 +1,27 @@
+aurex-meta (1.267~aurex12.04.50) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added android-sdk-installer to aurex-asir, aurex-daw, aurex-inf,
+    aurex-smr
+  * Added aurex-virtualbox-4.2 to aurex-asir, aurex-daw, aurex-inf,
+    aurex-smr
+  * Added eclipse-adt-plugin to aurex-asir, aurex-daw, aurex-inf, aurex-
+    smr
+  * Added eclipse-jee-installer to aurex-asir, aurex-daw, aurex-inf,
+    aurex-smr
+  * Added gphpedit to aurex-asir, aurex-daw, aurex-inf, aurex-smr
+  * Added ophcrack to aurex-desktop-depinf-recommends, aurex-desktop-
+    recommends, ausias-desktop-recommends, ausias-fatcli-desktop-
+    recommends
+  * Added ophcrack-cli to aurex-desktop, aurex-desktop-depinf, aurex-
+    standard, ausias-desktop, ausias-fatcli-desktop
+  * Removed virtualbox-4.2 from aurex-asir, aurex-daw, aurex-inf, aurex-
+    smr
+  * Removed vbox-bypass-redhat-release from predepends from
+    ausias metapackages
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 05 Sep 2013 12:37:36 +0200
+
 aurex-meta (1.267~aurex12.04.49) precise; urgency=low
 
   * Refreshed dependencies

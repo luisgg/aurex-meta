@@ -95,6 +95,7 @@ nfs-common
 notify-osd
 nvidia-common
 openprinting-ppds
+ophcrack-cli
 pdftk
 printer-driver-pnm2ppa
 pulseaudio

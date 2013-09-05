@@ -28,6 +28,7 @@ memtest86+
 mime-support
 netcat
 nfs-common
+ophcrack-cli
 parted
 pciutils
 popularity-contest
