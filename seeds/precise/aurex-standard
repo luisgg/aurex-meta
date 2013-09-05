@@ -46,3 +46,5 @@ Task-Metapackage: aurex-standard
 = CD/DVD tools ==
  * cdrdao
 
+= Hacking and useful =
+ * ophcrack-cli

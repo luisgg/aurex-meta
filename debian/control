@@ -91,7 +91,6 @@ Description: Aurex generic xfce desktop system
 Package: aurex-smr
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
-Pre-Depends: vbox-bypass-redhat-release
 Recommends: ${germinate:Recommends}
 Description: Aurex smr extensions
  This (meta)package depends on the packages for the smr aurex
@@ -103,7 +102,6 @@ Description: Aurex smr extensions
 Package: aurex-asir
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
-Pre-Depends: vbox-bypass-redhat-release
 Recommends: ${germinate:Recommends}
 Description: Aurex asir extensions
  This (meta)package depends on the packages for the asir aurex
@@ -115,7 +113,6 @@ Description: Aurex asir extensions
 Package: aurex-daw
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
-Pre-Depends: vbox-bypass-redhat-release
 Recommends: ${germinate:Recommends}
 Description: Aurex daw extensions
  This (meta)package depends on the packages for the daw aurex

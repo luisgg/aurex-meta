@@ -156,6 +156,7 @@ Task-Metapackage: aurex-desktop
 
 = tools =
  * gparted
+ * (ophcrack)
 
 = other =
 # * nautilus-gksu
