@@ -14,3 +14,4 @@ Task-Metapackage: exclude-aurex-inf
  * eclipse-jee-installer
  * eclipse-adt-plugin
  * gphpedit
+ * netbeans-7.3.1-installer

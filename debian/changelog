@@ -1,3 +1,11 @@
+aurex-meta (1.267~aurex12.04.51) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added netbeans-7.3.1-installer to aurex-asir, aurex-daw, aurex-inf,
+    aurex-smr
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 05 Sep 2013 18:07:38 +0200
+
 aurex-meta (1.267~aurex12.04.50) precise; urgency=low
 
   * Refreshed dependencies
