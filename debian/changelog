@@ -1,3 +1,14 @@
+aurex-meta (1.267~aurex12.04.52) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added aurex-lightdm-theme to aurex-desktop, aurex-desktop-depinf,
+    ausias-desktop, ausias-fatcli-desktop
+  * Removed aurex-mdm-theme from aurex-desktop, aurex-desktop-depinf,
+    ausias-desktop, ausias-fatcli-desktop
+  * Removed gigolo from aurex-xfce-desktop-recommends
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 12 Sep 2013 00:24:44 +0200
+
 aurex-meta (1.267~aurex12.04.51) precise; urgency=low
 
   * Refreshed dependencies
