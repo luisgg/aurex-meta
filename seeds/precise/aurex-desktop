@@ -158,6 +158,10 @@ Task-Metapackage: aurex-desktop
  * gparted
  * (ophcrack)
 
+= kernel =
+ * (linux-generic-lts-raring)
+ * (linux-signed-generic-lts-raring) [amd64]
+
 = other =
 # * nautilus-gksu
  * (nautilus-refresh)
