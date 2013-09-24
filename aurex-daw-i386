@@ -1,8 +1,11 @@
 android-sdk-installer
 aurex-update-manager
 aurex-virtualbox-4.2
+bzr
 eclipse-adt-plugin
 eclipse-jee-installer
+git
+git-svn
 gphpedit
 netbeans-7.3.1-installer
 openssh-server

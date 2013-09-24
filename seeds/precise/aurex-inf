@@ -15,3 +15,9 @@ Task-Metapackage: exclude-aurex-inf
  * eclipse-adt-plugin
  * gphpedit
  * netbeans-7.3.1-installer
+
+= Version Control =
+ * git
+ * git-svn
+ * svn
+ * bzr
