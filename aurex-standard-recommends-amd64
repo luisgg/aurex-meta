@@ -1,8 +1,10 @@
 apparmor
 apt-transport-https
+axel
 bash-completion
 cabextract
 command-not-found
+curl
 friendly-recovery
 iputils-tracepath
 irqbalance

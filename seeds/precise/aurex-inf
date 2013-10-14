@@ -6,15 +6,23 @@ Task-Metapackage: exclude-aurex-inf
 #This seed provides addons to aurex desktop environment
 #for "ciclos formativos informatica".
 
- * aurex-virtualbox-4.2
+= common stuff =
  * openssh-server
- * wireshark
  * aurex-update-manager
+
+= virtualization =
+ * aurex-virtualbox-4.2
+
+= network tools =
+ * wireshark
+
+= development =
  * android-sdk-installer
  * eclipse-jee-installer
  * eclipse-adt-plugin
  * gphpedit
  * netbeans-7.3.1-installer
+ * mysql-client
 
 = Version Control =
  * git

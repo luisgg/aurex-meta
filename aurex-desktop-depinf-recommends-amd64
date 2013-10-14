@@ -7,6 +7,7 @@ aurex-certificates
 aurex-screenshot-settings
 avahi-autoipd
 avahi-daemon
+axel
 bluegriffon
 bluez
 bluez-alsa
@@ -23,6 +24,7 @@ cmap-adobe-japan2
 cups
 cups-bsd
 cups-client
+curl
 deja-dup
 empathy
 example-content

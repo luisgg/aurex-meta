@@ -17,7 +17,8 @@ Task-Metapackage: aurex-standard
  * smbclient
  * smbfs
  * netcat
- * axel
+ * (axel)
+ * (curl)
  * sshfs
 
 = archivers/pkg managers =
