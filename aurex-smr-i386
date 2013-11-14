@@ -4,10 +4,12 @@ aurex-virtualbox-4.2
 bzr
 eclipse-adt-plugin
 eclipse-jee-installer
+freemind
 git
 git-svn
 gphpedit
 mysql-client
+mysql-workbench
 netbeans-7.3.1-installer
 openssh-server
 wireshark

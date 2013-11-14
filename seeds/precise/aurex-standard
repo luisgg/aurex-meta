@@ -20,6 +20,7 @@ Task-Metapackage: aurex-standard
  * (axel)
  * (curl)
  * sshfs
+ * traceroute
 
 = archivers/pkg managers =
  * zip

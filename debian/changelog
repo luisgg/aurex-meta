@@ -1,3 +1,13 @@
+aurex-meta (1.267~aurex12.04.56) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added freemind to aurex-asir, aurex-daw, aurex-inf, aurex-smr
+  * Added mysql-workbench to aurex-asir, aurex-daw, aurex-inf, aurex-smr
+  * Added traceroute to aurex-desktop, aurex-desktop-depinf, aurex-
+    standard, ausias-desktop, ausias-fatcli-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 14 Nov 2013 02:12:39 +0100
+
 aurex-meta (1.267~aurex12.04.55) precise; urgency=low
 
   * Refreshed dependencies

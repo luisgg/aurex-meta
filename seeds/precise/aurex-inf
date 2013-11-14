@@ -24,8 +24,15 @@ Task-Metapackage: exclude-aurex-inf
  * netbeans-7.3.1-installer
  * mysql-client
 
+= other devel tools =
+ * freemind
+
 = Version Control =
  * git
  * git-svn
  * svn
  * bzr
+
+= Database tools =
+ * mysql-workbench
+
