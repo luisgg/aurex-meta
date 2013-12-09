@@ -10,7 +10,9 @@ aurex-daw:
 aurex-supported:
 aurex-mods:
 aurex-fatcli:
+aurex-secretaria:
 aurex-desktop-depinf: aurex-desktop aurex-minimal desktop
+aurex-desktop-secretaria: aurex-desktop aurex-minimal desktop
 ausias-netstation:
 ausias-printstation:
 ausias-classroom-student:
@@ -18,4 +20,5 @@ ausias-classroom-teacher:
 ausias-desktop: aurex-desktop aurex-minimal desktop
 ausias-fatcli-desktop: aurex-desktop aurex-minimal desktop
 ausias-desktop-depinf:
+ausias-desktop-secretaria:
 supported: aurex-supported

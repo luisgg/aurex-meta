@@ -121,6 +121,17 @@ Description: Aurex daw extensions
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
+Package: aurex-secretaria
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex secretaria extensions
+ This (meta)package depends on the packages for the secretaria aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
 Package: ausias-classroom-teacher
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
@@ -165,12 +176,34 @@ Description: Aurex desktop for 'depinf' teachers
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
+Package: aurex-desktop-secretaria
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Aurex desktop for 'secretaria' teachers
+ This (meta)package depends on the packages for the secretaria aurex
+ desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
 Package: ausias-desktop-depinf
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
 Recommends: ${germinate:Recommends}
 Description: Ausias depinf extensions
  This (meta)package depends on the packages for the 'depinf' extensions
+ to access CIPFP Ausias March intranet services (auth, shares, printing).
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: ausias-desktop-secretaria
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Description: Ausias secretaria extensions
+ This (meta)package depends on the packages for the 'secretaria' extensions
  to access CIPFP Ausias March intranet services (auth, shares, printing).
  .
  It is also used to help ensure proper upgrades, so it is recommended that
