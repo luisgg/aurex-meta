@@ -24,6 +24,7 @@ Task-Metapackage: exclude-aurex-support
 = virtualization virtualbox =
  * virtualbox-4.1
  * virtualbox-4.2
+ * virtualbox-4.3
 
 = zentyal =
  * zentyal
