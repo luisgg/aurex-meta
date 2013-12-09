@@ -1,3 +1,354 @@
+aurex-meta (1.267~aurex12.04.59) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added acpi-support to aurex-desktop-secretaria-recommends
+  * Added acroread to aurex-desktop-secretaria
+  * Added activity-log-manager-control-center to aurex-desktop-
+    secretaria-recommends
+  * Added aisleriot to aurex-desktop-secretaria-recommends
+  * Added alsa-base to aurex-desktop-secretaria
+  * Added alsa-utils to aurex-desktop-secretaria
+  * Added anacron to aurex-desktop-secretaria
+  * Added app-install-data-partner to aurex-desktop-secretaria-
+    recommends
+  * Added apport-gtk to aurex-desktop-secretaria-recommends
+  * Added arj to aurex-desktop-secretaria
+  * Added at-spi2-core to aurex-desktop-secretaria
+  * Added aurex-boot-theme to aurex-desktop-secretaria
+  * Added aurex-certificates to aurex-desktop-secretaria-recommends
+  * Added aurex-cups-pdf to aurex-desktop-secretaria
+  * Added aurex-default-settings to aurex-desktop-secretaria
+  * Added aurex-desktop to aurex-desktop-secretaria
+  * Added aurex-desktop-secretaria to ausias-desktop-secretaria
+  * Added aurex-gtk-theme to aurex-desktop-secretaria
+  * Added aurex-icon-theme to aurex-desktop-secretaria
+  * Added aurex-keyring to aurex-desktop-secretaria
+  * Added aurex-lightdm-theme to aurex-desktop-secretaria
+  * Added aurex-plymouth-theme to aurex-desktop-secretaria
+  * Added aurex-screenshot-settings to aurex-desktop-secretaria-
+    recommends
+  * Added aurex-secretaria to aurex-desktop-secretaria
+  * Added aurex-transmute to aurex-desktop-secretaria
+  * Added aurex-transmute-gui to aurex-desktop-secretaria
+  * Added aurex-update-manager to aurex-secretaria
+  * Added aurex-virtualbox-4.2 to aurex-secretaria
+  * Added aurex-xfce-desktop to aurex-desktop-secretaria
+  * Added ausias-desktop to ausias-desktop-secretaria
+  * Added ausias-printers-secretaria to ausias-desktop-secretaria
+  * Added avahi-autoipd to aurex-desktop-secretaria-recommends
+  * Added avahi-daemon to aurex-desktop-secretaria-recommends
+  * Added axel to aurex-desktop-secretaria-recommends
+  * Added baobab to aurex-desktop-secretaria
+  * Added bc to aurex-desktop-secretaria
+  * Added bluegriffon to aurex-desktop-secretaria-recommends
+  * Added bluez to aurex-desktop-secretaria-recommends
+  * Added bluez-alsa to aurex-desktop-secretaria-recommends
+  * Added bluez-cups to aurex-desktop-secretaria-recommends
+  * Added bluez-gstreamer to aurex-desktop-secretaria-recommends
+  * Added branding-ubuntu to aurex-desktop-secretaria-recommends
+  * Added brasero to aurex-desktop-secretaria-recommends
+  * Added bridge-utils to aurex-desktop-secretaria
+  * Added brltty to aurex-desktop-secretaria-recommends
+  * Added ca-certificates to aurex-desktop-secretaria
+  * Added cabextract to aurex-desktop-secretaria-recommends
+  * Added cdrdao to aurex-desktop-secretaria
+  * Added checkbox-qt to aurex-desktop-secretaria
+  * Added cheese to aurex-desktop-secretaria-recommends
+  * Added chromium-browser to aurex-desktop-secretaria-recommends
+  * Added chromium-browser-l10n to aurex-desktop-secretaria-recommends
+  * Added clearlooks-phenix-theme to aurex-desktop-secretaria
+  * Added cmap-adobe-japan2 to aurex-desktop-secretaria-recommends
+  * Added cups to aurex-desktop-secretaria-recommends
+  * Added cups-bsd to aurex-desktop-secretaria-recommends
+  * Added cups-client to aurex-desktop-secretaria-recommends
+  * Added cups-pdf to aurex-desktop-secretaria
+  * Added curl to aurex-desktop-secretaria-recommends
+  * Added debconf-utils to aurex-desktop-secretaria
+  * Added deja-dup to aurex-desktop-secretaria-recommends
+  * Added dmsetup to aurex-desktop-secretaria
+  * Added dmz-cursor-theme to aurex-desktop-secretaria
+  * Added doc-base to aurex-desktop-secretaria
+  * Added empathy to aurex-desktop-secretaria-recommends
+  * Added eog to aurex-desktop-secretaria
+  * Added ethtool to aurex-desktop-secretaria
+  * Added evince to aurex-desktop-secretaria
+  * Added example-content to aurex-desktop-secretaria-recommends
+  * Added file-roller to aurex-desktop-secretaria
+  * Added filezilla to aurex-desktop-secretaria-recommends
+  * Added firefox to aurex-desktop-secretaria-recommends
+  * Added firefox-gnome-support to aurex-desktop-secretaria-recommends
+  * Added flashplugin-installer to aurex-desktop-secretaria
+  * Added fonts-kacst-one to aurex-desktop-secretaria-recommends
+  * Added fonts-khmeros-core to aurex-desktop-secretaria-recommends
+  * Added fonts-lao to aurex-desktop-secretaria-recommends
+  * Added fonts-liberation to aurex-desktop-secretaria-recommends
+  * Added fonts-nanum to aurex-desktop-secretaria-recommends
+  * Added fonts-opensymbol to aurex-desktop-secretaria-recommends
+  * Added fonts-takao-pgothic to aurex-desktop-secretaria-recommends
+  * Added fonts-thai-tlwg to aurex-desktop-secretaria-recommends
+  * Added foomatic-db-compressed-ppds to aurex-desktop-secretaria
+  * Added foomatic-filters to aurex-desktop-secretaria
+  * Added gcalctool to aurex-desktop-secretaria
+  * Added gcc to aurex-desktop-secretaria-recommends
+  * Added gdebi to aurex-desktop-secretaria-recommends
+  * Added gedit to aurex-desktop-secretaria
+  * Added genisoimage to aurex-desktop-secretaria
+  * Added ghostscript-x to aurex-desktop-secretaria
+  * Added gimp to aurex-desktop-secretaria-recommends
+  * Added ginn to aurex-desktop-secretaria-recommends
+  * Added gnome-accessibility-themes to aurex-desktop-secretaria-
+    recommends
+  * Added gnome-bluetooth to aurex-desktop-secretaria-recommends
+  * Added gnome-control-center to aurex-desktop-secretaria
+  * Added gnome-disk-utility to aurex-desktop-secretaria-recommends
+  * Added gnome-font-viewer to aurex-desktop-secretaria
+  * Added gnome-media to aurex-desktop-secretaria
+  * Added gnome-menus to aurex-desktop-secretaria
+  * Added gnome-nettool to aurex-desktop-secretaria
+  * Added gnome-orca to aurex-desktop-secretaria-recommends
+  * Added gnome-power-manager to aurex-desktop-secretaria
+  * Added gnome-screensaver to aurex-desktop-secretaria-recommends
+  * Added gnome-screenshot to aurex-desktop-secretaria
+  * Added gnome-session to aurex-desktop-secretaria
+  * Added gnome-session-canberra to aurex-desktop-secretaria
+  * Added gnome-sudoku to aurex-desktop-secretaria-recommends
+  * Added gnome-system-log to aurex-desktop-secretaria
+  * Added gnome-system-monitor to aurex-desktop-secretaria
+  * Added gnome-terminal to aurex-desktop-secretaria
+  * Added gnomine to aurex-desktop-secretaria-recommends
+  * Added gparted to aurex-desktop-secretaria
+  * Added gstreamer0.10-alsa to aurex-desktop-secretaria
+  * Added gstreamer0.10-plugins-base-apps to aurex-desktop-secretaria
+  * Added gstreamer0.10-pulseaudio to aurex-desktop-secretaria
+  * Added gthumb to aurex-desktop-secretaria
+  * Added gucharmap to aurex-desktop-secretaria
+  * Added gvfs-bin to aurex-desktop-secretaria
+  * Added gvfs-fuse to aurex-desktop-secretaria-recommends
+  * Added gwibber to aurex-desktop-secretaria-recommends
+  * Added hplip to aurex-desktop-secretaria-recommends
+  * Added ibus to aurex-desktop-secretaria-recommends
+  * Added ibus-gtk3 to aurex-desktop-secretaria-recommends
+  * Added ibus-pinyin to aurex-desktop-secretaria-recommends
+  * Added ibus-pinyin-db-android to aurex-desktop-secretaria-recommends
+  * Added ibus-table to aurex-desktop-secretaria-recommends
+  * Added im-switch to aurex-desktop-secretaria-recommends
+  * Added inkscape to aurex-desktop-secretaria-recommends
+  * Added inputattach to aurex-desktop-secretaria
+  * Added jockey-gtk to aurex-desktop-secretaria-recommends
+  * Added kerneloops-daemon to aurex-desktop-secretaria-recommends
+  * Added landscape-client-ui-install to aurex-desktop-secretaria-
+    recommends
+  * Added language-pack-ca to aurex-desktop-secretaria-recommends
+  * Added language-pack-ca-base to aurex-desktop-secretaria-recommends
+  * Added language-pack-en to aurex-desktop-secretaria-recommends
+  * Added language-pack-en-base to aurex-desktop-secretaria-recommends
+  * Added language-pack-es to aurex-desktop-secretaria
+  * Added language-pack-es-base to aurex-desktop-secretaria
+  * Added language-pack-gnome-ca to aurex-desktop-secretaria-recommends
+  * Added language-pack-gnome-ca-base to aurex-desktop-secretaria-
+    recommends
+  * Added language-pack-gnome-en to aurex-desktop-secretaria-recommends
+  * Added language-pack-gnome-en-base to aurex-desktop-secretaria-
+    recommends
+  * Added language-pack-gnome-es to aurex-desktop-secretaria
+  * Added language-pack-gnome-es-base to aurex-desktop-secretaria
+  * Added language-selector-gnome to aurex-desktop-secretaria
+  * Added laptop-detect to aurex-desktop-secretaria-recommends
+  * Added launchpad-integration to aurex-desktop-secretaria
+  * Added lha to aurex-desktop-secretaria
+  * Added libatk-adaptor to aurex-desktop-secretaria
+  * Added libatk-adaptor-schemas to aurex-desktop-secretaria
+  * Added libdvdread4 to aurex-desktop-secretaria
+  * Added libgail-common to aurex-desktop-secretaria-recommends
+  * Added libgd2-xpm to aurex-desktop-secretaria
+  * Added libgoo-canvas-perl to aurex-desktop-secretaria-recommends
+  * Added libnotify-bin to aurex-desktop-secretaria
+  * Added libnss-mdns to aurex-desktop-secretaria-recommends
+  * Added libpam-ck-connector to aurex-desktop-secretaria
+  * Added libpam-gnome-keyring to aurex-desktop-secretaria-recommends
+  * Added libproxy1-plugin-gsettings to aurex-desktop-secretaria-
+    recommends
+  * Added libproxy1-plugin-networkmanager to aurex-desktop-secretaria-
+    recommends
+  * Added libqt4-sql-sqlite to aurex-desktop-secretaria-recommends
+  * Added libreoffice to aurex-desktop-secretaria-recommends
+  * Added libreoffice-calc to aurex-desktop-secretaria-recommends
+  * Added libreoffice-gnome to aurex-desktop-secretaria-recommends
+  * Added libreoffice-help-ca to aurex-desktop-secretaria-recommends
+  * Added libreoffice-help-en-gb to aurex-desktop-secretaria-recommends
+  * Added libreoffice-help-en-us to aurex-desktop-secretaria-recommends
+  * Added libreoffice-help-es to aurex-desktop-secretaria-recommends
+  * Added libreoffice-impress to aurex-desktop-secretaria-recommends
+  * Added libreoffice-l10n-ca to aurex-desktop-secretaria-recommends
+  * Added libreoffice-l10n-en-gb to aurex-desktop-secretaria-recommends
+  * Added libreoffice-l10n-es to aurex-desktop-secretaria-recommends
+  * Added libreoffice-math to aurex-desktop-secretaria-recommends
+  * Added libreoffice-style-human to aurex-desktop-secretaria-recommends
+  * Added libreoffice-style-tango to aurex-desktop-secretaria-recommends
+  * Added libreoffice-writer to aurex-desktop-secretaria-recommends
+  * Added libsasl2-modules to aurex-desktop-secretaria
+  * Added libsdl1.2debian to aurex-desktop-secretaria
+  * Added libwmf0.2-7-gtk to aurex-desktop-secretaria-recommends
+  * Added libxp6 to aurex-desktop-secretaria
+  * Added lightdm to aurex-desktop-secretaria
+  * Added linux-headers-generic to aurex-desktop-secretaria-recommends
+    [amd64]
+  * Added linux-headers-generic-pae to aurex-desktop-secretaria-
+    recommends [i386]
+  * Added lvm2 to aurex-desktop-secretaria
+  * Added mahjongg to aurex-desktop-secretaria-recommends
+  * Added make to aurex-desktop-secretaria-recommends
+  * Added mc to aurex-desktop-secretaria
+  * Added mdadm to aurex-desktop-secretaria
+  * Added mousetweaks to aurex-desktop-secretaria-recommends
+  * Added mpack to aurex-desktop-secretaria-recommends
+  * Added nautilus to aurex-desktop-secretaria
+  * Added nautilus-advanced-menu to aurex-desktop-secretaria-recommends
+  * Added nautilus-execute to aurex-desktop-secretaria-recommends
+  * Added nautilus-gedit to aurex-desktop-secretaria-recommends
+  * Added nautilus-multimedia-menu to aurex-desktop-secretaria-
+    recommends
+  * Added nautilus-open-as-root to aurex-desktop-secretaria-recommends
+  * Added nautilus-open-terminal-here to aurex-desktop-secretaria-
+    recommends
+  * Added nautilus-pdftools to aurex-desktop-secretaria-recommends
+  * Added nautilus-refresh to aurex-desktop-secretaria-recommends
+  * Added nautilus-renamer to aurex-desktop-secretaria-recommends
+  * Added nautilus-search to aurex-desktop-secretaria-recommends
+  * Added nautilus-sendto to aurex-desktop-secretaria
+  * Added nautilus-share to aurex-desktop-secretaria-recommends
+  * Added nautilus-wallpaper-changer to aurex-desktop-secretaria-
+    recommends
+  * Added netcat to aurex-desktop-secretaria
+  * Added network-manager-gnome to aurex-desktop-secretaria-recommends
+  * Added network-manager-openvpn to aurex-desktop-secretaria-recommends
+  * Added network-manager-openvpn-gnome to aurex-desktop-secretaria-
+    recommends
+  * Added network-manager-pptp to aurex-desktop-secretaria-recommends
+  * Added network-manager-pptp-gnome to aurex-desktop-secretaria-
+    recommends
+  * Added nfs-common to aurex-desktop-secretaria
+  * Added notify-osd to aurex-desktop-secretaria
+  * Added nvidia-common to aurex-desktop-secretaria
+  * Added onboard to aurex-desktop-secretaria-recommends
+  * Added openprinting-ppds to aurex-desktop-secretaria
+  * Added ophcrack to aurex-desktop-secretaria-recommends
+  * Added ophcrack-cli to aurex-desktop-secretaria
+  * Added oracle-java7-installer to aurex-desktop-secretaria-recommends
+  * Added overlay-scrollbar to aurex-desktop-secretaria-recommends
+  * Added p7zip-full to aurex-desktop-secretaria-recommends
+  * Added p7zip-rar to aurex-desktop-secretaria-recommends
+  * Added pcmciautils to aurex-desktop-secretaria-recommends
+  * Added pdftk to aurex-desktop-secretaria
+  * Added plymouth-theme-ubuntu-logo to aurex-desktop-secretaria-
+    recommends
+  * Added policykit-desktop-privileges to aurex-desktop-secretaria-
+    recommends
+  * Added printer-driver-c2esp to aurex-desktop-secretaria-recommends
+  * Added printer-driver-foo2zjs to aurex-desktop-secretaria-recommends
+  * Added printer-driver-min12xxw to aurex-desktop-secretaria-recommends
+  * Added printer-driver-pnm2ppa to aurex-desktop-secretaria
+  * Added printer-driver-ptouch to aurex-desktop-secretaria-recommends
+  * Added printer-driver-pxljr to aurex-desktop-secretaria-recommends
+  * Added printer-driver-sag-gdi to aurex-desktop-secretaria-recommends
+  * Added printer-driver-splix to aurex-desktop-secretaria-recommends
+  * Added pulseaudio to aurex-desktop-secretaria
+  * Added pulseaudio-equalizer to aurex-desktop-secretaria-recommends
+  * Added pulseaudio-module-bluetooth to aurex-desktop-secretaria-
+    recommends
+  * Added pulseaudio-module-gconf to aurex-desktop-secretaria-recommends
+  * Added pulseaudio-module-x11 to aurex-desktop-secretaria-recommends
+  * Added python-aptdaemon.pkcompat to aurex-desktop-secretaria-
+    recommends
+  * Added python-gpgme to aurex-desktop-secretaria
+  * Added qt-at-spi to aurex-desktop-secretaria-recommends
+  * Added rar to aurex-desktop-secretaria-recommends
+  * Added reiserfsprogs to aurex-desktop-secretaria
+  * Added remmina to aurex-desktop-secretaria-recommends
+  * Added remmina-plugin-xdmcp to aurex-desktop-secretaria-recommends
+  * Added rfkill to aurex-desktop-secretaria
+  * Added rhythmbox to aurex-desktop-secretaria-recommends
+  * Added rhythmbox-plugin-magnatune to aurex-desktop-secretaria-
+    recommends
+  * Added rhythmbox-ubuntuone to aurex-desktop-secretaria-recommends
+  * Added rpm to aurex-desktop-secretaria
+  * Added screen to aurex-desktop-secretaria
+  * Added seahorse to aurex-desktop-secretaria
+  * Added sharutils to aurex-desktop-secretaria-recommends
+  * Added shotwell to aurex-desktop-secretaria-recommends
+  * Added shutter to aurex-desktop-secretaria-recommends
+  * Added simple-scan to aurex-desktop-secretaria-recommends
+  * Added smbclient to aurex-desktop-secretaria
+  * Added smbfs to aurex-desktop-secretaria
+  * Added sni-qt to aurex-desktop-secretaria-recommends
+  * Added software-center to aurex-desktop-secretaria
+  * Added software-properties-gtk to aurex-desktop-secretaria
+  * Added sozi to aurex-desktop-secretaria-recommends
+  * Added speech-dispatcher to aurex-desktop-secretaria-recommends
+  * Added squashfs-tools to aurex-desktop-secretaria
+  * Added ssh-askpass-gnome to aurex-desktop-secretaria
+  * Added sshfs to aurex-desktop-secretaria
+  * Added synaptic to aurex-desktop-secretaria-recommends
+  * Added system-config-printer-gnome to aurex-desktop-secretaria
+  * Added telepathy-idle to aurex-desktop-secretaria-recommends
+  * Added thunderbird to aurex-desktop-secretaria-recommends
+  * Added thunderbird-gnome-support to aurex-desktop-secretaria-
+    recommends
+  * Added totem to aurex-desktop-secretaria-recommends
+  * Added totem-mozilla to aurex-desktop-secretaria-recommends
+  * Added traceroute to aurex-desktop-secretaria
+  * Added transmission-gtk to aurex-desktop-secretaria-recommends
+  * Added tree to aurex-desktop-secretaria
+  * Added ttf-dejavu-core to aurex-desktop-secretaria
+  * Added ttf-freefont to aurex-desktop-secretaria
+  * Added ttf-indic-fonts-core to aurex-desktop-secretaria-recommends
+  * Added ttf-punjabi-fonts to aurex-desktop-secretaria-recommends
+  * Added ttf-ubuntu-font-family to aurex-desktop-secretaria-recommends
+  * Added ttf-wqy-microhei to aurex-desktop-secretaria-recommends
+  * Added ubuntu-artwork to aurex-desktop-secretaria
+  * Added ubuntu-docs to aurex-desktop-secretaria-recommends
+  * Added ubuntu-extras-keyring to aurex-desktop-secretaria
+  * Added ubuntu-restricted-extras to aurex-desktop-secretaria
+  * Added ubuntu-sounds to aurex-desktop-secretaria
+  * Added ubuntuone-client-gnome to aurex-desktop-secretaria-recommends
+  * Added ubuntuone-installer to aurex-desktop-secretaria-recommends
+  * Added unace to aurex-desktop-secretaria-recommends
+  * Added unity to aurex-desktop-secretaria
+  * Added unity-2d to aurex-desktop-secretaria
+  * Added unity-greeter to aurex-desktop-secretaria
+  * Added unrar to aurex-desktop-secretaria
+  * Added unzip to aurex-desktop, aurex-desktop-depinf, ausias-desktop,
+    ausias-fatcli-desktop
+  * Added update-manager to aurex-desktop-secretaria
+  * Added update-notifier to aurex-desktop-secretaria
+  * Added usb-creator-gtk to aurex-desktop-secretaria-recommends
+  * Added uudeview to aurex-desktop-secretaria-recommends
+  * Added vim to aurex-desktop-secretaria
+  * Added vino to aurex-desktop-secretaria-recommends
+  * Added vlc to aurex-desktop-secretaria
+  * Added whoopsie to aurex-desktop-secretaria-recommends
+  * Added wine to aurex-desktop-secretaria-recommends
+  * Added winetricks to aurex-desktop-secretaria-recommends
+  * Added wireless-tools to aurex-desktop-secretaria
+  * Added wpasupplicant to aurex-desktop-secretaria
+  * Added xcursor-themes to aurex-desktop-secretaria-recommends
+  * Added xdg-user-dirs to aurex-desktop-secretaria
+  * Added xdg-user-dirs-gtk to aurex-desktop-secretaria
+  * Added xdg-utils to aurex-desktop-secretaria-recommends
+  * Added xdiagnose to aurex-desktop-secretaria
+  * Added xfsprogs to aurex-desktop-secretaria
+  * Added xkb-data to aurex-desktop-secretaria
+  * Added xnest to aurex-desktop-secretaria
+  * Added xorg to aurex-desktop-secretaria
+  * Added xterm to aurex-desktop-secretaria
+  * Added xul-ext-ubufox to aurex-desktop-secretaria-recommends
+  * Added yelp to aurex-desktop-secretaria
+  * Added zenity to aurex-desktop-secretaria
+  * Added zip to aurex-desktop, aurex-desktop-depinf, ausias-desktop,
+    ausias-fatcli-desktop
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 09 Dec 2013 19:34:29 +0100
+
 aurex-meta (1.267~aurex12.04.58) precise; urgency=low
 
   * Dummy upgrade with empty new metapackages for Secretaria
