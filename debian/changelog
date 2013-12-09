@@ -1,3 +1,9 @@
+aurex-meta (1.267~aurex12.04.58) precise; urgency=low
+
+  * Dummy upgrade with empty new metapackages for Secretaria
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Mon, 09 Dec 2013 18:58:32 +0100
+
 aurex-meta (1.267~aurex12.04.57) precise; urgency=low
 
   * Refreshed dependencies
