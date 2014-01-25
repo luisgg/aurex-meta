@@ -112,6 +112,9 @@ Task-Metapackage: aurex-desktop
 
 = win emulation =
  * (wine)
+ * (wine1.6)
+ * (wine1.6-i386)
+ * (wine1.6-amd64) [amd64]
  * (winetricks)
 
 = java =

@@ -63,6 +63,8 @@ Task-Metapackage: exclude-aurex-support
  * wine1.2
  * wine1.3
  * wine1.4
+ * wine1.6
+ * wine1.7
 
 = opera =
  * opera
