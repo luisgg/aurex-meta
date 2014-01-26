@@ -111,8 +111,7 @@ Task-Metapackage: aurex-desktop
  * flashplugin-installer
 
 = win emulation =
- * (wine)
- * (wine1.6)
+ * (aurex-wine)
  * (winetricks)
 
 = java =
