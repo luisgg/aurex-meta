@@ -1,3 +1,16 @@
+aurex-meta (1.267~aurex12.04.62) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added ldap-utils to aurex-supported
+  * Added libldap-2.4-2 to aurex-supported
+  * Added libldap-2.4-2-dbg to aurex-supported
+  * Added libldap2-dev to aurex-supported
+  * Added slapd to aurex-supported
+  * Added slapd-dbg to aurex-supported
+  * Added slapd-smbk5pwd to aurex-supported
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Sun, 26 Jan 2014 20:42:48 +0100
+
 aurex-meta (1.267~aurex12.04.61) precise; urgency=low
 
   * Refreshed dependencies

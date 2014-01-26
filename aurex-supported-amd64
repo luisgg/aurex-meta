@@ -41,7 +41,11 @@ language-pack-gnome-it-base
 language-pack-it
 language-pack-it-base
 language-packs-zentyal-all
+ldap-utils
 libgarcon-1-0-dev
+libldap-2.4-2
+libldap-2.4-2-dbg
+libldap2-dev
 libpam-smbpass
 libreoffice-common
 libreoffice-help-ca
@@ -85,6 +89,9 @@ samba-dbg
 samba-doc
 samba-doc-pdf
 samba-tools
+slapd
+slapd-dbg
+slapd-smbk5pwd
 smbclient
 smbfs
 swat
@@ -100,6 +107,7 @@ winbind
 wine1.2
 wine1.3
 wine1.4
+wine1.6
 yad
 zenbuntu-desktop
 zentyal

@@ -64,7 +64,14 @@ Task-Metapackage: exclude-aurex-support
  * wine1.3
  * wine1.4
  * wine1.6
- * wine1.7
+== wine build-depends and tools (from zentyal repos) ==
+ * ldap-utils
+ * libldap-2.4-2
+ * libldap-2.4-2-dbg
+ * libldap2-dev
+ * slapd
+ * slapd-dbg
+ * slapd-smbk5pwd
 
 = opera =
  * opera
