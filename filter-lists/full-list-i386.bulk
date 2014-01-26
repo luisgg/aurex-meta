@@ -157,6 +157,7 @@ gir1.2-javascriptcoregtk-3.0
 gir1.2-launchpad-integration-3.0
 gir1.2-nautilus-3.0
 gir1.2-pango-1.0
+gir1.2-poppler-0.18
 gir1.2-rb-3.0
 gir1.2-totem-1.0
 gir1.2-unity-5.0
@@ -2766,10 +2767,13 @@ shutter
 thunar
 thunar-data
 thunar-volman
+xfce4-places-plugin
 # -> http://ppa.launchpad.net/achadwick/mypaint-testing/ubuntu/ precise
 mypaint
 mypaint-data
 mypaint-data-hires
+# -> http://ppa.launchpad.net/atareao/nautilus-extensions/ubuntu/ precise
+nautilus-pdf-tools
 # -> http://ppa.launchpad.net/gezakovacs/ppa/ubuntu/ precise
 unetbootin
 unetbootin-translations
@@ -2867,7 +2871,6 @@ xfce4-notes-plugin
 xfce4-notifyd
 xfce4-panel
 xfce4-panel-dev
-xfce4-places-plugin
 xfce4-power-manager
 xfce4-power-manager-data
 xfce4-quicklauncher-plugin
@@ -2936,10 +2939,13 @@ libisc83
 libisccc80
 libisccfg82
 libldap-2.4-2
+libldap-2.4-2-dbg
+libldap2-dev
 liblwres80
 msktutil
 samba4
 slapd
+slapd-dbg
 slapd-smbk5pwd
 zbwmonitor
 zenbuntu-desktop
