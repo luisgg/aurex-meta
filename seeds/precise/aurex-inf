@@ -13,6 +13,11 @@ Task-Metapackage: exclude-aurex-inf
 = virtualization =
  * aurex-virtualbox-4.2
 
+== kvm, libvirt ==
+ * virt-manager
+ * libvirt-bin
+ * qemu-kvm
+
 = network tools =
  * wireshark
 
@@ -35,4 +40,5 @@ Task-Metapackage: exclude-aurex-inf
 
 = Database tools =
  * mysql-workbench
+
 

@@ -95,6 +95,7 @@ pdftk
 printer-driver-pnm2ppa
 pulseaudio
 python-gpgme
+qemu-kvm
 reiserfsprogs
 rfkill
 rpm
