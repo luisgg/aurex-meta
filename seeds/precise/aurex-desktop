@@ -35,6 +35,8 @@ Task-Metapackage: aurex-desktop
  * (libreoffice-help-ca)
  * (libreoffice-l10n-en-gb)
  * (libreoffice-help-en-gb)
+== viewers ==
+ * (aurex-powerpoint-viewer)
 
 = language support =
  * language-pack-es
