@@ -41,4 +41,6 @@ Task-Metapackage: exclude-aurex-inf
 = Database tools =
  * mysql-workbench
 
+= openvpn stuff =
+ * easy-rsa
 

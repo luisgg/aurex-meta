@@ -1,3 +1,10 @@
+aurex-meta (1.267~aurex12.04.70) precise; urgency=low
+
+  * Refreshed dependencies
+  * Added easy-rsa to aurex-asir, aurex-daw, aurex-inf, aurex-smr
+
+ -- Luis Antonio Garcia Gisbert <luisgg@gmail.com>  Thu, 13 Feb 2014 17:47:06 +0100
+
 aurex-meta (1.267~aurex12.04.69) precise; urgency=low
 
   * Refreshed dependencies
